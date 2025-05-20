@@ -1,0 +1,554 @@
+version: '3.1'
+stories:
+- story: handle_1_human_resource_management
+  steps:
+  - intent: 1_human_resource_management
+  - action: utter_1_human_resource_management
+- story: handle_core_module
+  steps:
+  - intent: core_module
+  - action: utter_core_module
+- story: handle__employee_management
+  steps:
+  - intent: _employee_management
+  - action: utter__employee_management
+- story: handle__shift_timesheet_management
+  steps:
+  - intent: _shift_timesheet_management
+  - action: utter__shift_timesheet_management
+- story: handle_advanced_feature
+  steps:
+  - intent: advanced_feature
+  - action: utter_advanced_feature
+- story: handle_2_customer_relationship_management
+  steps:
+  - intent: 2_customer_relationship_management
+  - action: utter_2_customer_relationship_management
+- story: handle__lead_funnel_management
+  steps:
+  - intent: _lead_funnel_management
+  - action: utter__lead_funnel_management
+- story: handle__quotation_invoice_generation_seamless_quote_and_invoice_creation_with_template_management
+  steps:
+  - intent: _quotation_invoice_generation_seamless_quote_and_invoice_creation_with_template_management
+  - action: utter__quotation_invoice_generation_seamless_quote_and_invoice_creation_with_template_management
+- story: handle_campaign_management
+  steps:
+  - intent: campaign_management
+  - action: utter_campaign_management
+- story: handle_4_transport_management
+  steps:
+  - intent: 4_transport_management
+  - action: utter_4_transport_management
+- story: handle_module
+  steps:
+  - intent: module
+  - action: utter_module
+- story: handle__checklist_management
+  steps:
+  - intent: _checklist_management
+  - action: utter__checklist_management
+- story: handle__attendance_system
+  steps:
+  - intent: _attendance_system
+  - action: utter__attendance_system
+- story: handle__route_optimization_for_delivery_fleets_central_crm_database_for_distributor_management
+  steps:
+  - intent: _route_optimization_for_delivery_fleets_central_crm_database_for_distributor_management
+  - action: utter__route_optimization_for_delivery_fleets_central_crm_database_for_distributor_management
+- story: handle__customizable_workflow
+  steps:
+  - intent: _customizable_workflow
+  - action: utter__customizable_workflow
+- story: greet_flow
+  steps:
+  - intent: greet
+  - action: utter_greet
+- story: goodbye_flow
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- story: mood_great_flow
+  steps:
+  - intent: mood_great
+  - action: utter_mood_great
+- story: mood_unhappy_flow
+  steps:
+  - intent: mood_unhappy
+  - action: utter_mood_unhappy
+- story: bot_challenge_flow
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenge
+- story: handle_a18_we_focus_on_building_intuitive_and_high_performance_mobile_apps_for_both_ios_and_android_our_development_process
+  steps:
+  - intent: a18_we_focus_on_building_intuitive_and_high_performance_mobile_apps_for_both_ios_and_android_our_development_process
+  - action: utter_a18_we_focus_on_building_intuitive_and_high_performance_mobile_apps_for_both_ios_and_android_our_development_process
+- story: handle_a23_the_process
+  steps:
+  - intent: a23_the_process
+  - action: utter_a23_the_process
+- story: handle_a25_yes_we_can_integrate_various_third_party_services_and_apis_into_your_project_to_enhance_function
+  steps:
+  - intent: a25_yes_we_can_integrate_various_third_party_services_and_apis_into_your_project_to_enhance_function
+  - action: utter_a25_yes_we_can_integrate_various_third_party_services_and_apis_into_your_project_to_enhance_function
+- story: handle_a26_we_follow_rigorous_quality_assurance_process
+  steps:
+  - intent: a26_we_follow_rigorous_quality_assurance_process
+  - action: utter_a26_we_follow_rigorous_quality_assurance_process
+- story: handle_a28_we_value_your_feedback_and_incorporate_revisions_as_part_of_our_iterative_development_process
+  steps:
+  - intent: a28_we_value_your_feedback_and_incorporate_revisions_as_part_of_our_iterative_development_process
+  - action: utter_a28_we_value_your_feedback_and_incorporate_revisions_as_part_of_our_iterative_development_process
+- story: handle_a42_we_offer_custom_solutions_to_streamline_business_process
+  steps:
+  - intent: a42_we_offer_custom_solutions_to_streamline_business_process
+  - action: utter_a42_we_offer_custom_solutions_to_streamline_business_process
+- story: handle_a45_yes_we_can_integrate_our_solutions_with_your_existing_system
+  steps:
+  - intent: a45_yes_we_can_integrate_our_solutions_with_your_existing_system
+  - action: utter_a45_yes_we_can_integrate_our_solutions_with_your_existing_system
+- story: handle_a46_we_have_experience_managing_large_scale_projects_with_dedicated_project_managers_agile_methodologies_and_robust_project_management
+  steps:
+  - intent: a46_we_have_experience_managing_large_scale_projects_with_dedicated_project_managers_agile_methodologies_and_robust_project_management
+  - action: utter_a46_we_have_experience_managing_large_scale_projects_with_dedicated_project_managers_agile_methodologies_and_robust_project_management
+- story: handle_project_management
+  steps:
+  - intent: project_management
+  - action: utter_project_management
+- story: handle_q53_what_project_management
+  steps:
+  - intent: q53_what_project_management
+  - action: utter_q53_what_project_management
+- story: handle_a56_we_follow_a_structured_project_management
+  steps:
+  - intent: a56_we_follow_a_structured_project_management
+  - action: utter_a56_we_follow_a_structured_project_management
+- story: handle_a60_we_follow_rigorous_quality_assurance_process
+  steps:
+  - intent: a60_we_follow_rigorous_quality_assurance_process
+  - action: utter_a60_we_follow_rigorous_quality_assurance_process
+- story: handle_a66_we_optimize_our_process
+  steps:
+  - intent: a66_we_optimize_our_process
+  - action: utter_a66_we_optimize_our_process
+- story: handle_a69_we_strive_to_ensure_your_satisfaction_if_there_are_issues_we_work_to_resolve_them_our_refund_policy
+  steps:
+  - intent: a69_we_strive_to_ensure_your_satisfaction_if_there_are_issues_we_work_to_resolve_them_our_refund_policy
+  - action: utter_a69_we_strive_to_ensure_your_satisfaction_if_there_are_issues_we_work_to_resolve_them_our_refund_policy
+- story: handle_a75_yes_you_can_communicate_directly_with_the_developers_through_our_project_management
+  steps:
+  - intent: a75_yes_you_can_communicate_directly_with_the_developers_through_our_project_management
+  - action: utter_a75_yes_you_can_communicate_directly_with_the_developers_through_our_project_management
+- story: handle_a78_we_follow_a_structured_project_management
+  steps:
+  - intent: a78_we_follow_a_structured_project_management
+  - action: utter_a78_we_follow_a_structured_project_management
+- story: handle_a80_we_have_process
+  steps:
+  - intent: a80_we_have_process
+  - action: utter_a80_we_have_process
+- story: handle_a84_we_use_a_ticketing_system
+  steps:
+  - intent: a84_we_use_a_ticketing_system
+  - action: utter_a84_we_use_a_ticketing_system
+- story: handle_a85_yes_we_provide_training_for_your_team_on_how_to_use_the_new_web_or_mobile_app_along_with_any_back_end_system
+  steps:
+  - intent: a85_yes_we_provide_training_for_your_team_on_how_to_use_the_new_web_or_mobile_app_along_with_any_back_end_system
+  - action: utter_a85_yes_we_provide_training_for_your_team_on_how_to_use_the_new_web_or_mobile_app_along_with_any_back_end_system
+- story: handle_a89_we_provide_support_for_third_party_integrations_ensuring_they_function
+  steps:
+  - intent: a89_we_provide_support_for_third_party_integrations_ensuring_they_function
+  - action: utter_a89_we_provide_support_for_third_party_integrations_ensuring_they_function
+- story: handle_a91_yes_we_provide_training_for_your_team_on_how_to_use_the_new_web_or_mobile_app_along_with_any_back_end_system
+  steps:
+  - intent: a91_yes_we_provide_training_for_your_team_on_how_to_use_the_new_web_or_mobile_app_along_with_any_back_end_system
+  - action: utter_a91_yes_we_provide_training_for_your_team_on_how_to_use_the_new_web_or_mobile_app_along_with_any_back_end_system
+- story: handle_a92_we_offer_training_sessions_workshops_and_documentation_to_help_your_team_get_up_to_speed_with_the_new_system
+  steps:
+  - intent: a92_we_offer_training_sessions_workshops_and_documentation_to_help_your_team_get_up_to_speed_with_the_new_system
+  - action: utter_a92_we_offer_training_sessions_workshops_and_documentation_to_help_your_team_get_up_to_speed_with_the_new_system
+- story: handle_a94_yes_we_offer_ongoing_training_and_support_to_ensure_your_team_remains_proficient_with_the_system
+  steps:
+  - intent: a94_yes_we_offer_ongoing_training_and_support_to_ensure_your_team_remains_proficient_with_the_system
+  - action: utter_a94_yes_we_offer_ongoing_training_and_support_to_ensure_your_team_remains_proficient_with_the_system
+- story: handle_a98_we_use_a_combination_of_hands_on_training_documentation_and_follow_up_sessions_to_ensure_your_team_is_proficient_with_the_new_system
+  steps:
+  - intent: a98_we_use_a_combination_of_hands_on_training_documentation_and_follow_up_sessions_to_ensure_your_team_is_proficient_with_the_new_system
+  - action: utter_a98_we_use_a_combination_of_hands_on_training_documentation_and_follow_up_sessions_to_ensure_your_team_is_proficient_with_the_new_system
+- story: handle_a99_yes_we_provide_training_tailored_to_non_technical_users_ensuring_they_can_effectively_use_the_system
+  steps:
+  - intent: a99_yes_we_provide_training_tailored_to_non_technical_users_ensuring_they_can_effectively_use_the_system
+  - action: utter_a99_yes_we_provide_training_tailored_to_non_technical_users_ensuring_they_can_effectively_use_the_system
+- story: handle_a111_yes_we_can_develop_fully_function
+  steps:
+  - intent: a111_yes_we_can_develop_fully_function
+  - action: utter_a111_yes_we_can_develop_fully_function
+- story: handle_a113_yes_we_can_develop_custom_crm_system
+  steps:
+  - intent: a113_yes_we_can_develop_custom_crm_system
+  - action: utter_a113_yes_we_can_develop_custom_crm_system
+- story: handle_a114_we_have_a_structured_process
+  steps:
+  - intent: a114_we_have_a_structured_process
+  - action: utter_a114_we_have_a_structured_process
+- story: handle_a115_yes_we_can_integrate_social_media_feature
+  steps:
+  - intent: a115_yes_we_can_integrate_social_media_feature
+  - action: utter_a115_yes_we_can_integrate_social_media_feature
+- story: handle_a117_yes_we_can_develop_custom_erp_system
+  steps:
+  - intent: a117_yes_we_can_develop_custom_erp_system
+  - action: utter_a117_yes_we_can_develop_custom_erp_system
+- story: handle_a119_yes_we_can_develop_custom_cms_system
+  steps:
+  - intent: a119_yes_we_can_develop_custom_cms_system
+  - action: utter_a119_yes_we_can_develop_custom_cms_system
+- story: handle_a1_techgenzi_offers_a_comprehensive_suite_of_digital_and_it_solutions_designed_to_enhance_productivity_and_efficiency_in_various_industries_their_flagship_product_the_integrated_productivity_solutions_suite_ipss_is_tailored_for_manufacturing_industries_and_includes_module
+  steps:
+  - intent: a1_techgenzi_offers_a_comprehensive_suite_of_digital_and_it_solutions_designed_to_enhance_productivity_and_efficiency_in_various_industries_their_flagship_product_the_integrated_productivity_solutions_suite_ipss_is_tailored_for_manufacturing_industries_and_includes_module
+  - action: utter_a1_techgenzi_offers_a_comprehensive_suite_of_digital_and_it_solutions_designed_to_enhance_productivity_and_efficiency_in_various_industries_their_flagship_product_the_integrated_productivity_solutions_suite_ipss_is_tailored_for_manufacturing_industries_and_includes_module
+- story: handle_talent_management
+  steps:
+  - intent: talent_management
+  - action: utter_talent_management
+- story: handle_a4_techgenzi_primarily_sells_software_solutions_and_services_their_main_product_is_the_integrated_productivity_solutions_suite_ipss_which_includes_various_module
+  steps:
+  - intent: a4_techgenzi_primarily_sells_software_solutions_and_services_their_main_product_is_the_integrated_productivity_solutions_suite_ipss_which_includes_various_module
+  - action: utter_a4_techgenzi_primarily_sells_software_solutions_and_services_their_main_product_is_the_integrated_productivity_solutions_suite_ipss_which_includes_various_module
+- story: handle_general_business_solutions_for_hrm_crm_and_talent_management
+  steps:
+  - intent: general_business_solutions_for_hrm_crm_and_talent_management
+  - action: utter_general_business_solutions_for_hrm_crm_and_talent_management
+- story: handle_a6_techgenzi_specializes_in_digital_and_it_solutions_particularly_in_the_areas_of_cloud_services_digital_transformation_iot_solutions_enterprise_mobile_app_development_and_talent_management
+  steps:
+  - intent: a6_techgenzi_specializes_in_digital_and_it_solutions_particularly_in_the_areas_of_cloud_services_digital_transformation_iot_solutions_enterprise_mobile_app_development_and_talent_management
+  - action: utter_a6_techgenzi_specializes_in_digital_and_it_solutions_particularly_in_the_areas_of_cloud_services_digital_transformation_iot_solutions_enterprise_mobile_app_development_and_talent_management
+- story: handle_a7_techgenzi_primarily_offers_digital_services_and_software_solutions_their_focus_is_on_providing_cloud_based_solutions_mobile_applications_and_iot_enabled_system
+  steps:
+  - intent: a7_techgenzi_primarily_offers_digital_services_and_software_solutions_their_focus_is_on_providing_cloud_based_solutions_mobile_applications_and_iot_enabled_system
+  - action: utter_a7_techgenzi_primarily_offers_digital_services_and_software_solutions_their_focus_is_on_providing_cloud_based_solutions_mobile_applications_and_iot_enabled_system
+- story: handle_automating_academic_and_administrative_process
+  steps:
+  - intent: automating_academic_and_administrative_process
+  - action: utter_automating_academic_and_administrative_process
+- story: handle_streamlining_business_process
+  steps:
+  - intent: streamlining_business_process
+  - action: utter_streamlining_business_process
+- story: handle_a23_you_can_access_techgenzi_s_services_by_visiting_their_website_and_filling_out_the_contact_form_or_by_reaching_out_to_their_sales_team_directly_via_email_or_phone_they_will_guide_you_through_the_process
+  steps:
+  - intent: a23_you_can_access_techgenzi_s_services_by_visiting_their_website_and_filling_out_the_contact_form_or_by_reaching_out_to_their_sales_team_directly_via_email_or_phone_they_will_guide_you_through_the_process
+  - action: utter_a23_you_can_access_techgenzi_s_services_by_visiting_their_website_and_filling_out_the_contact_form_or_by_reaching_out_to_their_sales_team_directly_via_email_or_phone_they_will_guide_you_through_the_process
+- story: handle_a25_the_process
+  steps:
+  - intent: a25_the_process
+  - action: utter_a25_the_process
+- story: handle_signing_a_contract_and_starting_the_implementation_process
+  steps:
+  - intent: signing_a_contract_and_starting_the_implementation_process
+  - action: utter_signing_a_contract_and_starting_the_implementation_process
+- story: handle_1_human_resource_management
+  steps:
+  - intent: 1_human_resource_management
+  - action: utter_1_human_resource_management
+- story: handle_core_module
+  steps:
+  - intent: core_module
+  - action: utter_core_module
+- story: handle__employee_management
+  steps:
+  - intent: _employee_management
+  - action: utter__employee_management
+- story: handle__shift_timesheet_management
+  steps:
+  - intent: _shift_timesheet_management
+  - action: utter__shift_timesheet_management
+- story: handle_advanced_feature
+  steps:
+  - intent: advanced_feature
+  - action: utter_advanced_feature
+- story: handle_2_customer_relationship_management
+  steps:
+  - intent: 2_customer_relationship_management
+  - action: utter_2_customer_relationship_management
+- story: handle__lead_funnel_management
+  steps:
+  - intent: _lead_funnel_management
+  - action: utter__lead_funnel_management
+- story: handle__quotation_invoice_generation_seamless_quote_and_invoice_creation_with_template_management
+  steps:
+  - intent: _quotation_invoice_generation_seamless_quote_and_invoice_creation_with_template_management
+  - action: utter__quotation_invoice_generation_seamless_quote_and_invoice_creation_with_template_management
+- story: handle_campaign_management
+  steps:
+  - intent: campaign_management
+  - action: utter_campaign_management
+- story: handle_4_transport_management
+  steps:
+  - intent: 4_transport_management
+  - action: utter_4_transport_management
+- story: handle_module
+  steps:
+  - intent: module
+  - action: utter_module
+- story: handle__checklist_management
+  steps:
+  - intent: _checklist_management
+  - action: utter__checklist_management
+- story: handle__attendance_system
+  steps:
+  - intent: _attendance_system
+  - action: utter__attendance_system
+- story: handle__route_optimization_for_delivery_fleets_central_crm_database_for_distributor_management
+  steps:
+  - intent: _route_optimization_for_delivery_fleets_central_crm_database_for_distributor_management
+  - action: utter__route_optimization_for_delivery_fleets_central_crm_database_for_distributor_management
+- story: handle__customizable_workflow
+  steps:
+  - intent: _customizable_workflow
+  - action: utter__customizable_workflow
+- story: handle_a2_you_can_request_time_off_through_our_hr_system
+  steps:
+  - intent: a2_you_can_request_time_off_through_our_hr_system
+  - action: utter_a2_you_can_request_time_off_through_our_hr_system
+- story: handle_customer_relationship_management
+  steps:
+  - intent: customer_relationship_management
+  - action: utter_customer_relationship_management
+- story: handle_q9_how_can_i_update_my_contact_information_in_your_system
+  steps:
+  - intent: q9_how_can_i_update_my_contact_information_in_your_system
+  - action: utter_q9_how_can_i_update_my_contact_information_in_your_system
+- story: handle_asset_management
+  steps:
+  - intent: asset_management
+  - action: utter_asset_management
+- story: handle_a11_you_can_report_a_broken_asset_by_logging_into_the_asset_management
+  steps:
+  - intent: a11_you_can_report_a_broken_asset_by_logging_into_the_asset_management
+  - action: utter_a11_you_can_report_a_broken_asset_by_logging_into_the_asset_management
+- story: handle_a13_to_request_a_new_asset_you_need_to_submit_a_request_through_the_asset_management
+  steps:
+  - intent: a13_to_request_a_new_asset_you_need_to_submit_a_request_through_the_asset_management
+  - action: utter_a13_to_request_a_new_asset_you_need_to_submit_a_request_through_the_asset_management
+- story: handle_a14_you_can_check_the_current_status_of_an_asset_by_logging_into_the_asset_management
+  steps:
+  - intent: a14_you_can_check_the_current_status_of_an_asset_by_logging_into_the_asset_management
+  - action: utter_a14_you_can_check_the_current_status_of_an_asset_by_logging_into_the_asset_management
+- story: handle_transport_management
+  steps:
+  - intent: transport_management
+  - action: utter_transport_management
+- story: handle_a16_you_can_track_your_shipment_by_logging_into_the_transport_management
+  steps:
+  - intent: a16_you_can_track_your_shipment_by_logging_into_the_transport_management
+  - action: utter_a16_you_can_track_your_shipment_by_logging_into_the_transport_management
+- story: handle_a18_if_you_experience_a_delay_in_shipment_log_into_the_transport_management
+  steps:
+  - intent: a18_if_you_experience_a_delay_in_shipment_log_into_the_transport_management
+  - action: utter_a18_if_you_experience_a_delay_in_shipment_log_into_the_transport_management
+- story: handle_a20_to_update_the_delivery_address_for_a_shipment_log_into_the_transport_management
+  steps:
+  - intent: a20_to_update_the_delivery_address_for_a_shipment_log_into_the_transport_management
+  - action: utter_a20_to_update_the_delivery_address_for_a_shipment_log_into_the_transport_management
+- story: handle_a21_you_can_report_a_compliance_issue_by_logging_into_the_compliance_management
+  steps:
+  - intent: a21_you_can_report_a_compliance_issue_by_logging_into_the_compliance_management
+  - action: utter_a21_you_can_report_a_compliance_issue_by_logging_into_the_compliance_management
+- story: handle_a23_to_request_a_compliance_audit_submit_a_request_through_the_compliance_management
+  steps:
+  - intent: a23_to_request_a_compliance_audit_submit_a_request_through_the_compliance_management
+  - action: utter_a23_to_request_a_compliance_audit_submit_a_request_through_the_compliance_management
+- story: handle_a25_to_report_a_sustainability_concern_log_into_the_compliance_management
+  steps:
+  - intent: a25_to_report_a_sustainability_concern_log_into_the_compliance_management
+  - action: utter_a25_to_report_a_sustainability_concern_log_into_the_compliance_management
+- story: handle_a26_our_system
+  steps:
+  - intent: a26_our_system
+  - action: utter_a26_our_system
+- story: handle_a28_to_request_a_new_integration_feature
+  steps:
+  - intent: a28_to_request_a_new_integration_feature
+  - action: utter_a28_to_request_a_new_integration_feature
+- story: handle_a29_we_prioritize_data_security_during_integrations_our_system
+  steps:
+  - intent: a29_we_prioritize_data_security_during_integrations_our_system
+  - action: utter_a29_we_prioritize_data_security_during_integrations_our_system
+- story: handle_human_resource_management
+  steps:
+  - intent: human_resource_management
+  - action: utter_human_resource_management
+- story: handle_you_can_apply_for_leave_by_logging_into_the_hr_system
+  steps:
+  - intent: you_can_apply_for_leave_by_logging_into_the_hr_system
+  - action: utter_you_can_apply_for_leave_by_logging_into_the_hr_system
+- story: handle_log_into_the_hr_system
+  steps:
+  - intent: log_into_the_hr_system
+  - action: utter_log_into_the_hr_system
+- story: handle_you_can_access_the_company_s_policies_and_procedure
+  steps:
+  - intent: you_can_access_the_company_s_policies_and_procedure
+  - action: utter_you_can_access_the_company_s_policies_and_procedure
+- story: handle_to_request_a_change_in_your_job_title_submit_a_formal_request_through_the_hr_system
+  steps:
+  - intent: to_request_a_change_in_your_job_title_submit_a_formal_request_through_the_hr_system
+  - action: utter_to_request_a_change_in_your_job_title_submit_a_formal_request_through_the_hr_system
+- story: handle_you_can_apply_for_a_promotion_by_submitting_a_request_through_the_hr_system
+  steps:
+  - intent: you_can_apply_for_a_promotion_by_submitting_a_request_through_the_hr_system
+  - action: utter_you_can_apply_for_a_promotion_by_submitting_a_request_through_the_hr_system
+- story: handle_you_can_report_workplace_issues_by_contacting_the_hr_helpdesk_or_submitting_a_report_through_the_hr_system
+  steps:
+  - intent: you_can_report_workplace_issues_by_contacting_the_hr_helpdesk_or_submitting_a_report_through_the_hr_system
+  - action: utter_you_can_report_workplace_issues_by_contacting_the_hr_helpdesk_or_submitting_a_report_through_the_hr_system
+- story: handle_training_materials_are_available_through_the_hr_system
+  steps:
+  - intent: training_materials_are_available_through_the_hr_system
+  - action: utter_training_materials_are_available_through_the_hr_system
+- story: handle_our_return_policy
+  steps:
+  - intent: our_return_policy
+  - action: utter_our_return_policy
+- story: handle_to_request_a_refund_contact_our_customer_service_team_with_your_order_details_they_will_guide_you_through_the_process
+  steps:
+  - intent: to_request_a_refund_contact_our_customer_service_team_with_your_order_details_they_will_guide_you_through_the_process
+  - action: utter_to_request_a_refund_contact_our_customer_service_team_with_your_order_details_they_will_guide_you_through_the_process
+- story: handle_you_can_report_a_broken_asset_by_logging_into_the_asset_management
+  steps:
+  - intent: you_can_report_a_broken_asset_by_logging_into_the_asset_management
+  - action: utter_you_can_report_a_broken_asset_by_logging_into_the_asset_management
+- story: handle_you_can_check_the_maintenance_schedule_by_logging_into_the_asset_management
+  steps:
+  - intent: you_can_check_the_maintenance_schedule_by_logging_into_the_asset_management
+  - action: utter_you_can_check_the_maintenance_schedule_by_logging_into_the_asset_management
+- story: handle_to_request_a_new_asset_submit_a_request_through_the_asset_management
+  steps:
+  - intent: to_request_a_new_asset_submit_a_request_through_the_asset_management
+  - action: utter_to_request_a_new_asset_submit_a_request_through_the_asset_management
+- story: handle_you_can_update_the_location_of_an_asset_by_logging_into_the_asset_management
+  steps:
+  - intent: you_can_update_the_location_of_an_asset_by_logging_into_the_asset_management
+  - action: utter_you_can_update_the_location_of_an_asset_by_logging_into_the_asset_management
+- story: handle_you_can_check_the_utilization_rate_by_logging_into_the_asset_management
+  steps:
+  - intent: you_can_check_the_utilization_rate_by_logging_into_the_asset_management
+  - action: utter_you_can_check_the_utilization_rate_by_logging_into_the_asset_management
+- story: handle_to_request_a_repair_submit_a_maintenance_request_through_the_asset_management
+  steps:
+  - intent: to_request_a_repair_submit_a_maintenance_request_through_the_asset_management
+  - action: utter_to_request_a_repair_submit_a_maintenance_request_through_the_asset_management
+- story: handle_to_transfer_an_asset_submit_a_transfer_request_through_the_asset_management
+  steps:
+  - intent: to_transfer_an_asset_submit_a_transfer_request_through_the_asset_management
+  - action: utter_to_transfer_an_asset_submit_a_transfer_request_through_the_asset_management
+- story: handle_you_can_check_the_warranty_status_by_logging_into_the_asset_management
+  steps:
+  - intent: you_can_check_the_warranty_status_by_logging_into_the_asset_management
+  - action: utter_you_can_check_the_warranty_status_by_logging_into_the_asset_management
+- story: handle_to_report_a_loss_or_theft_submit_a_report_through_the_asset_management
+  steps:
+  - intent: to_report_a_loss_or_theft_submit_a_report_through_the_asset_management
+  - action: utter_to_report_a_loss_or_theft_submit_a_report_through_the_asset_management
+- story: handle_you_can_track_your_shipment_by_logging_into_the_transport_management
+  steps:
+  - intent: you_can_track_your_shipment_by_logging_into_the_transport_management
+  - action: utter_you_can_track_your_shipment_by_logging_into_the_transport_management
+- story: handle_to_schedule_a_new_shipment_log_into_the_transport_management
+  steps:
+  - intent: to_schedule_a_new_shipment_log_into_the_transport_management
+  - action: utter_to_schedule_a_new_shipment_log_into_the_transport_management
+- story: handle_you_can_report_a_delay_by_logging_into_the_transport_management
+  steps:
+  - intent: you_can_report_a_delay_by_logging_into_the_transport_management
+  - action: utter_you_can_report_a_delay_by_logging_into_the_transport_management
+- story: handle_to_update_the_delivery_address_log_into_the_transport_management
+  steps:
+  - intent: to_update_the_delivery_address_log_into_the_transport_management
+  - action: utter_to_update_the_delivery_address_log_into_the_transport_management
+- story: handle_to_request_a_pickup_log_into_the_transport_management
+  steps:
+  - intent: to_request_a_pickup_log_into_the_transport_management
+  - action: utter_to_request_a_pickup_log_into_the_transport_management
+- story: handle_you_can_check_the_delivery_status_by_logging_into_the_transport_management
+  steps:
+  - intent: you_can_check_the_delivery_status_by_logging_into_the_transport_management
+  - action: utter_you_can_check_the_delivery_status_by_logging_into_the_transport_management
+- story: handle_to_request_a_return_shipment_log_into_the_transport_management
+  steps:
+  - intent: to_request_a_return_shipment_log_into_the_transport_management
+  - action: utter_to_request_a_return_shipment_log_into_the_transport_management
+- story: handle_to_report_a_lost_shipment_log_into_the_transport_management
+  steps:
+  - intent: to_report_a_lost_shipment_log_into_the_transport_management
+  - action: utter_to_report_a_lost_shipment_log_into_the_transport_management
+- story: handle_to_request_a_refund_contact_our_customer_service_team_with_your_shipment_details_they_will_guide_you_through_the_refund_process
+  steps:
+  - intent: to_request_a_refund_contact_our_customer_service_team_with_your_shipment_details_they_will_guide_you_through_the_refund_process
+  - action: utter_to_request_a_refund_contact_our_customer_service_team_with_your_shipment_details_they_will_guide_you_through_the_refund_process
+- story: handle_you_can_check_the_carrier_details_by_logging_into_the_transport_management
+  steps:
+  - intent: you_can_check_the_carrier_details_by_logging_into_the_transport_management
+  - action: utter_you_can_check_the_carrier_details_by_logging_into_the_transport_management
+- story: handle_you_can_report_a_compliance_issue_by_logging_into_the_compliance_management
+  steps:
+  - intent: you_can_report_a_compliance_issue_by_logging_into_the_compliance_management
+  - action: utter_you_can_report_a_compliance_issue_by_logging_into_the_compliance_management
+- story: handle_you_can_access_the_company_s_compliance_policies_through_the_compliance_management
+  steps:
+  - intent: you_can_access_the_company_s_compliance_policies_through_the_compliance_management
+  - action: utter_you_can_access_the_company_s_compliance_policies_through_the_compliance_management
+- story: handle_to_request_a_compliance_audit_submit_a_request_through_the_compliance_management
+  steps:
+  - intent: to_request_a_compliance_audit_submit_a_request_through_the_compliance_management
+  - action: utter_to_request_a_compliance_audit_submit_a_request_through_the_compliance_management
+- story: handle_to_report_a_sustainability_concern_log_into_the_compliance_management
+  steps:
+  - intent: to_report_a_sustainability_concern_log_into_the_compliance_management
+  - action: utter_to_report_a_sustainability_concern_log_into_the_compliance_management
+- story: handle_you_can_access_the_company_s_sustainability_reports_through_the_compliance_management
+  steps:
+  - intent: you_can_access_the_company_s_sustainability_reports_through_the_compliance_management
+  - action: utter_you_can_access_the_company_s_sustainability_reports_through_the_compliance_management
+- story: handle_to_request_a_sustainability_training_session_submit_a_request_through_the_compliance_management
+  steps:
+  - intent: to_request_a_sustainability_training_session_submit_a_request_through_the_compliance_management
+  - action: utter_to_request_a_sustainability_training_session_submit_a_request_through_the_compliance_management
+- story: handle_to_report_a_violation_log_into_the_compliance_management
+  steps:
+  - intent: to_report_a_violation_log_into_the_compliance_management
+  - action: utter_to_report_a_violation_log_into_the_compliance_management
+- story: handle_you_can_access_the_company_s_code_of_conduct_through_the_compliance_management
+  steps:
+  - intent: you_can_access_the_company_s_code_of_conduct_through_the_compliance_management
+  - action: utter_you_can_access_the_company_s_code_of_conduct_through_the_compliance_management
+- story: handle_to_request_a_compliance_training_session_submit_a_request_through_the_compliance_management
+  steps:
+  - intent: to_request_a_compliance_training_session_submit_a_request_through_the_compliance_management
+  - action: utter_to_request_a_compliance_training_session_submit_a_request_through_the_compliance_management
+- story: greet_flow
+  steps:
+  - intent: greet
+  - action: utter_greet
+- story: goodbye_flow
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- story: mood_great_flow
+  steps:
+  - intent: mood_great
+  - action: utter_mood_great
+- story: mood_unhappy_flow
+  steps:
+  - intent: mood_unhappy
+  - action: utter_mood_unhappy
+- story: bot_challenge_flow
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenge
+- story: about_techgenzi_flow
+  steps:
+  - intent: about_techgenzi
+  - action: utter_about_techgenzi

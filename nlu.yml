@@ -1,0 +1,4350 @@
+version: '3.1'
+nlu:
+- intent: 1_human_resource_management
+  examples: '- What is 1. Human Resource Management?
+
+    - Can you explain 1. Human Resource Management?
+
+    - I want to know about 1. Human Resource Management
+
+    - What do you mean by 1. Human Resource Management?
+
+    - Tell me about 1. Human Resource Management
+
+    - Explain 1. Human Resource Management to me
+
+    - Give me details on 1. Human Resource Management
+
+    - How does 1. Human Resource Management work?
+
+    - What are the features of 1. Human Resource Management?
+
+    - Help me understand 1. Human Resource Management
+
+    - Where can I learn about 1. Human Resource Management?
+
+    - Info on 1. Human Resource Management
+
+    - I need help with 1. Human Resource Management
+
+    - Could you describe 1. Human Resource Management?
+
+    - Let me know about 1. Human Resource Management'
+- intent: core_module
+  examples: '- What is Core Module?
+
+    - Can you explain Core Module?
+
+    - I want to know about Core Module
+
+    - What do you mean by Core Module?
+
+    - Tell me about Core Module
+
+    - Explain Core Module to me
+
+    - Give me details on Core Module
+
+    - How does Core Module work?
+
+    - What are the features of Core Module?
+
+    - Help me understand Core Module
+
+    - Where can I learn about Core Module?
+
+    - Info on Core Module
+
+    - I need help with Core Module
+
+    - Could you describe Core Module?
+
+    - Let me know about Core Module'
+- intent: _employee_management
+  examples: '- What is - Employee Management?
+
+    - Can you explain - Employee Management?
+
+    - I want to know about - Employee Management
+
+    - What do you mean by - Employee Management?
+
+    - Tell me about - Employee Management
+
+    - Explain - Employee Management to me
+
+    - Give me details on - Employee Management
+
+    - How does - Employee Management work?
+
+    - What are the features of - Employee Management?
+
+    - Help me understand - Employee Management
+
+    - Where can I learn about - Employee Management?
+
+    - Info on - Employee Management
+
+    - I need help with - Employee Management
+
+    - Could you describe - Employee Management?
+
+    - Let me know about - Employee Management'
+- intent: _shift_timesheet_management
+  examples: '- What is - Shift & Timesheet Management?
+
+    - Can you explain - Shift & Timesheet Management?
+
+    - I want to know about - Shift & Timesheet Management
+
+    - What do you mean by - Shift & Timesheet Management?
+
+    - Tell me about - Shift & Timesheet Management
+
+    - Explain - Shift & Timesheet Management to me
+
+    - Give me details on - Shift & Timesheet Management
+
+    - How does - Shift & Timesheet Management work?
+
+    - What are the features of - Shift & Timesheet Management?
+
+    - Help me understand - Shift & Timesheet Management
+
+    - Where can I learn about - Shift & Timesheet Management?
+
+    - Info on - Shift & Timesheet Management
+
+    - I need help with - Shift & Timesheet Management
+
+    - Could you describe - Shift & Timesheet Management?
+
+    - Let me know about - Shift & Timesheet Management'
+- intent: advanced_feature
+  examples: '- What is Advanced Feature?
+
+    - Can you explain Advanced Feature?
+
+    - I want to know about Advanced Feature
+
+    - What do you mean by Advanced Feature?
+
+    - Tell me about Advanced Feature
+
+    - Explain Advanced Feature to me
+
+    - Give me details on Advanced Feature
+
+    - How does Advanced Feature work?
+
+    - What are the features of Advanced Feature?
+
+    - Help me understand Advanced Feature
+
+    - Where can I learn about Advanced Feature?
+
+    - Info on Advanced Feature
+
+    - I need help with Advanced Feature
+
+    - Could you describe Advanced Feature?
+
+    - Let me know about Advanced Feature'
+- intent: 2_customer_relationship_management
+  examples: '- What is 2. Customer Relationship Management?
+
+    - Can you explain 2. Customer Relationship Management?
+
+    - I want to know about 2. Customer Relationship Management
+
+    - What do you mean by 2. Customer Relationship Management?
+
+    - Tell me about 2. Customer Relationship Management
+
+    - Explain 2. Customer Relationship Management to me
+
+    - Give me details on 2. Customer Relationship Management
+
+    - How does 2. Customer Relationship Management work?
+
+    - What are the features of 2. Customer Relationship Management?
+
+    - Help me understand 2. Customer Relationship Management
+
+    - Where can I learn about 2. Customer Relationship Management?
+
+    - Info on 2. Customer Relationship Management
+
+    - I need help with 2. Customer Relationship Management
+
+    - Could you describe 2. Customer Relationship Management?
+
+    - Let me know about 2. Customer Relationship Management'
+- intent: _lead_funnel_management
+  examples: '- What is - Lead Funnel Management?
+
+    - Can you explain - Lead Funnel Management?
+
+    - I want to know about - Lead Funnel Management
+
+    - What do you mean by - Lead Funnel Management?
+
+    - Tell me about - Lead Funnel Management
+
+    - Explain - Lead Funnel Management to me
+
+    - Give me details on - Lead Funnel Management
+
+    - How does - Lead Funnel Management work?
+
+    - What are the features of - Lead Funnel Management?
+
+    - Help me understand - Lead Funnel Management
+
+    - Where can I learn about - Lead Funnel Management?
+
+    - Info on - Lead Funnel Management
+
+    - I need help with - Lead Funnel Management
+
+    - Could you describe - Lead Funnel Management?
+
+    - Let me know about - Lead Funnel Management'
+- intent: _quotation_invoice_generation_seamless_quote_and_invoice_creation_with_template_management
+  examples: '- What is - Quotation & Invoice Generation: Seamless quote and invoice
+    creation with template management?
+
+    - Can you explain - Quotation & Invoice Generation: Seamless quote and invoice
+    creation with template management?
+
+    - I want to know about - Quotation & Invoice Generation: Seamless quote and invoice
+    creation with template management
+
+    - What do you mean by - Quotation & Invoice Generation: Seamless quote and invoice
+    creation with template management?
+
+    - Tell me about - Quotation & Invoice Generation: Seamless quote and invoice creation
+    with template management
+
+    - Explain - Quotation & Invoice Generation: Seamless quote and invoice creation
+    with template management to me
+
+    - Give me details on - Quotation & Invoice Generation: Seamless quote and invoice
+    creation with template management
+
+    - How does - Quotation & Invoice Generation: Seamless quote and invoice creation
+    with template management work?
+
+    - What are the features of - Quotation & Invoice Generation: Seamless quote and
+    invoice creation with template management?
+
+    - Help me understand - Quotation & Invoice Generation: Seamless quote and invoice
+    creation with template management
+
+    - Where can I learn about - Quotation & Invoice Generation: Seamless quote and
+    invoice creation with template management?
+
+    - Info on - Quotation & Invoice Generation: Seamless quote and invoice creation
+    with template management
+
+    - I need help with - Quotation & Invoice Generation: Seamless quote and invoice
+    creation with template management
+
+    - Could you describe - Quotation & Invoice Generation: Seamless quote and invoice
+    creation with template management?
+
+    - Let me know about - Quotation & Invoice Generation: Seamless quote and invoice
+    creation with template management'
+- intent: campaign_management
+  examples: '- What is Campaign Management?
+
+    - Can you explain Campaign Management?
+
+    - I want to know about Campaign Management
+
+    - What do you mean by Campaign Management?
+
+    - Tell me about Campaign Management
+
+    - Explain Campaign Management to me
+
+    - Give me details on Campaign Management
+
+    - How does Campaign Management work?
+
+    - What are the features of Campaign Management?
+
+    - Help me understand Campaign Management
+
+    - Where can I learn about Campaign Management?
+
+    - Info on Campaign Management
+
+    - I need help with Campaign Management
+
+    - Could you describe Campaign Management?
+
+    - Let me know about Campaign Management'
+- intent: 4_transport_management
+  examples: '- What is 4. Transport Management?
+
+    - Can you explain 4. Transport Management?
+
+    - I want to know about 4. Transport Management
+
+    - What do you mean by 4. Transport Management?
+
+    - Tell me about 4. Transport Management
+
+    - Explain 4. Transport Management to me
+
+    - Give me details on 4. Transport Management
+
+    - How does 4. Transport Management work?
+
+    - What are the features of 4. Transport Management?
+
+    - Help me understand 4. Transport Management
+
+    - Where can I learn about 4. Transport Management?
+
+    - Info on 4. Transport Management
+
+    - I need help with 4. Transport Management
+
+    - Could you describe 4. Transport Management?
+
+    - Let me know about 4. Transport Management'
+- intent: module
+  examples: '- What is Module?
+
+    - Can you explain Module?
+
+    - I want to know about Module
+
+    - What do you mean by Module?
+
+    - Tell me about Module
+
+    - Explain Module to me
+
+    - Give me details on Module
+
+    - How does Module work?
+
+    - What are the features of Module?
+
+    - Help me understand Module
+
+    - Where can I learn about Module?
+
+    - Info on Module
+
+    - I need help with Module
+
+    - Could you describe Module?
+
+    - Let me know about Module'
+- intent: _checklist_management
+  examples: '- What is - Checklist Management?
+
+    - Can you explain - Checklist Management?
+
+    - I want to know about - Checklist Management
+
+    - What do you mean by - Checklist Management?
+
+    - Tell me about - Checklist Management
+
+    - Explain - Checklist Management to me
+
+    - Give me details on - Checklist Management
+
+    - How does - Checklist Management work?
+
+    - What are the features of - Checklist Management?
+
+    - Help me understand - Checklist Management
+
+    - Where can I learn about - Checklist Management?
+
+    - Info on - Checklist Management
+
+    - I need help with - Checklist Management
+
+    - Could you describe - Checklist Management?
+
+    - Let me know about - Checklist Management'
+- intent: _attendance_system
+  examples: '- What is - Attendance System?
+
+    - Can you explain - Attendance System?
+
+    - I want to know about - Attendance System
+
+    - What do you mean by - Attendance System?
+
+    - Tell me about - Attendance System
+
+    - Explain - Attendance System to me
+
+    - Give me details on - Attendance System
+
+    - How does - Attendance System work?
+
+    - What are the features of - Attendance System?
+
+    - Help me understand - Attendance System
+
+    - Where can I learn about - Attendance System?
+
+    - Info on - Attendance System
+
+    - I need help with - Attendance System
+
+    - Could you describe - Attendance System?
+
+    - Let me know about - Attendance System'
+- intent: _route_optimization_for_delivery_fleets_central_crm_database_for_distributor_management
+  examples: '- What is - Route optimization for delivery fleets, central CRM database
+    for distributor management?
+
+    - Can you explain - Route optimization for delivery fleets, central CRM database
+    for distributor management?
+
+    - I want to know about - Route optimization for delivery fleets, central CRM database
+    for distributor management
+
+    - What do you mean by - Route optimization for delivery fleets, central CRM database
+    for distributor management?
+
+    - Tell me about - Route optimization for delivery fleets, central CRM database
+    for distributor management
+
+    - Explain - Route optimization for delivery fleets, central CRM database for distributor
+    management to me
+
+    - Give me details on - Route optimization for delivery fleets, central CRM database
+    for distributor management
+
+    - How does - Route optimization for delivery fleets, central CRM database for
+    distributor management work?
+
+    - What are the features of - Route optimization for delivery fleets, central CRM
+    database for distributor management?
+
+    - Help me understand - Route optimization for delivery fleets, central CRM database
+    for distributor management
+
+    - Where can I learn about - Route optimization for delivery fleets, central CRM
+    database for distributor management?
+
+    - Info on - Route optimization for delivery fleets, central CRM database for distributor
+    management
+
+    - I need help with - Route optimization for delivery fleets, central CRM database
+    for distributor management
+
+    - Could you describe - Route optimization for delivery fleets, central CRM database
+    for distributor management?
+
+    - Let me know about - Route optimization for delivery fleets, central CRM database
+    for distributor management'
+- intent: _customizable_workflow
+  examples: '- What is - Customizable Workflow?
+
+    - Can you explain - Customizable Workflow?
+
+    - I want to know about - Customizable Workflow
+
+    - What do you mean by - Customizable Workflow?
+
+    - Tell me about - Customizable Workflow
+
+    - Explain - Customizable Workflow to me
+
+    - Give me details on - Customizable Workflow
+
+    - How does - Customizable Workflow work?
+
+    - What are the features of - Customizable Workflow?
+
+    - Help me understand - Customizable Workflow
+
+    - Where can I learn about - Customizable Workflow?
+
+    - Info on - Customizable Workflow
+
+    - I need help with - Customizable Workflow
+
+    - Could you describe - Customizable Workflow?
+
+    - Let me know about - Customizable Workflow'
+- intent: greet
+  examples: '- Hello
+
+    - Hi
+
+    - Hey
+
+    - Good Morning'
+- intent: goodbye
+  examples: '- Bye
+
+    - Goodbye
+
+    - See you later
+
+    - Take care'
+- intent: mood_great
+  examples: '- I am feeling great
+
+    - I am happy
+
+    - Feeling awesome'
+- intent: mood_unhappy
+  examples: '- I am sad
+
+    - Feeling bad
+
+    - Not good'
+- intent: bot_challenge
+  examples: '- Are you a bot?
+
+    - Are you real?
+
+    - Who are you?'
+- intent: a18_we_focus_on_building_intuitive_and_high_performance_mobile_apps_for_both_ios_and_android_our_development_process
+  examples: '- What is A18: We focus on building intuitive and high-performance mobile
+    apps for both iOS and Android. Our development process?
+
+    - Can you explain A18: We focus on building intuitive and high-performance mobile
+    apps for both iOS and Android. Our development process?
+
+    - I want to know about A18: We focus on building intuitive and high-performance
+    mobile apps for both iOS and Android. Our development process
+
+    - What do you mean by A18: We focus on building intuitive and high-performance
+    mobile apps for both iOS and Android. Our development process?
+
+    - Tell me about A18: We focus on building intuitive and high-performance mobile
+    apps for both iOS and Android. Our development process
+
+    - Explain A18: We focus on building intuitive and high-performance mobile apps
+    for both iOS and Android. Our development process to me
+
+    - Give me details on A18: We focus on building intuitive and high-performance
+    mobile apps for both iOS and Android. Our development process
+
+    - How does A18: We focus on building intuitive and high-performance mobile apps
+    for both iOS and Android. Our development process work?
+
+    - What are the features of A18: We focus on building intuitive and high-performance
+    mobile apps for both iOS and Android. Our development process?
+
+    - Help me understand A18: We focus on building intuitive and high-performance
+    mobile apps for both iOS and Android. Our development process
+
+    - Where can I learn about A18: We focus on building intuitive and high-performance
+    mobile apps for both iOS and Android. Our development process?
+
+    - Info on A18: We focus on building intuitive and high-performance mobile apps
+    for both iOS and Android. Our development process
+
+    - I need help with A18: We focus on building intuitive and high-performance mobile
+    apps for both iOS and Android. Our development process
+
+    - Could you describe A18: We focus on building intuitive and high-performance
+    mobile apps for both iOS and Android. Our development process?
+
+    - Let me know about A18: We focus on building intuitive and high-performance mobile
+    apps for both iOS and Android. Our development process'
+- intent: a23_the_process
+  examples: '- What is A23: The process?
+
+    - Can you explain A23: The process?
+
+    - I want to know about A23: The process
+
+    - What do you mean by A23: The process?
+
+    - Tell me about A23: The process
+
+    - Explain A23: The process to me
+
+    - Give me details on A23: The process
+
+    - How does A23: The process work?
+
+    - What are the features of A23: The process?
+
+    - Help me understand A23: The process
+
+    - Where can I learn about A23: The process?
+
+    - Info on A23: The process
+
+    - I need help with A23: The process
+
+    - Could you describe A23: The process?
+
+    - Let me know about A23: The process'
+- intent: a25_yes_we_can_integrate_various_third_party_services_and_apis_into_your_project_to_enhance_function
+  examples: '- What is A25: Yes, we can integrate various third-party services and
+    APIs into your project to enhance function?
+
+    - Can you explain A25: Yes, we can integrate various third-party services and
+    APIs into your project to enhance function?
+
+    - I want to know about A25: Yes, we can integrate various third-party services
+    and APIs into your project to enhance function
+
+    - What do you mean by A25: Yes, we can integrate various third-party services
+    and APIs into your project to enhance function?
+
+    - Tell me about A25: Yes, we can integrate various third-party services and APIs
+    into your project to enhance function
+
+    - Explain A25: Yes, we can integrate various third-party services and APIs into
+    your project to enhance function to me
+
+    - Give me details on A25: Yes, we can integrate various third-party services and
+    APIs into your project to enhance function
+
+    - How does A25: Yes, we can integrate various third-party services and APIs into
+    your project to enhance function work?
+
+    - What are the features of A25: Yes, we can integrate various third-party services
+    and APIs into your project to enhance function?
+
+    - Help me understand A25: Yes, we can integrate various third-party services and
+    APIs into your project to enhance function
+
+    - Where can I learn about A25: Yes, we can integrate various third-party services
+    and APIs into your project to enhance function?
+
+    - Info on A25: Yes, we can integrate various third-party services and APIs into
+    your project to enhance function
+
+    - I need help with A25: Yes, we can integrate various third-party services and
+    APIs into your project to enhance function
+
+    - Could you describe A25: Yes, we can integrate various third-party services and
+    APIs into your project to enhance function?
+
+    - Let me know about A25: Yes, we can integrate various third-party services and
+    APIs into your project to enhance function'
+- intent: a26_we_follow_rigorous_quality_assurance_process
+  examples: '- What is A26: We follow rigorous quality assurance process?
+
+    - Can you explain A26: We follow rigorous quality assurance process?
+
+    - I want to know about A26: We follow rigorous quality assurance process
+
+    - What do you mean by A26: We follow rigorous quality assurance process?
+
+    - Tell me about A26: We follow rigorous quality assurance process
+
+    - Explain A26: We follow rigorous quality assurance process to me
+
+    - Give me details on A26: We follow rigorous quality assurance process
+
+    - How does A26: We follow rigorous quality assurance process work?
+
+    - What are the features of A26: We follow rigorous quality assurance process?
+
+    - Help me understand A26: We follow rigorous quality assurance process
+
+    - Where can I learn about A26: We follow rigorous quality assurance process?
+
+    - Info on A26: We follow rigorous quality assurance process
+
+    - I need help with A26: We follow rigorous quality assurance process
+
+    - Could you describe A26: We follow rigorous quality assurance process?
+
+    - Let me know about A26: We follow rigorous quality assurance process'
+- intent: a28_we_value_your_feedback_and_incorporate_revisions_as_part_of_our_iterative_development_process
+  examples: '- What is A28: We value your feedback and incorporate revisions as part
+    of our iterative development process?
+
+    - Can you explain A28: We value your feedback and incorporate revisions as part
+    of our iterative development process?
+
+    - I want to know about A28: We value your feedback and incorporate revisions as
+    part of our iterative development process
+
+    - What do you mean by A28: We value your feedback and incorporate revisions as
+    part of our iterative development process?
+
+    - Tell me about A28: We value your feedback and incorporate revisions as part
+    of our iterative development process
+
+    - Explain A28: We value your feedback and incorporate revisions as part of our
+    iterative development process to me
+
+    - Give me details on A28: We value your feedback and incorporate revisions as
+    part of our iterative development process
+
+    - How does A28: We value your feedback and incorporate revisions as part of our
+    iterative development process work?
+
+    - What are the features of A28: We value your feedback and incorporate revisions
+    as part of our iterative development process?
+
+    - Help me understand A28: We value your feedback and incorporate revisions as
+    part of our iterative development process
+
+    - Where can I learn about A28: We value your feedback and incorporate revisions
+    as part of our iterative development process?
+
+    - Info on A28: We value your feedback and incorporate revisions as part of our
+    iterative development process
+
+    - I need help with A28: We value your feedback and incorporate revisions as part
+    of our iterative development process
+
+    - Could you describe A28: We value your feedback and incorporate revisions as
+    part of our iterative development process?
+
+    - Let me know about A28: We value your feedback and incorporate revisions as part
+    of our iterative development process'
+- intent: a42_we_offer_custom_solutions_to_streamline_business_process
+  examples: '- What is A42: We offer custom solutions to streamline business process?
+
+    - Can you explain A42: We offer custom solutions to streamline business process?
+
+    - I want to know about A42: We offer custom solutions to streamline business process
+
+    - What do you mean by A42: We offer custom solutions to streamline business process?
+
+    - Tell me about A42: We offer custom solutions to streamline business process
+
+    - Explain A42: We offer custom solutions to streamline business process to me
+
+    - Give me details on A42: We offer custom solutions to streamline business process
+
+    - How does A42: We offer custom solutions to streamline business process work?
+
+    - What are the features of A42: We offer custom solutions to streamline business
+    process?
+
+    - Help me understand A42: We offer custom solutions to streamline business process
+
+    - Where can I learn about A42: We offer custom solutions to streamline business
+    process?
+
+    - Info on A42: We offer custom solutions to streamline business process
+
+    - I need help with A42: We offer custom solutions to streamline business process
+
+    - Could you describe A42: We offer custom solutions to streamline business process?
+
+    - Let me know about A42: We offer custom solutions to streamline business process'
+- intent: a45_yes_we_can_integrate_our_solutions_with_your_existing_system
+  examples: '- What is A45: Yes, we can integrate our solutions with your existing
+    system?
+
+    - Can you explain A45: Yes, we can integrate our solutions with your existing
+    system?
+
+    - I want to know about A45: Yes, we can integrate our solutions with your existing
+    system
+
+    - What do you mean by A45: Yes, we can integrate our solutions with your existing
+    system?
+
+    - Tell me about A45: Yes, we can integrate our solutions with your existing system
+
+    - Explain A45: Yes, we can integrate our solutions with your existing system to
+    me
+
+    - Give me details on A45: Yes, we can integrate our solutions with your existing
+    system
+
+    - How does A45: Yes, we can integrate our solutions with your existing system
+    work?
+
+    - What are the features of A45: Yes, we can integrate our solutions with your
+    existing system?
+
+    - Help me understand A45: Yes, we can integrate our solutions with your existing
+    system
+
+    - Where can I learn about A45: Yes, we can integrate our solutions with your existing
+    system?
+
+    - Info on A45: Yes, we can integrate our solutions with your existing system
+
+    - I need help with A45: Yes, we can integrate our solutions with your existing
+    system
+
+    - Could you describe A45: Yes, we can integrate our solutions with your existing
+    system?
+
+    - Let me know about A45: Yes, we can integrate our solutions with your existing
+    system'
+- intent: a46_we_have_experience_managing_large_scale_projects_with_dedicated_project_managers_agile_methodologies_and_robust_project_management
+  examples: '- What is A46: We have experience managing large-scale projects with
+    dedicated project managers, agile methodologies, and robust project management?
+
+    - Can you explain A46: We have experience managing large-scale projects with dedicated
+    project managers, agile methodologies, and robust project management?
+
+    - I want to know about A46: We have experience managing large-scale projects with
+    dedicated project managers, agile methodologies, and robust project management
+
+    - What do you mean by A46: We have experience managing large-scale projects with
+    dedicated project managers, agile methodologies, and robust project management?
+
+    - Tell me about A46: We have experience managing large-scale projects with dedicated
+    project managers, agile methodologies, and robust project management
+
+    - Explain A46: We have experience managing large-scale projects with dedicated
+    project managers, agile methodologies, and robust project management to me
+
+    - Give me details on A46: We have experience managing large-scale projects with
+    dedicated project managers, agile methodologies, and robust project management
+
+    - How does A46: We have experience managing large-scale projects with dedicated
+    project managers, agile methodologies, and robust project management work?
+
+    - What are the features of A46: We have experience managing large-scale projects
+    with dedicated project managers, agile methodologies, and robust project management?
+
+    - Help me understand A46: We have experience managing large-scale projects with
+    dedicated project managers, agile methodologies, and robust project management
+
+    - Where can I learn about A46: We have experience managing large-scale projects
+    with dedicated project managers, agile methodologies, and robust project management?
+
+    - Info on A46: We have experience managing large-scale projects with dedicated
+    project managers, agile methodologies, and robust project management
+
+    - I need help with A46: We have experience managing large-scale projects with
+    dedicated project managers, agile methodologies, and robust project management
+
+    - Could you describe A46: We have experience managing large-scale projects with
+    dedicated project managers, agile methodologies, and robust project management?
+
+    - Let me know about A46: We have experience managing large-scale projects with
+    dedicated project managers, agile methodologies, and robust project management'
+- intent: project_management
+  examples: '- What is Project Management?
+
+    - Can you explain Project Management?
+
+    - I want to know about Project Management
+
+    - What do you mean by Project Management?
+
+    - Tell me about Project Management
+
+    - Explain Project Management to me
+
+    - Give me details on Project Management
+
+    - How does Project Management work?
+
+    - What are the features of Project Management?
+
+    - Help me understand Project Management
+
+    - Where can I learn about Project Management?
+
+    - Info on Project Management
+
+    - I need help with Project Management
+
+    - Could you describe Project Management?
+
+    - Let me know about Project Management'
+- intent: q53_what_project_management
+  examples: '- What is Q53: What project management?
+
+    - Can you explain Q53: What project management?
+
+    - I want to know about Q53: What project management
+
+    - What do you mean by Q53: What project management?
+
+    - Tell me about Q53: What project management
+
+    - Explain Q53: What project management to me
+
+    - Give me details on Q53: What project management
+
+    - How does Q53: What project management work?
+
+    - What are the features of Q53: What project management?
+
+    - Help me understand Q53: What project management
+
+    - Where can I learn about Q53: What project management?
+
+    - Info on Q53: What project management
+
+    - I need help with Q53: What project management
+
+    - Could you describe Q53: What project management?
+
+    - Let me know about Q53: What project management'
+- intent: a56_we_follow_a_structured_project_management
+  examples: '- What is A56: We follow a structured project management?
+
+    - Can you explain A56: We follow a structured project management?
+
+    - I want to know about A56: We follow a structured project management
+
+    - What do you mean by A56: We follow a structured project management?
+
+    - Tell me about A56: We follow a structured project management
+
+    - Explain A56: We follow a structured project management to me
+
+    - Give me details on A56: We follow a structured project management
+
+    - How does A56: We follow a structured project management work?
+
+    - What are the features of A56: We follow a structured project management?
+
+    - Help me understand A56: We follow a structured project management
+
+    - Where can I learn about A56: We follow a structured project management?
+
+    - Info on A56: We follow a structured project management
+
+    - I need help with A56: We follow a structured project management
+
+    - Could you describe A56: We follow a structured project management?
+
+    - Let me know about A56: We follow a structured project management'
+- intent: a60_we_follow_rigorous_quality_assurance_process
+  examples: '- What is A60: We follow rigorous quality assurance process?
+
+    - Can you explain A60: We follow rigorous quality assurance process?
+
+    - I want to know about A60: We follow rigorous quality assurance process
+
+    - What do you mean by A60: We follow rigorous quality assurance process?
+
+    - Tell me about A60: We follow rigorous quality assurance process
+
+    - Explain A60: We follow rigorous quality assurance process to me
+
+    - Give me details on A60: We follow rigorous quality assurance process
+
+    - How does A60: We follow rigorous quality assurance process work?
+
+    - What are the features of A60: We follow rigorous quality assurance process?
+
+    - Help me understand A60: We follow rigorous quality assurance process
+
+    - Where can I learn about A60: We follow rigorous quality assurance process?
+
+    - Info on A60: We follow rigorous quality assurance process
+
+    - I need help with A60: We follow rigorous quality assurance process
+
+    - Could you describe A60: We follow rigorous quality assurance process?
+
+    - Let me know about A60: We follow rigorous quality assurance process'
+- intent: a66_we_optimize_our_process
+  examples: '- What is A66: We optimize our process?
+
+    - Can you explain A66: We optimize our process?
+
+    - I want to know about A66: We optimize our process
+
+    - What do you mean by A66: We optimize our process?
+
+    - Tell me about A66: We optimize our process
+
+    - Explain A66: We optimize our process to me
+
+    - Give me details on A66: We optimize our process
+
+    - How does A66: We optimize our process work?
+
+    - What are the features of A66: We optimize our process?
+
+    - Help me understand A66: We optimize our process
+
+    - Where can I learn about A66: We optimize our process?
+
+    - Info on A66: We optimize our process
+
+    - I need help with A66: We optimize our process
+
+    - Could you describe A66: We optimize our process?
+
+    - Let me know about A66: We optimize our process'
+- intent: a69_we_strive_to_ensure_your_satisfaction_if_there_are_issues_we_work_to_resolve_them_our_refund_policy
+  examples: '- What is A69: We strive to ensure your satisfaction. If there are issues,
+    we work to resolve them. Our refund policy?
+
+    - Can you explain A69: We strive to ensure your satisfaction. If there are issues,
+    we work to resolve them. Our refund policy?
+
+    - I want to know about A69: We strive to ensure your satisfaction. If there are
+    issues, we work to resolve them. Our refund policy
+
+    - What do you mean by A69: We strive to ensure your satisfaction. If there are
+    issues, we work to resolve them. Our refund policy?
+
+    - Tell me about A69: We strive to ensure your satisfaction. If there are issues,
+    we work to resolve them. Our refund policy
+
+    - Explain A69: We strive to ensure your satisfaction. If there are issues, we
+    work to resolve them. Our refund policy to me
+
+    - Give me details on A69: We strive to ensure your satisfaction. If there are
+    issues, we work to resolve them. Our refund policy
+
+    - How does A69: We strive to ensure your satisfaction. If there are issues, we
+    work to resolve them. Our refund policy work?
+
+    - What are the features of A69: We strive to ensure your satisfaction. If there
+    are issues, we work to resolve them. Our refund policy?
+
+    - Help me understand A69: We strive to ensure your satisfaction. If there are
+    issues, we work to resolve them. Our refund policy
+
+    - Where can I learn about A69: We strive to ensure your satisfaction. If there
+    are issues, we work to resolve them. Our refund policy?
+
+    - Info on A69: We strive to ensure your satisfaction. If there are issues, we
+    work to resolve them. Our refund policy
+
+    - I need help with A69: We strive to ensure your satisfaction. If there are issues,
+    we work to resolve them. Our refund policy
+
+    - Could you describe A69: We strive to ensure your satisfaction. If there are
+    issues, we work to resolve them. Our refund policy?
+
+    - Let me know about A69: We strive to ensure your satisfaction. If there are issues,
+    we work to resolve them. Our refund policy'
+- intent: a75_yes_you_can_communicate_directly_with_the_developers_through_our_project_management
+  examples: '- What is A75: Yes, you can communicate directly with the developers
+    through our project management?
+
+    - Can you explain A75: Yes, you can communicate directly with the developers through
+    our project management?
+
+    - I want to know about A75: Yes, you can communicate directly with the developers
+    through our project management
+
+    - What do you mean by A75: Yes, you can communicate directly with the developers
+    through our project management?
+
+    - Tell me about A75: Yes, you can communicate directly with the developers through
+    our project management
+
+    - Explain A75: Yes, you can communicate directly with the developers through our
+    project management to me
+
+    - Give me details on A75: Yes, you can communicate directly with the developers
+    through our project management
+
+    - How does A75: Yes, you can communicate directly with the developers through
+    our project management work?
+
+    - What are the features of A75: Yes, you can communicate directly with the developers
+    through our project management?
+
+    - Help me understand A75: Yes, you can communicate directly with the developers
+    through our project management
+
+    - Where can I learn about A75: Yes, you can communicate directly with the developers
+    through our project management?
+
+    - Info on A75: Yes, you can communicate directly with the developers through our
+    project management
+
+    - I need help with A75: Yes, you can communicate directly with the developers
+    through our project management
+
+    - Could you describe A75: Yes, you can communicate directly with the developers
+    through our project management?
+
+    - Let me know about A75: Yes, you can communicate directly with the developers
+    through our project management'
+- intent: a78_we_follow_a_structured_project_management
+  examples: '- What is A78: We follow a structured project management?
+
+    - Can you explain A78: We follow a structured project management?
+
+    - I want to know about A78: We follow a structured project management
+
+    - What do you mean by A78: We follow a structured project management?
+
+    - Tell me about A78: We follow a structured project management
+
+    - Explain A78: We follow a structured project management to me
+
+    - Give me details on A78: We follow a structured project management
+
+    - How does A78: We follow a structured project management work?
+
+    - What are the features of A78: We follow a structured project management?
+
+    - Help me understand A78: We follow a structured project management
+
+    - Where can I learn about A78: We follow a structured project management?
+
+    - Info on A78: We follow a structured project management
+
+    - I need help with A78: We follow a structured project management
+
+    - Could you describe A78: We follow a structured project management?
+
+    - Let me know about A78: We follow a structured project management'
+- intent: a80_we_have_process
+  examples: '- What is A80: We have process?
+
+    - Can you explain A80: We have process?
+
+    - I want to know about A80: We have process
+
+    - What do you mean by A80: We have process?
+
+    - Tell me about A80: We have process
+
+    - Explain A80: We have process to me
+
+    - Give me details on A80: We have process
+
+    - How does A80: We have process work?
+
+    - What are the features of A80: We have process?
+
+    - Help me understand A80: We have process
+
+    - Where can I learn about A80: We have process?
+
+    - Info on A80: We have process
+
+    - I need help with A80: We have process
+
+    - Could you describe A80: We have process?
+
+    - Let me know about A80: We have process'
+- intent: a84_we_use_a_ticketing_system
+  examples: '- What is A84: We use a ticketing system?
+
+    - Can you explain A84: We use a ticketing system?
+
+    - I want to know about A84: We use a ticketing system
+
+    - What do you mean by A84: We use a ticketing system?
+
+    - Tell me about A84: We use a ticketing system
+
+    - Explain A84: We use a ticketing system to me
+
+    - Give me details on A84: We use a ticketing system
+
+    - How does A84: We use a ticketing system work?
+
+    - What are the features of A84: We use a ticketing system?
+
+    - Help me understand A84: We use a ticketing system
+
+    - Where can I learn about A84: We use a ticketing system?
+
+    - Info on A84: We use a ticketing system
+
+    - I need help with A84: We use a ticketing system
+
+    - Could you describe A84: We use a ticketing system?
+
+    - Let me know about A84: We use a ticketing system'
+- intent: a85_yes_we_provide_training_for_your_team_on_how_to_use_the_new_web_or_mobile_app_along_with_any_back_end_system
+  examples: '- What is A85: Yes, we provide training for your team on how to use the
+    new web or mobile app, along with any back-end system?
+
+    - Can you explain A85: Yes, we provide training for your team on how to use the
+    new web or mobile app, along with any back-end system?
+
+    - I want to know about A85: Yes, we provide training for your team on how to use
+    the new web or mobile app, along with any back-end system
+
+    - What do you mean by A85: Yes, we provide training for your team on how to use
+    the new web or mobile app, along with any back-end system?
+
+    - Tell me about A85: Yes, we provide training for your team on how to use the
+    new web or mobile app, along with any back-end system
+
+    - Explain A85: Yes, we provide training for your team on how to use the new web
+    or mobile app, along with any back-end system to me
+
+    - Give me details on A85: Yes, we provide training for your team on how to use
+    the new web or mobile app, along with any back-end system
+
+    - How does A85: Yes, we provide training for your team on how to use the new web
+    or mobile app, along with any back-end system work?
+
+    - What are the features of A85: Yes, we provide training for your team on how
+    to use the new web or mobile app, along with any back-end system?
+
+    - Help me understand A85: Yes, we provide training for your team on how to use
+    the new web or mobile app, along with any back-end system
+
+    - Where can I learn about A85: Yes, we provide training for your team on how to
+    use the new web or mobile app, along with any back-end system?
+
+    - Info on A85: Yes, we provide training for your team on how to use the new web
+    or mobile app, along with any back-end system
+
+    - I need help with A85: Yes, we provide training for your team on how to use the
+    new web or mobile app, along with any back-end system
+
+    - Could you describe A85: Yes, we provide training for your team on how to use
+    the new web or mobile app, along with any back-end system?
+
+    - Let me know about A85: Yes, we provide training for your team on how to use
+    the new web or mobile app, along with any back-end system'
+- intent: a89_we_provide_support_for_third_party_integrations_ensuring_they_function
+  examples: '- What is A89: We provide support for third-party integrations, ensuring
+    they function?
+
+    - Can you explain A89: We provide support for third-party integrations, ensuring
+    they function?
+
+    - I want to know about A89: We provide support for third-party integrations, ensuring
+    they function
+
+    - What do you mean by A89: We provide support for third-party integrations, ensuring
+    they function?
+
+    - Tell me about A89: We provide support for third-party integrations, ensuring
+    they function
+
+    - Explain A89: We provide support for third-party integrations, ensuring they
+    function to me
+
+    - Give me details on A89: We provide support for third-party integrations, ensuring
+    they function
+
+    - How does A89: We provide support for third-party integrations, ensuring they
+    function work?
+
+    - What are the features of A89: We provide support for third-party integrations,
+    ensuring they function?
+
+    - Help me understand A89: We provide support for third-party integrations, ensuring
+    they function
+
+    - Where can I learn about A89: We provide support for third-party integrations,
+    ensuring they function?
+
+    - Info on A89: We provide support for third-party integrations, ensuring they
+    function
+
+    - I need help with A89: We provide support for third-party integrations, ensuring
+    they function
+
+    - Could you describe A89: We provide support for third-party integrations, ensuring
+    they function?
+
+    - Let me know about A89: We provide support for third-party integrations, ensuring
+    they function'
+- intent: a91_yes_we_provide_training_for_your_team_on_how_to_use_the_new_web_or_mobile_app_along_with_any_back_end_system
+  examples: '- What is A91: Yes, we provide training for your team on how to use the
+    new web or mobile app, along with any back-end system?
+
+    - Can you explain A91: Yes, we provide training for your team on how to use the
+    new web or mobile app, along with any back-end system?
+
+    - I want to know about A91: Yes, we provide training for your team on how to use
+    the new web or mobile app, along with any back-end system
+
+    - What do you mean by A91: Yes, we provide training for your team on how to use
+    the new web or mobile app, along with any back-end system?
+
+    - Tell me about A91: Yes, we provide training for your team on how to use the
+    new web or mobile app, along with any back-end system
+
+    - Explain A91: Yes, we provide training for your team on how to use the new web
+    or mobile app, along with any back-end system to me
+
+    - Give me details on A91: Yes, we provide training for your team on how to use
+    the new web or mobile app, along with any back-end system
+
+    - How does A91: Yes, we provide training for your team on how to use the new web
+    or mobile app, along with any back-end system work?
+
+    - What are the features of A91: Yes, we provide training for your team on how
+    to use the new web or mobile app, along with any back-end system?
+
+    - Help me understand A91: Yes, we provide training for your team on how to use
+    the new web or mobile app, along with any back-end system
+
+    - Where can I learn about A91: Yes, we provide training for your team on how to
+    use the new web or mobile app, along with any back-end system?
+
+    - Info on A91: Yes, we provide training for your team on how to use the new web
+    or mobile app, along with any back-end system
+
+    - I need help with A91: Yes, we provide training for your team on how to use the
+    new web or mobile app, along with any back-end system
+
+    - Could you describe A91: Yes, we provide training for your team on how to use
+    the new web or mobile app, along with any back-end system?
+
+    - Let me know about A91: Yes, we provide training for your team on how to use
+    the new web or mobile app, along with any back-end system'
+- intent: a92_we_offer_training_sessions_workshops_and_documentation_to_help_your_team_get_up_to_speed_with_the_new_system
+  examples: '- What is A92: We offer training sessions, workshops, and documentation
+    to help your team get up to speed with the new system?
+
+    - Can you explain A92: We offer training sessions, workshops, and documentation
+    to help your team get up to speed with the new system?
+
+    - I want to know about A92: We offer training sessions, workshops, and documentation
+    to help your team get up to speed with the new system
+
+    - What do you mean by A92: We offer training sessions, workshops, and documentation
+    to help your team get up to speed with the new system?
+
+    - Tell me about A92: We offer training sessions, workshops, and documentation
+    to help your team get up to speed with the new system
+
+    - Explain A92: We offer training sessions, workshops, and documentation to help
+    your team get up to speed with the new system to me
+
+    - Give me details on A92: We offer training sessions, workshops, and documentation
+    to help your team get up to speed with the new system
+
+    - How does A92: We offer training sessions, workshops, and documentation to help
+    your team get up to speed with the new system work?
+
+    - What are the features of A92: We offer training sessions, workshops, and documentation
+    to help your team get up to speed with the new system?
+
+    - Help me understand A92: We offer training sessions, workshops, and documentation
+    to help your team get up to speed with the new system
+
+    - Where can I learn about A92: We offer training sessions, workshops, and documentation
+    to help your team get up to speed with the new system?
+
+    - Info on A92: We offer training sessions, workshops, and documentation to help
+    your team get up to speed with the new system
+
+    - I need help with A92: We offer training sessions, workshops, and documentation
+    to help your team get up to speed with the new system
+
+    - Could you describe A92: We offer training sessions, workshops, and documentation
+    to help your team get up to speed with the new system?
+
+    - Let me know about A92: We offer training sessions, workshops, and documentation
+    to help your team get up to speed with the new system'
+- intent: a94_yes_we_offer_ongoing_training_and_support_to_ensure_your_team_remains_proficient_with_the_system
+  examples: '- What is A94: Yes, we offer ongoing training and support to ensure your
+    team remains proficient with the system?
+
+    - Can you explain A94: Yes, we offer ongoing training and support to ensure your
+    team remains proficient with the system?
+
+    - I want to know about A94: Yes, we offer ongoing training and support to ensure
+    your team remains proficient with the system
+
+    - What do you mean by A94: Yes, we offer ongoing training and support to ensure
+    your team remains proficient with the system?
+
+    - Tell me about A94: Yes, we offer ongoing training and support to ensure your
+    team remains proficient with the system
+
+    - Explain A94: Yes, we offer ongoing training and support to ensure your team
+    remains proficient with the system to me
+
+    - Give me details on A94: Yes, we offer ongoing training and support to ensure
+    your team remains proficient with the system
+
+    - How does A94: Yes, we offer ongoing training and support to ensure your team
+    remains proficient with the system work?
+
+    - What are the features of A94: Yes, we offer ongoing training and support to
+    ensure your team remains proficient with the system?
+
+    - Help me understand A94: Yes, we offer ongoing training and support to ensure
+    your team remains proficient with the system
+
+    - Where can I learn about A94: Yes, we offer ongoing training and support to ensure
+    your team remains proficient with the system?
+
+    - Info on A94: Yes, we offer ongoing training and support to ensure your team
+    remains proficient with the system
+
+    - I need help with A94: Yes, we offer ongoing training and support to ensure your
+    team remains proficient with the system
+
+    - Could you describe A94: Yes, we offer ongoing training and support to ensure
+    your team remains proficient with the system?
+
+    - Let me know about A94: Yes, we offer ongoing training and support to ensure
+    your team remains proficient with the system'
+- intent: a98_we_use_a_combination_of_hands_on_training_documentation_and_follow_up_sessions_to_ensure_your_team_is_proficient_with_the_new_system
+  examples: '- What is A98: We use a combination of hands-on training, documentation,
+    and follow-up sessions to ensure your team is proficient with the new system?
+
+    - Can you explain A98: We use a combination of hands-on training, documentation,
+    and follow-up sessions to ensure your team is proficient with the new system?
+
+    - I want to know about A98: We use a combination of hands-on training, documentation,
+    and follow-up sessions to ensure your team is proficient with the new system
+
+    - What do you mean by A98: We use a combination of hands-on training, documentation,
+    and follow-up sessions to ensure your team is proficient with the new system?
+
+    - Tell me about A98: We use a combination of hands-on training, documentation,
+    and follow-up sessions to ensure your team is proficient with the new system
+
+    - Explain A98: We use a combination of hands-on training, documentation, and follow-up
+    sessions to ensure your team is proficient with the new system to me
+
+    - Give me details on A98: We use a combination of hands-on training, documentation,
+    and follow-up sessions to ensure your team is proficient with the new system
+
+    - How does A98: We use a combination of hands-on training, documentation, and
+    follow-up sessions to ensure your team is proficient with the new system work?
+
+    - What are the features of A98: We use a combination of hands-on training, documentation,
+    and follow-up sessions to ensure your team is proficient with the new system?
+
+    - Help me understand A98: We use a combination of hands-on training, documentation,
+    and follow-up sessions to ensure your team is proficient with the new system
+
+    - Where can I learn about A98: We use a combination of hands-on training, documentation,
+    and follow-up sessions to ensure your team is proficient with the new system?
+
+    - Info on A98: We use a combination of hands-on training, documentation, and follow-up
+    sessions to ensure your team is proficient with the new system
+
+    - I need help with A98: We use a combination of hands-on training, documentation,
+    and follow-up sessions to ensure your team is proficient with the new system
+
+    - Could you describe A98: We use a combination of hands-on training, documentation,
+    and follow-up sessions to ensure your team is proficient with the new system?
+
+    - Let me know about A98: We use a combination of hands-on training, documentation,
+    and follow-up sessions to ensure your team is proficient with the new system'
+- intent: a99_yes_we_provide_training_tailored_to_non_technical_users_ensuring_they_can_effectively_use_the_system
+  examples: '- What is A99: Yes, we provide training tailored to non-technical users,
+    ensuring they can effectively use the system?
+
+    - Can you explain A99: Yes, we provide training tailored to non-technical users,
+    ensuring they can effectively use the system?
+
+    - I want to know about A99: Yes, we provide training tailored to non-technical
+    users, ensuring they can effectively use the system
+
+    - What do you mean by A99: Yes, we provide training tailored to non-technical
+    users, ensuring they can effectively use the system?
+
+    - Tell me about A99: Yes, we provide training tailored to non-technical users,
+    ensuring they can effectively use the system
+
+    - Explain A99: Yes, we provide training tailored to non-technical users, ensuring
+    they can effectively use the system to me
+
+    - Give me details on A99: Yes, we provide training tailored to non-technical users,
+    ensuring they can effectively use the system
+
+    - How does A99: Yes, we provide training tailored to non-technical users, ensuring
+    they can effectively use the system work?
+
+    - What are the features of A99: Yes, we provide training tailored to non-technical
+    users, ensuring they can effectively use the system?
+
+    - Help me understand A99: Yes, we provide training tailored to non-technical users,
+    ensuring they can effectively use the system
+
+    - Where can I learn about A99: Yes, we provide training tailored to non-technical
+    users, ensuring they can effectively use the system?
+
+    - Info on A99: Yes, we provide training tailored to non-technical users, ensuring
+    they can effectively use the system
+
+    - I need help with A99: Yes, we provide training tailored to non-technical users,
+    ensuring they can effectively use the system
+
+    - Could you describe A99: Yes, we provide training tailored to non-technical users,
+    ensuring they can effectively use the system?
+
+    - Let me know about A99: Yes, we provide training tailored to non-technical users,
+    ensuring they can effectively use the system'
+- intent: a111_yes_we_can_develop_fully_function
+  examples: '- What is A111: Yes, we can develop fully-function?
+
+    - Can you explain A111: Yes, we can develop fully-function?
+
+    - I want to know about A111: Yes, we can develop fully-function
+
+    - What do you mean by A111: Yes, we can develop fully-function?
+
+    - Tell me about A111: Yes, we can develop fully-function
+
+    - Explain A111: Yes, we can develop fully-function to me
+
+    - Give me details on A111: Yes, we can develop fully-function
+
+    - How does A111: Yes, we can develop fully-function work?
+
+    - What are the features of A111: Yes, we can develop fully-function?
+
+    - Help me understand A111: Yes, we can develop fully-function
+
+    - Where can I learn about A111: Yes, we can develop fully-function?
+
+    - Info on A111: Yes, we can develop fully-function
+
+    - I need help with A111: Yes, we can develop fully-function
+
+    - Could you describe A111: Yes, we can develop fully-function?
+
+    - Let me know about A111: Yes, we can develop fully-function'
+- intent: a113_yes_we_can_develop_custom_crm_system
+  examples: '- What is A113: Yes, we can develop custom CRM system?
+
+    - Can you explain A113: Yes, we can develop custom CRM system?
+
+    - I want to know about A113: Yes, we can develop custom CRM system
+
+    - What do you mean by A113: Yes, we can develop custom CRM system?
+
+    - Tell me about A113: Yes, we can develop custom CRM system
+
+    - Explain A113: Yes, we can develop custom CRM system to me
+
+    - Give me details on A113: Yes, we can develop custom CRM system
+
+    - How does A113: Yes, we can develop custom CRM system work?
+
+    - What are the features of A113: Yes, we can develop custom CRM system?
+
+    - Help me understand A113: Yes, we can develop custom CRM system
+
+    - Where can I learn about A113: Yes, we can develop custom CRM system?
+
+    - Info on A113: Yes, we can develop custom CRM system
+
+    - I need help with A113: Yes, we can develop custom CRM system
+
+    - Could you describe A113: Yes, we can develop custom CRM system?
+
+    - Let me know about A113: Yes, we can develop custom CRM system'
+- intent: a114_we_have_a_structured_process
+  examples: '- What is A114: We have a structured process?
+
+    - Can you explain A114: We have a structured process?
+
+    - I want to know about A114: We have a structured process
+
+    - What do you mean by A114: We have a structured process?
+
+    - Tell me about A114: We have a structured process
+
+    - Explain A114: We have a structured process to me
+
+    - Give me details on A114: We have a structured process
+
+    - How does A114: We have a structured process work?
+
+    - What are the features of A114: We have a structured process?
+
+    - Help me understand A114: We have a structured process
+
+    - Where can I learn about A114: We have a structured process?
+
+    - Info on A114: We have a structured process
+
+    - I need help with A114: We have a structured process
+
+    - Could you describe A114: We have a structured process?
+
+    - Let me know about A114: We have a structured process'
+- intent: a115_yes_we_can_integrate_social_media_feature
+  examples: '- What is A115: Yes, we can integrate social media feature?
+
+    - Can you explain A115: Yes, we can integrate social media feature?
+
+    - I want to know about A115: Yes, we can integrate social media feature
+
+    - What do you mean by A115: Yes, we can integrate social media feature?
+
+    - Tell me about A115: Yes, we can integrate social media feature
+
+    - Explain A115: Yes, we can integrate social media feature to me
+
+    - Give me details on A115: Yes, we can integrate social media feature
+
+    - How does A115: Yes, we can integrate social media feature work?
+
+    - What are the features of A115: Yes, we can integrate social media feature?
+
+    - Help me understand A115: Yes, we can integrate social media feature
+
+    - Where can I learn about A115: Yes, we can integrate social media feature?
+
+    - Info on A115: Yes, we can integrate social media feature
+
+    - I need help with A115: Yes, we can integrate social media feature
+
+    - Could you describe A115: Yes, we can integrate social media feature?
+
+    - Let me know about A115: Yes, we can integrate social media feature'
+- intent: a117_yes_we_can_develop_custom_erp_system
+  examples: '- What is A117: Yes, we can develop custom ERP system?
+
+    - Can you explain A117: Yes, we can develop custom ERP system?
+
+    - I want to know about A117: Yes, we can develop custom ERP system
+
+    - What do you mean by A117: Yes, we can develop custom ERP system?
+
+    - Tell me about A117: Yes, we can develop custom ERP system
+
+    - Explain A117: Yes, we can develop custom ERP system to me
+
+    - Give me details on A117: Yes, we can develop custom ERP system
+
+    - How does A117: Yes, we can develop custom ERP system work?
+
+    - What are the features of A117: Yes, we can develop custom ERP system?
+
+    - Help me understand A117: Yes, we can develop custom ERP system
+
+    - Where can I learn about A117: Yes, we can develop custom ERP system?
+
+    - Info on A117: Yes, we can develop custom ERP system
+
+    - I need help with A117: Yes, we can develop custom ERP system
+
+    - Could you describe A117: Yes, we can develop custom ERP system?
+
+    - Let me know about A117: Yes, we can develop custom ERP system'
+- intent: a119_yes_we_can_develop_custom_cms_system
+  examples: '- What is A119: Yes, we can develop custom CMS system?
+
+    - Can you explain A119: Yes, we can develop custom CMS system?
+
+    - I want to know about A119: Yes, we can develop custom CMS system
+
+    - What do you mean by A119: Yes, we can develop custom CMS system?
+
+    - Tell me about A119: Yes, we can develop custom CMS system
+
+    - Explain A119: Yes, we can develop custom CMS system to me
+
+    - Give me details on A119: Yes, we can develop custom CMS system
+
+    - How does A119: Yes, we can develop custom CMS system work?
+
+    - What are the features of A119: Yes, we can develop custom CMS system?
+
+    - Help me understand A119: Yes, we can develop custom CMS system
+
+    - Where can I learn about A119: Yes, we can develop custom CMS system?
+
+    - Info on A119: Yes, we can develop custom CMS system
+
+    - I need help with A119: Yes, we can develop custom CMS system
+
+    - Could you describe A119: Yes, we can develop custom CMS system?
+
+    - Let me know about A119: Yes, we can develop custom CMS system'
+- intent: a1_techgenzi_offers_a_comprehensive_suite_of_digital_and_it_solutions_designed_to_enhance_productivity_and_efficiency_in_various_industries_their_flagship_product_the_integrated_productivity_solutions_suite_ipss_is_tailored_for_manufacturing_industries_and_includes_module
+  examples: '- What is A1: Techgenzi offers a comprehensive suite of digital and IT
+    solutions designed to enhance productivity and efficiency in various industries.
+    Their flagship product, the Integrated Productivity Solutions Suite (IPSS), is
+    tailored for manufacturing industries and includes module?
+
+    - Can you explain A1: Techgenzi offers a comprehensive suite of digital and IT
+    solutions designed to enhance productivity and efficiency in various industries.
+    Their flagship product, the Integrated Productivity Solutions Suite (IPSS), is
+    tailored for manufacturing industries and includes module?
+
+    - I want to know about A1: Techgenzi offers a comprehensive suite of digital and
+    IT solutions designed to enhance productivity and efficiency in various industries.
+    Their flagship product, the Integrated Productivity Solutions Suite (IPSS), is
+    tailored for manufacturing industries and includes module
+
+    - What do you mean by A1: Techgenzi offers a comprehensive suite of digital and
+    IT solutions designed to enhance productivity and efficiency in various industries.
+    Their flagship product, the Integrated Productivity Solutions Suite (IPSS), is
+    tailored for manufacturing industries and includes module?
+
+    - Tell me about A1: Techgenzi offers a comprehensive suite of digital and IT solutions
+    designed to enhance productivity and efficiency in various industries. Their flagship
+    product, the Integrated Productivity Solutions Suite (IPSS), is tailored for manufacturing
+    industries and includes module
+
+    - Explain A1: Techgenzi offers a comprehensive suite of digital and IT solutions
+    designed to enhance productivity and efficiency in various industries. Their flagship
+    product, the Integrated Productivity Solutions Suite (IPSS), is tailored for manufacturing
+    industries and includes module to me
+
+    - Give me details on A1: Techgenzi offers a comprehensive suite of digital and
+    IT solutions designed to enhance productivity and efficiency in various industries.
+    Their flagship product, the Integrated Productivity Solutions Suite (IPSS), is
+    tailored for manufacturing industries and includes module
+
+    - How does A1: Techgenzi offers a comprehensive suite of digital and IT solutions
+    designed to enhance productivity and efficiency in various industries. Their flagship
+    product, the Integrated Productivity Solutions Suite (IPSS), is tailored for manufacturing
+    industries and includes module work?
+
+    - What are the features of A1: Techgenzi offers a comprehensive suite of digital
+    and IT solutions designed to enhance productivity and efficiency in various industries.
+    Their flagship product, the Integrated Productivity Solutions Suite (IPSS), is
+    tailored for manufacturing industries and includes module?
+
+    - Help me understand A1: Techgenzi offers a comprehensive suite of digital and
+    IT solutions designed to enhance productivity and efficiency in various industries.
+    Their flagship product, the Integrated Productivity Solutions Suite (IPSS), is
+    tailored for manufacturing industries and includes module
+
+    - Where can I learn about A1: Techgenzi offers a comprehensive suite of digital
+    and IT solutions designed to enhance productivity and efficiency in various industries.
+    Their flagship product, the Integrated Productivity Solutions Suite (IPSS), is
+    tailored for manufacturing industries and includes module?
+
+    - Info on A1: Techgenzi offers a comprehensive suite of digital and IT solutions
+    designed to enhance productivity and efficiency in various industries. Their flagship
+    product, the Integrated Productivity Solutions Suite (IPSS), is tailored for manufacturing
+    industries and includes module
+
+    - I need help with A1: Techgenzi offers a comprehensive suite of digital and IT
+    solutions designed to enhance productivity and efficiency in various industries.
+    Their flagship product, the Integrated Productivity Solutions Suite (IPSS), is
+    tailored for manufacturing industries and includes module
+
+    - Could you describe A1: Techgenzi offers a comprehensive suite of digital and
+    IT solutions designed to enhance productivity and efficiency in various industries.
+    Their flagship product, the Integrated Productivity Solutions Suite (IPSS), is
+    tailored for manufacturing industries and includes module?
+
+    - Let me know about A1: Techgenzi offers a comprehensive suite of digital and
+    IT solutions designed to enhance productivity and efficiency in various industries.
+    Their flagship product, the Integrated Productivity Solutions Suite (IPSS), is
+    tailored for manufacturing industries and includes module'
+- intent: talent_management
+  examples: '- What is Talent Management?
+
+    - Can you explain Talent Management?
+
+    - I want to know about Talent Management
+
+    - What do you mean by Talent Management?
+
+    - Tell me about Talent Management
+
+    - Explain Talent Management to me
+
+    - Give me details on Talent Management
+
+    - How does Talent Management work?
+
+    - What are the features of Talent Management?
+
+    - Help me understand Talent Management
+
+    - Where can I learn about Talent Management?
+
+    - Info on Talent Management
+
+    - I need help with Talent Management
+
+    - Could you describe Talent Management?
+
+    - Let me know about Talent Management'
+- intent: a4_techgenzi_primarily_sells_software_solutions_and_services_their_main_product_is_the_integrated_productivity_solutions_suite_ipss_which_includes_various_module
+  examples: '- What is A4: Techgenzi primarily sells software solutions and services.
+    Their main product is the Integrated Productivity Solutions Suite (IPSS), which
+    includes various module?
+
+    - Can you explain A4: Techgenzi primarily sells software solutions and services.
+    Their main product is the Integrated Productivity Solutions Suite (IPSS), which
+    includes various module?
+
+    - I want to know about A4: Techgenzi primarily sells software solutions and services.
+    Their main product is the Integrated Productivity Solutions Suite (IPSS), which
+    includes various module
+
+    - What do you mean by A4: Techgenzi primarily sells software solutions and services.
+    Their main product is the Integrated Productivity Solutions Suite (IPSS), which
+    includes various module?
+
+    - Tell me about A4: Techgenzi primarily sells software solutions and services.
+    Their main product is the Integrated Productivity Solutions Suite (IPSS), which
+    includes various module
+
+    - Explain A4: Techgenzi primarily sells software solutions and services. Their
+    main product is the Integrated Productivity Solutions Suite (IPSS), which includes
+    various module to me
+
+    - Give me details on A4: Techgenzi primarily sells software solutions and services.
+    Their main product is the Integrated Productivity Solutions Suite (IPSS), which
+    includes various module
+
+    - How does A4: Techgenzi primarily sells software solutions and services. Their
+    main product is the Integrated Productivity Solutions Suite (IPSS), which includes
+    various module work?
+
+    - What are the features of A4: Techgenzi primarily sells software solutions and
+    services. Their main product is the Integrated Productivity Solutions Suite (IPSS),
+    which includes various module?
+
+    - Help me understand A4: Techgenzi primarily sells software solutions and services.
+    Their main product is the Integrated Productivity Solutions Suite (IPSS), which
+    includes various module
+
+    - Where can I learn about A4: Techgenzi primarily sells software solutions and
+    services. Their main product is the Integrated Productivity Solutions Suite (IPSS),
+    which includes various module?
+
+    - Info on A4: Techgenzi primarily sells software solutions and services. Their
+    main product is the Integrated Productivity Solutions Suite (IPSS), which includes
+    various module
+
+    - I need help with A4: Techgenzi primarily sells software solutions and services.
+    Their main product is the Integrated Productivity Solutions Suite (IPSS), which
+    includes various module
+
+    - Could you describe A4: Techgenzi primarily sells software solutions and services.
+    Their main product is the Integrated Productivity Solutions Suite (IPSS), which
+    includes various module?
+
+    - Let me know about A4: Techgenzi primarily sells software solutions and services.
+    Their main product is the Integrated Productivity Solutions Suite (IPSS), which
+    includes various module'
+- intent: general_business_solutions_for_hrm_crm_and_talent_management
+  examples: '- What is General Business: Solutions for HRM, CRM, and talent management?
+
+    - Can you explain General Business: Solutions for HRM, CRM, and talent management?
+
+    - I want to know about General Business: Solutions for HRM, CRM, and talent management
+
+    - What do you mean by General Business: Solutions for HRM, CRM, and talent management?
+
+    - Tell me about General Business: Solutions for HRM, CRM, and talent management
+
+    - Explain General Business: Solutions for HRM, CRM, and talent management to me
+
+    - Give me details on General Business: Solutions for HRM, CRM, and talent management
+
+    - How does General Business: Solutions for HRM, CRM, and talent management work?
+
+    - What are the features of General Business: Solutions for HRM, CRM, and talent
+    management?
+
+    - Help me understand General Business: Solutions for HRM, CRM, and talent management
+
+    - Where can I learn about General Business: Solutions for HRM, CRM, and talent
+    management?
+
+    - Info on General Business: Solutions for HRM, CRM, and talent management
+
+    - I need help with General Business: Solutions for HRM, CRM, and talent management
+
+    - Could you describe General Business: Solutions for HRM, CRM, and talent management?
+
+    - Let me know about General Business: Solutions for HRM, CRM, and talent management'
+- intent: a6_techgenzi_specializes_in_digital_and_it_solutions_particularly_in_the_areas_of_cloud_services_digital_transformation_iot_solutions_enterprise_mobile_app_development_and_talent_management
+  examples: '- What is A6: Techgenzi specializes in digital and IT solutions, particularly
+    in the areas of cloud services, digital transformation, IoT solutions, enterprise
+    mobile app development, and talent management?
+
+    - Can you explain A6: Techgenzi specializes in digital and IT solutions, particularly
+    in the areas of cloud services, digital transformation, IoT solutions, enterprise
+    mobile app development, and talent management?
+
+    - I want to know about A6: Techgenzi specializes in digital and IT solutions,
+    particularly in the areas of cloud services, digital transformation, IoT solutions,
+    enterprise mobile app development, and talent management
+
+    - What do you mean by A6: Techgenzi specializes in digital and IT solutions, particularly
+    in the areas of cloud services, digital transformation, IoT solutions, enterprise
+    mobile app development, and talent management?
+
+    - Tell me about A6: Techgenzi specializes in digital and IT solutions, particularly
+    in the areas of cloud services, digital transformation, IoT solutions, enterprise
+    mobile app development, and talent management
+
+    - Explain A6: Techgenzi specializes in digital and IT solutions, particularly
+    in the areas of cloud services, digital transformation, IoT solutions, enterprise
+    mobile app development, and talent management to me
+
+    - Give me details on A6: Techgenzi specializes in digital and IT solutions, particularly
+    in the areas of cloud services, digital transformation, IoT solutions, enterprise
+    mobile app development, and talent management
+
+    - How does A6: Techgenzi specializes in digital and IT solutions, particularly
+    in the areas of cloud services, digital transformation, IoT solutions, enterprise
+    mobile app development, and talent management work?
+
+    - What are the features of A6: Techgenzi specializes in digital and IT solutions,
+    particularly in the areas of cloud services, digital transformation, IoT solutions,
+    enterprise mobile app development, and talent management?
+
+    - Help me understand A6: Techgenzi specializes in digital and IT solutions, particularly
+    in the areas of cloud services, digital transformation, IoT solutions, enterprise
+    mobile app development, and talent management
+
+    - Where can I learn about A6: Techgenzi specializes in digital and IT solutions,
+    particularly in the areas of cloud services, digital transformation, IoT solutions,
+    enterprise mobile app development, and talent management?
+
+    - Info on A6: Techgenzi specializes in digital and IT solutions, particularly
+    in the areas of cloud services, digital transformation, IoT solutions, enterprise
+    mobile app development, and talent management
+
+    - I need help with A6: Techgenzi specializes in digital and IT solutions, particularly
+    in the areas of cloud services, digital transformation, IoT solutions, enterprise
+    mobile app development, and talent management
+
+    - Could you describe A6: Techgenzi specializes in digital and IT solutions, particularly
+    in the areas of cloud services, digital transformation, IoT solutions, enterprise
+    mobile app development, and talent management?
+
+    - Let me know about A6: Techgenzi specializes in digital and IT solutions, particularly
+    in the areas of cloud services, digital transformation, IoT solutions, enterprise
+    mobile app development, and talent management'
+- intent: a7_techgenzi_primarily_offers_digital_services_and_software_solutions_their_focus_is_on_providing_cloud_based_solutions_mobile_applications_and_iot_enabled_system
+  examples: '- What is A7: Techgenzi primarily offers digital services and software
+    solutions. Their focus is on providing cloud-based solutions, mobile applications,
+    and IoT-enabled system?
+
+    - Can you explain A7: Techgenzi primarily offers digital services and software
+    solutions. Their focus is on providing cloud-based solutions, mobile applications,
+    and IoT-enabled system?
+
+    - I want to know about A7: Techgenzi primarily offers digital services and software
+    solutions. Their focus is on providing cloud-based solutions, mobile applications,
+    and IoT-enabled system
+
+    - What do you mean by A7: Techgenzi primarily offers digital services and software
+    solutions. Their focus is on providing cloud-based solutions, mobile applications,
+    and IoT-enabled system?
+
+    - Tell me about A7: Techgenzi primarily offers digital services and software solutions.
+    Their focus is on providing cloud-based solutions, mobile applications, and IoT-enabled
+    system
+
+    - Explain A7: Techgenzi primarily offers digital services and software solutions.
+    Their focus is on providing cloud-based solutions, mobile applications, and IoT-enabled
+    system to me
+
+    - Give me details on A7: Techgenzi primarily offers digital services and software
+    solutions. Their focus is on providing cloud-based solutions, mobile applications,
+    and IoT-enabled system
+
+    - How does A7: Techgenzi primarily offers digital services and software solutions.
+    Their focus is on providing cloud-based solutions, mobile applications, and IoT-enabled
+    system work?
+
+    - What are the features of A7: Techgenzi primarily offers digital services and
+    software solutions. Their focus is on providing cloud-based solutions, mobile
+    applications, and IoT-enabled system?
+
+    - Help me understand A7: Techgenzi primarily offers digital services and software
+    solutions. Their focus is on providing cloud-based solutions, mobile applications,
+    and IoT-enabled system
+
+    - Where can I learn about A7: Techgenzi primarily offers digital services and
+    software solutions. Their focus is on providing cloud-based solutions, mobile
+    applications, and IoT-enabled system?
+
+    - Info on A7: Techgenzi primarily offers digital services and software solutions.
+    Their focus is on providing cloud-based solutions, mobile applications, and IoT-enabled
+    system
+
+    - I need help with A7: Techgenzi primarily offers digital services and software
+    solutions. Their focus is on providing cloud-based solutions, mobile applications,
+    and IoT-enabled system
+
+    - Could you describe A7: Techgenzi primarily offers digital services and software
+    solutions. Their focus is on providing cloud-based solutions, mobile applications,
+    and IoT-enabled system?
+
+    - Let me know about A7: Techgenzi primarily offers digital services and software
+    solutions. Their focus is on providing cloud-based solutions, mobile applications,
+    and IoT-enabled system'
+- intent: automating_academic_and_administrative_process
+  examples: '- What is Automating academic and administrative process?
+
+    - Can you explain Automating academic and administrative process?
+
+    - I want to know about Automating academic and administrative process
+
+    - What do you mean by Automating academic and administrative process?
+
+    - Tell me about Automating academic and administrative process
+
+    - Explain Automating academic and administrative process to me
+
+    - Give me details on Automating academic and administrative process
+
+    - How does Automating academic and administrative process work?
+
+    - What are the features of Automating academic and administrative process?
+
+    - Help me understand Automating academic and administrative process
+
+    - Where can I learn about Automating academic and administrative process?
+
+    - Info on Automating academic and administrative process
+
+    - I need help with Automating academic and administrative process
+
+    - Could you describe Automating academic and administrative process?
+
+    - Let me know about Automating academic and administrative process'
+- intent: streamlining_business_process
+  examples: '- What is Streamlining business process?
+
+    - Can you explain Streamlining business process?
+
+    - I want to know about Streamlining business process
+
+    - What do you mean by Streamlining business process?
+
+    - Tell me about Streamlining business process
+
+    - Explain Streamlining business process to me
+
+    - Give me details on Streamlining business process
+
+    - How does Streamlining business process work?
+
+    - What are the features of Streamlining business process?
+
+    - Help me understand Streamlining business process
+
+    - Where can I learn about Streamlining business process?
+
+    - Info on Streamlining business process
+
+    - I need help with Streamlining business process
+
+    - Could you describe Streamlining business process?
+
+    - Let me know about Streamlining business process'
+- intent: a23_you_can_access_techgenzi_s_services_by_visiting_their_website_and_filling_out_the_contact_form_or_by_reaching_out_to_their_sales_team_directly_via_email_or_phone_they_will_guide_you_through_the_process
+  examples: '- What is A23: You can access Techgenzi''s services by visiting their
+    website and filling out the contact form, or by reaching out to their sales team
+    directly via email or phone. They will guide you through the process?
+
+    - Can you explain A23: You can access Techgenzi''s services by visiting their
+    website and filling out the contact form, or by reaching out to their sales team
+    directly via email or phone. They will guide you through the process?
+
+    - I want to know about A23: You can access Techgenzi''s services by visiting their
+    website and filling out the contact form, or by reaching out to their sales team
+    directly via email or phone. They will guide you through the process
+
+    - What do you mean by A23: You can access Techgenzi''s services by visiting their
+    website and filling out the contact form, or by reaching out to their sales team
+    directly via email or phone. They will guide you through the process?
+
+    - Tell me about A23: You can access Techgenzi''s services by visiting their website
+    and filling out the contact form, or by reaching out to their sales team directly
+    via email or phone. They will guide you through the process
+
+    - Explain A23: You can access Techgenzi''s services by visiting their website
+    and filling out the contact form, or by reaching out to their sales team directly
+    via email or phone. They will guide you through the process to me
+
+    - Give me details on A23: You can access Techgenzi''s services by visiting their
+    website and filling out the contact form, or by reaching out to their sales team
+    directly via email or phone. They will guide you through the process
+
+    - How does A23: You can access Techgenzi''s services by visiting their website
+    and filling out the contact form, or by reaching out to their sales team directly
+    via email or phone. They will guide you through the process work?
+
+    - What are the features of A23: You can access Techgenzi''s services by visiting
+    their website and filling out the contact form, or by reaching out to their sales
+    team directly via email or phone. They will guide you through the process?
+
+    - Help me understand A23: You can access Techgenzi''s services by visiting their
+    website and filling out the contact form, or by reaching out to their sales team
+    directly via email or phone. They will guide you through the process
+
+    - Where can I learn about A23: You can access Techgenzi''s services by visiting
+    their website and filling out the contact form, or by reaching out to their sales
+    team directly via email or phone. They will guide you through the process?
+
+    - Info on A23: You can access Techgenzi''s services by visiting their website
+    and filling out the contact form, or by reaching out to their sales team directly
+    via email or phone. They will guide you through the process
+
+    - I need help with A23: You can access Techgenzi''s services by visiting their
+    website and filling out the contact form, or by reaching out to their sales team
+    directly via email or phone. They will guide you through the process
+
+    - Could you describe A23: You can access Techgenzi''s services by visiting their
+    website and filling out the contact form, or by reaching out to their sales team
+    directly via email or phone. They will guide you through the process?
+
+    - Let me know about A23: You can access Techgenzi''s services by visiting their
+    website and filling out the contact form, or by reaching out to their sales team
+    directly via email or phone. They will guide you through the process'
+- intent: a25_the_process
+  examples: '- What is A25: The process?
+
+    - Can you explain A25: The process?
+
+    - I want to know about A25: The process
+
+    - What do you mean by A25: The process?
+
+    - Tell me about A25: The process
+
+    - Explain A25: The process to me
+
+    - Give me details on A25: The process
+
+    - How does A25: The process work?
+
+    - What are the features of A25: The process?
+
+    - Help me understand A25: The process
+
+    - Where can I learn about A25: The process?
+
+    - Info on A25: The process
+
+    - I need help with A25: The process
+
+    - Could you describe A25: The process?
+
+    - Let me know about A25: The process'
+- intent: signing_a_contract_and_starting_the_implementation_process
+  examples: '- What is Signing a contract and starting the implementation process?
+
+    - Can you explain Signing a contract and starting the implementation process?
+
+    - I want to know about Signing a contract and starting the implementation process
+
+    - What do you mean by Signing a contract and starting the implementation process?
+
+    - Tell me about Signing a contract and starting the implementation process
+
+    - Explain Signing a contract and starting the implementation process to me
+
+    - Give me details on Signing a contract and starting the implementation process
+
+    - How does Signing a contract and starting the implementation process work?
+
+    - What are the features of Signing a contract and starting the implementation
+    process?
+
+    - Help me understand Signing a contract and starting the implementation process
+
+    - Where can I learn about Signing a contract and starting the implementation process?
+
+    - Info on Signing a contract and starting the implementation process
+
+    - I need help with Signing a contract and starting the implementation process
+
+    - Could you describe Signing a contract and starting the implementation process?
+
+    - Let me know about Signing a contract and starting the implementation process'
+- intent: a2_you_can_request_time_off_through_our_hr_system
+  examples: '- What is A2: You can request time off through our HR system?
+
+    - Can you explain A2: You can request time off through our HR system?
+
+    - I want to know about A2: You can request time off through our HR system
+
+    - What do you mean by A2: You can request time off through our HR system?
+
+    - Tell me about A2: You can request time off through our HR system
+
+    - Explain A2: You can request time off through our HR system to me
+
+    - Give me details on A2: You can request time off through our HR system
+
+    - How does A2: You can request time off through our HR system work?
+
+    - What are the features of A2: You can request time off through our HR system?
+
+    - Help me understand A2: You can request time off through our HR system
+
+    - Where can I learn about A2: You can request time off through our HR system?
+
+    - Info on A2: You can request time off through our HR system
+
+    - I need help with A2: You can request time off through our HR system
+
+    - Could you describe A2: You can request time off through our HR system?
+
+    - Let me know about A2: You can request time off through our HR system'
+- intent: customer_relationship_management
+  examples: '- What is Customer Relationship Management?
+
+    - Can you explain Customer Relationship Management?
+
+    - I want to know about Customer Relationship Management
+
+    - What do you mean by Customer Relationship Management?
+
+    - Tell me about Customer Relationship Management
+
+    - Explain Customer Relationship Management to me
+
+    - Give me details on Customer Relationship Management
+
+    - How does Customer Relationship Management work?
+
+    - What are the features of Customer Relationship Management?
+
+    - Help me understand Customer Relationship Management
+
+    - Where can I learn about Customer Relationship Management?
+
+    - Info on Customer Relationship Management
+
+    - I need help with Customer Relationship Management
+
+    - Could you describe Customer Relationship Management?
+
+    - Let me know about Customer Relationship Management'
+- intent: q9_how_can_i_update_my_contact_information_in_your_system
+  examples: '- What is Q9: How can I update my contact information in your system?
+
+    - Can you explain Q9: How can I update my contact information in your system?
+
+    - I want to know about Q9: How can I update my contact information in your system
+
+    - What do you mean by Q9: How can I update my contact information in your system?
+
+    - Tell me about Q9: How can I update my contact information in your system
+
+    - Explain Q9: How can I update my contact information in your system to me
+
+    - Give me details on Q9: How can I update my contact information in your system
+
+    - How does Q9: How can I update my contact information in your system work?
+
+    - What are the features of Q9: How can I update my contact information in your
+    system?
+
+    - Help me understand Q9: How can I update my contact information in your system
+
+    - Where can I learn about Q9: How can I update my contact information in your
+    system?
+
+    - Info on Q9: How can I update my contact information in your system
+
+    - I need help with Q9: How can I update my contact information in your system
+
+    - Could you describe Q9: How can I update my contact information in your system?
+
+    - Let me know about Q9: How can I update my contact information in your system'
+- intent: asset_management
+  examples: '- What is Asset Management?
+
+    - Can you explain Asset Management?
+
+    - I want to know about Asset Management
+
+    - What do you mean by Asset Management?
+
+    - Tell me about Asset Management
+
+    - Explain Asset Management to me
+
+    - Give me details on Asset Management
+
+    - How does Asset Management work?
+
+    - What are the features of Asset Management?
+
+    - Help me understand Asset Management
+
+    - Where can I learn about Asset Management?
+
+    - Info on Asset Management
+
+    - I need help with Asset Management
+
+    - Could you describe Asset Management?
+
+    - Let me know about Asset Management'
+- intent: a11_you_can_report_a_broken_asset_by_logging_into_the_asset_management
+  examples: '- What is A11: You can report a broken asset by logging into the asset
+    management?
+
+    - Can you explain A11: You can report a broken asset by logging into the asset
+    management?
+
+    - I want to know about A11: You can report a broken asset by logging into the
+    asset management
+
+    - What do you mean by A11: You can report a broken asset by logging into the asset
+    management?
+
+    - Tell me about A11: You can report a broken asset by logging into the asset management
+
+    - Explain A11: You can report a broken asset by logging into the asset management
+    to me
+
+    - Give me details on A11: You can report a broken asset by logging into the asset
+    management
+
+    - How does A11: You can report a broken asset by logging into the asset management
+    work?
+
+    - What are the features of A11: You can report a broken asset by logging into
+    the asset management?
+
+    - Help me understand A11: You can report a broken asset by logging into the asset
+    management
+
+    - Where can I learn about A11: You can report a broken asset by logging into the
+    asset management?
+
+    - Info on A11: You can report a broken asset by logging into the asset management
+
+    - I need help with A11: You can report a broken asset by logging into the asset
+    management
+
+    - Could you describe A11: You can report a broken asset by logging into the asset
+    management?
+
+    - Let me know about A11: You can report a broken asset by logging into the asset
+    management'
+- intent: a13_to_request_a_new_asset_you_need_to_submit_a_request_through_the_asset_management
+  examples: '- What is A13: To request a new asset, you need to submit a request through
+    the asset management?
+
+    - Can you explain A13: To request a new asset, you need to submit a request through
+    the asset management?
+
+    - I want to know about A13: To request a new asset, you need to submit a request
+    through the asset management
+
+    - What do you mean by A13: To request a new asset, you need to submit a request
+    through the asset management?
+
+    - Tell me about A13: To request a new asset, you need to submit a request through
+    the asset management
+
+    - Explain A13: To request a new asset, you need to submit a request through the
+    asset management to me
+
+    - Give me details on A13: To request a new asset, you need to submit a request
+    through the asset management
+
+    - How does A13: To request a new asset, you need to submit a request through the
+    asset management work?
+
+    - What are the features of A13: To request a new asset, you need to submit a request
+    through the asset management?
+
+    - Help me understand A13: To request a new asset, you need to submit a request
+    through the asset management
+
+    - Where can I learn about A13: To request a new asset, you need to submit a request
+    through the asset management?
+
+    - Info on A13: To request a new asset, you need to submit a request through the
+    asset management
+
+    - I need help with A13: To request a new asset, you need to submit a request through
+    the asset management
+
+    - Could you describe A13: To request a new asset, you need to submit a request
+    through the asset management?
+
+    - Let me know about A13: To request a new asset, you need to submit a request
+    through the asset management'
+- intent: a14_you_can_check_the_current_status_of_an_asset_by_logging_into_the_asset_management
+  examples: '- What is A14: You can check the current status of an asset by logging
+    into the asset management?
+
+    - Can you explain A14: You can check the current status of an asset by logging
+    into the asset management?
+
+    - I want to know about A14: You can check the current status of an asset by logging
+    into the asset management
+
+    - What do you mean by A14: You can check the current status of an asset by logging
+    into the asset management?
+
+    - Tell me about A14: You can check the current status of an asset by logging into
+    the asset management
+
+    - Explain A14: You can check the current status of an asset by logging into the
+    asset management to me
+
+    - Give me details on A14: You can check the current status of an asset by logging
+    into the asset management
+
+    - How does A14: You can check the current status of an asset by logging into the
+    asset management work?
+
+    - What are the features of A14: You can check the current status of an asset by
+    logging into the asset management?
+
+    - Help me understand A14: You can check the current status of an asset by logging
+    into the asset management
+
+    - Where can I learn about A14: You can check the current status of an asset by
+    logging into the asset management?
+
+    - Info on A14: You can check the current status of an asset by logging into the
+    asset management
+
+    - I need help with A14: You can check the current status of an asset by logging
+    into the asset management
+
+    - Could you describe A14: You can check the current status of an asset by logging
+    into the asset management?
+
+    - Let me know about A14: You can check the current status of an asset by logging
+    into the asset management'
+- intent: transport_management
+  examples: '- What is Transport Management?
+
+    - Can you explain Transport Management?
+
+    - I want to know about Transport Management
+
+    - What do you mean by Transport Management?
+
+    - Tell me about Transport Management
+
+    - Explain Transport Management to me
+
+    - Give me details on Transport Management
+
+    - How does Transport Management work?
+
+    - What are the features of Transport Management?
+
+    - Help me understand Transport Management
+
+    - Where can I learn about Transport Management?
+
+    - Info on Transport Management
+
+    - I need help with Transport Management
+
+    - Could you describe Transport Management?
+
+    - Let me know about Transport Management'
+- intent: a16_you_can_track_your_shipment_by_logging_into_the_transport_management
+  examples: '- What is A16: You can track your shipment by logging into the transport
+    management?
+
+    - Can you explain A16: You can track your shipment by logging into the transport
+    management?
+
+    - I want to know about A16: You can track your shipment by logging into the transport
+    management
+
+    - What do you mean by A16: You can track your shipment by logging into the transport
+    management?
+
+    - Tell me about A16: You can track your shipment by logging into the transport
+    management
+
+    - Explain A16: You can track your shipment by logging into the transport management
+    to me
+
+    - Give me details on A16: You can track your shipment by logging into the transport
+    management
+
+    - How does A16: You can track your shipment by logging into the transport management
+    work?
+
+    - What are the features of A16: You can track your shipment by logging into the
+    transport management?
+
+    - Help me understand A16: You can track your shipment by logging into the transport
+    management
+
+    - Where can I learn about A16: You can track your shipment by logging into the
+    transport management?
+
+    - Info on A16: You can track your shipment by logging into the transport management
+
+    - I need help with A16: You can track your shipment by logging into the transport
+    management
+
+    - Could you describe A16: You can track your shipment by logging into the transport
+    management?
+
+    - Let me know about A16: You can track your shipment by logging into the transport
+    management'
+- intent: a18_if_you_experience_a_delay_in_shipment_log_into_the_transport_management
+  examples: '- What is A18: If you experience a delay in shipment, log into the transport
+    management?
+
+    - Can you explain A18: If you experience a delay in shipment, log into the transport
+    management?
+
+    - I want to know about A18: If you experience a delay in shipment, log into the
+    transport management
+
+    - What do you mean by A18: If you experience a delay in shipment, log into the
+    transport management?
+
+    - Tell me about A18: If you experience a delay in shipment, log into the transport
+    management
+
+    - Explain A18: If you experience a delay in shipment, log into the transport management
+    to me
+
+    - Give me details on A18: If you experience a delay in shipment, log into the
+    transport management
+
+    - How does A18: If you experience a delay in shipment, log into the transport
+    management work?
+
+    - What are the features of A18: If you experience a delay in shipment, log into
+    the transport management?
+
+    - Help me understand A18: If you experience a delay in shipment, log into the
+    transport management
+
+    - Where can I learn about A18: If you experience a delay in shipment, log into
+    the transport management?
+
+    - Info on A18: If you experience a delay in shipment, log into the transport management
+
+    - I need help with A18: If you experience a delay in shipment, log into the transport
+    management
+
+    - Could you describe A18: If you experience a delay in shipment, log into the
+    transport management?
+
+    - Let me know about A18: If you experience a delay in shipment, log into the transport
+    management'
+- intent: a20_to_update_the_delivery_address_for_a_shipment_log_into_the_transport_management
+  examples: '- What is A20: To update the delivery address for a shipment, log into
+    the transport management?
+
+    - Can you explain A20: To update the delivery address for a shipment, log into
+    the transport management?
+
+    - I want to know about A20: To update the delivery address for a shipment, log
+    into the transport management
+
+    - What do you mean by A20: To update the delivery address for a shipment, log
+    into the transport management?
+
+    - Tell me about A20: To update the delivery address for a shipment, log into the
+    transport management
+
+    - Explain A20: To update the delivery address for a shipment, log into the transport
+    management to me
+
+    - Give me details on A20: To update the delivery address for a shipment, log into
+    the transport management
+
+    - How does A20: To update the delivery address for a shipment, log into the transport
+    management work?
+
+    - What are the features of A20: To update the delivery address for a shipment,
+    log into the transport management?
+
+    - Help me understand A20: To update the delivery address for a shipment, log into
+    the transport management
+
+    - Where can I learn about A20: To update the delivery address for a shipment,
+    log into the transport management?
+
+    - Info on A20: To update the delivery address for a shipment, log into the transport
+    management
+
+    - I need help with A20: To update the delivery address for a shipment, log into
+    the transport management
+
+    - Could you describe A20: To update the delivery address for a shipment, log into
+    the transport management?
+
+    - Let me know about A20: To update the delivery address for a shipment, log into
+    the transport management'
+- intent: a21_you_can_report_a_compliance_issue_by_logging_into_the_compliance_management
+  examples: '- What is A21: You can report a compliance issue by logging into the
+    compliance management?
+
+    - Can you explain A21: You can report a compliance issue by logging into the compliance
+    management?
+
+    - I want to know about A21: You can report a compliance issue by logging into
+    the compliance management
+
+    - What do you mean by A21: You can report a compliance issue by logging into the
+    compliance management?
+
+    - Tell me about A21: You can report a compliance issue by logging into the compliance
+    management
+
+    - Explain A21: You can report a compliance issue by logging into the compliance
+    management to me
+
+    - Give me details on A21: You can report a compliance issue by logging into the
+    compliance management
+
+    - How does A21: You can report a compliance issue by logging into the compliance
+    management work?
+
+    - What are the features of A21: You can report a compliance issue by logging into
+    the compliance management?
+
+    - Help me understand A21: You can report a compliance issue by logging into the
+    compliance management
+
+    - Where can I learn about A21: You can report a compliance issue by logging into
+    the compliance management?
+
+    - Info on A21: You can report a compliance issue by logging into the compliance
+    management
+
+    - I need help with A21: You can report a compliance issue by logging into the
+    compliance management
+
+    - Could you describe A21: You can report a compliance issue by logging into the
+    compliance management?
+
+    - Let me know about A21: You can report a compliance issue by logging into the
+    compliance management'
+- intent: a23_to_request_a_compliance_audit_submit_a_request_through_the_compliance_management
+  examples: '- What is A23: To request a compliance audit, submit a request through
+    the compliance management?
+
+    - Can you explain A23: To request a compliance audit, submit a request through
+    the compliance management?
+
+    - I want to know about A23: To request a compliance audit, submit a request through
+    the compliance management
+
+    - What do you mean by A23: To request a compliance audit, submit a request through
+    the compliance management?
+
+    - Tell me about A23: To request a compliance audit, submit a request through the
+    compliance management
+
+    - Explain A23: To request a compliance audit, submit a request through the compliance
+    management to me
+
+    - Give me details on A23: To request a compliance audit, submit a request through
+    the compliance management
+
+    - How does A23: To request a compliance audit, submit a request through the compliance
+    management work?
+
+    - What are the features of A23: To request a compliance audit, submit a request
+    through the compliance management?
+
+    - Help me understand A23: To request a compliance audit, submit a request through
+    the compliance management
+
+    - Where can I learn about A23: To request a compliance audit, submit a request
+    through the compliance management?
+
+    - Info on A23: To request a compliance audit, submit a request through the compliance
+    management
+
+    - I need help with A23: To request a compliance audit, submit a request through
+    the compliance management
+
+    - Could you describe A23: To request a compliance audit, submit a request through
+    the compliance management?
+
+    - Let me know about A23: To request a compliance audit, submit a request through
+    the compliance management'
+- intent: a25_to_report_a_sustainability_concern_log_into_the_compliance_management
+  examples: '- What is A25: To report a sustainability concern, log into the compliance
+    management?
+
+    - Can you explain A25: To report a sustainability concern, log into the compliance
+    management?
+
+    - I want to know about A25: To report a sustainability concern, log into the compliance
+    management
+
+    - What do you mean by A25: To report a sustainability concern, log into the compliance
+    management?
+
+    - Tell me about A25: To report a sustainability concern, log into the compliance
+    management
+
+    - Explain A25: To report a sustainability concern, log into the compliance management
+    to me
+
+    - Give me details on A25: To report a sustainability concern, log into the compliance
+    management
+
+    - How does A25: To report a sustainability concern, log into the compliance management
+    work?
+
+    - What are the features of A25: To report a sustainability concern, log into the
+    compliance management?
+
+    - Help me understand A25: To report a sustainability concern, log into the compliance
+    management
+
+    - Where can I learn about A25: To report a sustainability concern, log into the
+    compliance management?
+
+    - Info on A25: To report a sustainability concern, log into the compliance management
+
+    - I need help with A25: To report a sustainability concern, log into the compliance
+    management
+
+    - Could you describe A25: To report a sustainability concern, log into the compliance
+    management?
+
+    - Let me know about A25: To report a sustainability concern, log into the compliance
+    management'
+- intent: a26_our_system
+  examples: '- What is A26: Our system?
+
+    - Can you explain A26: Our system?
+
+    - I want to know about A26: Our system
+
+    - What do you mean by A26: Our system?
+
+    - Tell me about A26: Our system
+
+    - Explain A26: Our system to me
+
+    - Give me details on A26: Our system
+
+    - How does A26: Our system work?
+
+    - What are the features of A26: Our system?
+
+    - Help me understand A26: Our system
+
+    - Where can I learn about A26: Our system?
+
+    - Info on A26: Our system
+
+    - I need help with A26: Our system
+
+    - Could you describe A26: Our system?
+
+    - Let me know about A26: Our system'
+- intent: a28_to_request_a_new_integration_feature
+  examples: '- What is A28: To request a new integration feature?
+
+    - Can you explain A28: To request a new integration feature?
+
+    - I want to know about A28: To request a new integration feature
+
+    - What do you mean by A28: To request a new integration feature?
+
+    - Tell me about A28: To request a new integration feature
+
+    - Explain A28: To request a new integration feature to me
+
+    - Give me details on A28: To request a new integration feature
+
+    - How does A28: To request a new integration feature work?
+
+    - What are the features of A28: To request a new integration feature?
+
+    - Help me understand A28: To request a new integration feature
+
+    - Where can I learn about A28: To request a new integration feature?
+
+    - Info on A28: To request a new integration feature
+
+    - I need help with A28: To request a new integration feature
+
+    - Could you describe A28: To request a new integration feature?
+
+    - Let me know about A28: To request a new integration feature'
+- intent: a29_we_prioritize_data_security_during_integrations_our_system
+  examples: '- What is A29: We prioritize data security during integrations. Our system?
+
+    - Can you explain A29: We prioritize data security during integrations. Our system?
+
+    - I want to know about A29: We prioritize data security during integrations. Our
+    system
+
+    - What do you mean by A29: We prioritize data security during integrations. Our
+    system?
+
+    - Tell me about A29: We prioritize data security during integrations. Our system
+
+    - Explain A29: We prioritize data security during integrations. Our system to
+    me
+
+    - Give me details on A29: We prioritize data security during integrations. Our
+    system
+
+    - How does A29: We prioritize data security during integrations. Our system work?
+
+    - What are the features of A29: We prioritize data security during integrations.
+    Our system?
+
+    - Help me understand A29: We prioritize data security during integrations. Our
+    system
+
+    - Where can I learn about A29: We prioritize data security during integrations.
+    Our system?
+
+    - Info on A29: We prioritize data security during integrations. Our system
+
+    - I need help with A29: We prioritize data security during integrations. Our system
+
+    - Could you describe A29: We prioritize data security during integrations. Our
+    system?
+
+    - Let me know about A29: We prioritize data security during integrations. Our
+    system'
+- intent: human_resource_management
+  examples: '- What is Human Resource Management?
+
+    - Can you explain Human Resource Management?
+
+    - I want to know about Human Resource Management
+
+    - What do you mean by Human Resource Management?
+
+    - Tell me about Human Resource Management
+
+    - Explain Human Resource Management to me
+
+    - Give me details on Human Resource Management
+
+    - How does Human Resource Management work?
+
+    - What are the features of Human Resource Management?
+
+    - Help me understand Human Resource Management
+
+    - Where can I learn about Human Resource Management?
+
+    - Info on Human Resource Management
+
+    - I need help with Human Resource Management
+
+    - Could you describe Human Resource Management?
+
+    - Let me know about Human Resource Management'
+- intent: you_can_apply_for_leave_by_logging_into_the_hr_system
+  examples: '- What is You can apply for leave by logging into the HR system?
+
+    - Can you explain You can apply for leave by logging into the HR system?
+
+    - I want to know about You can apply for leave by logging into the HR system
+
+    - What do you mean by You can apply for leave by logging into the HR system?
+
+    - Tell me about You can apply for leave by logging into the HR system
+
+    - Explain You can apply for leave by logging into the HR system to me
+
+    - Give me details on You can apply for leave by logging into the HR system
+
+    - How does You can apply for leave by logging into the HR system work?
+
+    - What are the features of You can apply for leave by logging into the HR system?
+
+    - Help me understand You can apply for leave by logging into the HR system
+
+    - Where can I learn about You can apply for leave by logging into the HR system?
+
+    - Info on You can apply for leave by logging into the HR system
+
+    - I need help with You can apply for leave by logging into the HR system
+
+    - Could you describe You can apply for leave by logging into the HR system?
+
+    - Let me know about You can apply for leave by logging into the HR system'
+- intent: log_into_the_hr_system
+  examples: '- What is Log into the HR system?
+
+    - Can you explain Log into the HR system?
+
+    - I want to know about Log into the HR system
+
+    - What do you mean by Log into the HR system?
+
+    - Tell me about Log into the HR system
+
+    - Explain Log into the HR system to me
+
+    - Give me details on Log into the HR system
+
+    - How does Log into the HR system work?
+
+    - What are the features of Log into the HR system?
+
+    - Help me understand Log into the HR system
+
+    - Where can I learn about Log into the HR system?
+
+    - Info on Log into the HR system
+
+    - I need help with Log into the HR system
+
+    - Could you describe Log into the HR system?
+
+    - Let me know about Log into the HR system'
+- intent: you_can_access_the_company_s_policies_and_procedure
+  examples: '- What is You can access the company''s policies and procedure?
+
+    - Can you explain You can access the company''s policies and procedure?
+
+    - I want to know about You can access the company''s policies and procedure
+
+    - What do you mean by You can access the company''s policies and procedure?
+
+    - Tell me about You can access the company''s policies and procedure
+
+    - Explain You can access the company''s policies and procedure to me
+
+    - Give me details on You can access the company''s policies and procedure
+
+    - How does You can access the company''s policies and procedure work?
+
+    - What are the features of You can access the company''s policies and procedure?
+
+    - Help me understand You can access the company''s policies and procedure
+
+    - Where can I learn about You can access the company''s policies and procedure?
+
+    - Info on You can access the company''s policies and procedure
+
+    - I need help with You can access the company''s policies and procedure
+
+    - Could you describe You can access the company''s policies and procedure?
+
+    - Let me know about You can access the company''s policies and procedure'
+- intent: to_request_a_change_in_your_job_title_submit_a_formal_request_through_the_hr_system
+  examples: '- What is To request a change in your job title, submit a formal request
+    through the HR system?
+
+    - Can you explain To request a change in your job title, submit a formal request
+    through the HR system?
+
+    - I want to know about To request a change in your job title, submit a formal
+    request through the HR system
+
+    - What do you mean by To request a change in your job title, submit a formal request
+    through the HR system?
+
+    - Tell me about To request a change in your job title, submit a formal request
+    through the HR system
+
+    - Explain To request a change in your job title, submit a formal request through
+    the HR system to me
+
+    - Give me details on To request a change in your job title, submit a formal request
+    through the HR system
+
+    - How does To request a change in your job title, submit a formal request through
+    the HR system work?
+
+    - What are the features of To request a change in your job title, submit a formal
+    request through the HR system?
+
+    - Help me understand To request a change in your job title, submit a formal request
+    through the HR system
+
+    - Where can I learn about To request a change in your job title, submit a formal
+    request through the HR system?
+
+    - Info on To request a change in your job title, submit a formal request through
+    the HR system
+
+    - I need help with To request a change in your job title, submit a formal request
+    through the HR system
+
+    - Could you describe To request a change in your job title, submit a formal request
+    through the HR system?
+
+    - Let me know about To request a change in your job title, submit a formal request
+    through the HR system'
+- intent: you_can_apply_for_a_promotion_by_submitting_a_request_through_the_hr_system
+  examples: '- What is You can apply for a promotion by submitting a request through
+    the HR system?
+
+    - Can you explain You can apply for a promotion by submitting a request through
+    the HR system?
+
+    - I want to know about You can apply for a promotion by submitting a request through
+    the HR system
+
+    - What do you mean by You can apply for a promotion by submitting a request through
+    the HR system?
+
+    - Tell me about You can apply for a promotion by submitting a request through
+    the HR system
+
+    - Explain You can apply for a promotion by submitting a request through the HR
+    system to me
+
+    - Give me details on You can apply for a promotion by submitting a request through
+    the HR system
+
+    - How does You can apply for a promotion by submitting a request through the HR
+    system work?
+
+    - What are the features of You can apply for a promotion by submitting a request
+    through the HR system?
+
+    - Help me understand You can apply for a promotion by submitting a request through
+    the HR system
+
+    - Where can I learn about You can apply for a promotion by submitting a request
+    through the HR system?
+
+    - Info on You can apply for a promotion by submitting a request through the HR
+    system
+
+    - I need help with You can apply for a promotion by submitting a request through
+    the HR system
+
+    - Could you describe You can apply for a promotion by submitting a request through
+    the HR system?
+
+    - Let me know about You can apply for a promotion by submitting a request through
+    the HR system'
+- intent: you_can_report_workplace_issues_by_contacting_the_hr_helpdesk_or_submitting_a_report_through_the_hr_system
+  examples: '- What is You can report workplace issues by contacting the HR helpdesk
+    or submitting a report through the HR system?
+
+    - Can you explain You can report workplace issues by contacting the HR helpdesk
+    or submitting a report through the HR system?
+
+    - I want to know about You can report workplace issues by contacting the HR helpdesk
+    or submitting a report through the HR system
+
+    - What do you mean by You can report workplace issues by contacting the HR helpdesk
+    or submitting a report through the HR system?
+
+    - Tell me about You can report workplace issues by contacting the HR helpdesk
+    or submitting a report through the HR system
+
+    - Explain You can report workplace issues by contacting the HR helpdesk or submitting
+    a report through the HR system to me
+
+    - Give me details on You can report workplace issues by contacting the HR helpdesk
+    or submitting a report through the HR system
+
+    - How does You can report workplace issues by contacting the HR helpdesk or submitting
+    a report through the HR system work?
+
+    - What are the features of You can report workplace issues by contacting the HR
+    helpdesk or submitting a report through the HR system?
+
+    - Help me understand You can report workplace issues by contacting the HR helpdesk
+    or submitting a report through the HR system
+
+    - Where can I learn about You can report workplace issues by contacting the HR
+    helpdesk or submitting a report through the HR system?
+
+    - Info on You can report workplace issues by contacting the HR helpdesk or submitting
+    a report through the HR system
+
+    - I need help with You can report workplace issues by contacting the HR helpdesk
+    or submitting a report through the HR system
+
+    - Could you describe You can report workplace issues by contacting the HR helpdesk
+    or submitting a report through the HR system?
+
+    - Let me know about You can report workplace issues by contacting the HR helpdesk
+    or submitting a report through the HR system'
+- intent: training_materials_are_available_through_the_hr_system
+  examples: '- What is Training materials are available through the HR system?
+
+    - Can you explain Training materials are available through the HR system?
+
+    - I want to know about Training materials are available through the HR system
+
+    - What do you mean by Training materials are available through the HR system?
+
+    - Tell me about Training materials are available through the HR system
+
+    - Explain Training materials are available through the HR system to me
+
+    - Give me details on Training materials are available through the HR system
+
+    - How does Training materials are available through the HR system work?
+
+    - What are the features of Training materials are available through the HR system?
+
+    - Help me understand Training materials are available through the HR system
+
+    - Where can I learn about Training materials are available through the HR system?
+
+    - Info on Training materials are available through the HR system
+
+    - I need help with Training materials are available through the HR system
+
+    - Could you describe Training materials are available through the HR system?
+
+    - Let me know about Training materials are available through the HR system'
+- intent: our_return_policy
+  examples: '- What is Our return policy?
+
+    - Can you explain Our return policy?
+
+    - I want to know about Our return policy
+
+    - What do you mean by Our return policy?
+
+    - Tell me about Our return policy
+
+    - Explain Our return policy to me
+
+    - Give me details on Our return policy
+
+    - How does Our return policy work?
+
+    - What are the features of Our return policy?
+
+    - Help me understand Our return policy
+
+    - Where can I learn about Our return policy?
+
+    - Info on Our return policy
+
+    - I need help with Our return policy
+
+    - Could you describe Our return policy?
+
+    - Let me know about Our return policy'
+- intent: to_request_a_refund_contact_our_customer_service_team_with_your_order_details_they_will_guide_you_through_the_process
+  examples: '- What is To request a refund, contact our customer service team with
+    your order details. They will guide you through the process?
+
+    - Can you explain To request a refund, contact our customer service team with
+    your order details. They will guide you through the process?
+
+    - I want to know about To request a refund, contact our customer service team
+    with your order details. They will guide you through the process
+
+    - What do you mean by To request a refund, contact our customer service team with
+    your order details. They will guide you through the process?
+
+    - Tell me about To request a refund, contact our customer service team with your
+    order details. They will guide you through the process
+
+    - Explain To request a refund, contact our customer service team with your order
+    details. They will guide you through the process to me
+
+    - Give me details on To request a refund, contact our customer service team with
+    your order details. They will guide you through the process
+
+    - How does To request a refund, contact our customer service team with your order
+    details. They will guide you through the process work?
+
+    - What are the features of To request a refund, contact our customer service team
+    with your order details. They will guide you through the process?
+
+    - Help me understand To request a refund, contact our customer service team with
+    your order details. They will guide you through the process
+
+    - Where can I learn about To request a refund, contact our customer service team
+    with your order details. They will guide you through the process?
+
+    - Info on To request a refund, contact our customer service team with your order
+    details. They will guide you through the process
+
+    - I need help with To request a refund, contact our customer service team with
+    your order details. They will guide you through the process
+
+    - Could you describe To request a refund, contact our customer service team with
+    your order details. They will guide you through the process?
+
+    - Let me know about To request a refund, contact our customer service team with
+    your order details. They will guide you through the process'
+- intent: you_can_report_a_broken_asset_by_logging_into_the_asset_management
+  examples: '- What is You can report a broken asset by logging into the asset management?
+
+    - Can you explain You can report a broken asset by logging into the asset management?
+
+    - I want to know about You can report a broken asset by logging into the asset
+    management
+
+    - What do you mean by You can report a broken asset by logging into the asset
+    management?
+
+    - Tell me about You can report a broken asset by logging into the asset management
+
+    - Explain You can report a broken asset by logging into the asset management to
+    me
+
+    - Give me details on You can report a broken asset by logging into the asset management
+
+    - How does You can report a broken asset by logging into the asset management
+    work?
+
+    - What are the features of You can report a broken asset by logging into the asset
+    management?
+
+    - Help me understand You can report a broken asset by logging into the asset management
+
+    - Where can I learn about You can report a broken asset by logging into the asset
+    management?
+
+    - Info on You can report a broken asset by logging into the asset management
+
+    - I need help with You can report a broken asset by logging into the asset management
+
+    - Could you describe You can report a broken asset by logging into the asset management?
+
+    - Let me know about You can report a broken asset by logging into the asset management'
+- intent: you_can_check_the_maintenance_schedule_by_logging_into_the_asset_management
+  examples: '- What is You can check the maintenance schedule by logging into the
+    asset management?
+
+    - Can you explain You can check the maintenance schedule by logging into the asset
+    management?
+
+    - I want to know about You can check the maintenance schedule by logging into
+    the asset management
+
+    - What do you mean by You can check the maintenance schedule by logging into the
+    asset management?
+
+    - Tell me about You can check the maintenance schedule by logging into the asset
+    management
+
+    - Explain You can check the maintenance schedule by logging into the asset management
+    to me
+
+    - Give me details on You can check the maintenance schedule by logging into the
+    asset management
+
+    - How does You can check the maintenance schedule by logging into the asset management
+    work?
+
+    - What are the features of You can check the maintenance schedule by logging into
+    the asset management?
+
+    - Help me understand You can check the maintenance schedule by logging into the
+    asset management
+
+    - Where can I learn about You can check the maintenance schedule by logging into
+    the asset management?
+
+    - Info on You can check the maintenance schedule by logging into the asset management
+
+    - I need help with You can check the maintenance schedule by logging into the
+    asset management
+
+    - Could you describe You can check the maintenance schedule by logging into the
+    asset management?
+
+    - Let me know about You can check the maintenance schedule by logging into the
+    asset management'
+- intent: to_request_a_new_asset_submit_a_request_through_the_asset_management
+  examples: '- What is To request a new asset, submit a request through the asset
+    management?
+
+    - Can you explain To request a new asset, submit a request through the asset management?
+
+    - I want to know about To request a new asset, submit a request through the asset
+    management
+
+    - What do you mean by To request a new asset, submit a request through the asset
+    management?
+
+    - Tell me about To request a new asset, submit a request through the asset management
+
+    - Explain To request a new asset, submit a request through the asset management
+    to me
+
+    - Give me details on To request a new asset, submit a request through the asset
+    management
+
+    - How does To request a new asset, submit a request through the asset management
+    work?
+
+    - What are the features of To request a new asset, submit a request through the
+    asset management?
+
+    - Help me understand To request a new asset, submit a request through the asset
+    management
+
+    - Where can I learn about To request a new asset, submit a request through the
+    asset management?
+
+    - Info on To request a new asset, submit a request through the asset management
+
+    - I need help with To request a new asset, submit a request through the asset
+    management
+
+    - Could you describe To request a new asset, submit a request through the asset
+    management?
+
+    - Let me know about To request a new asset, submit a request through the asset
+    management'
+- intent: you_can_update_the_location_of_an_asset_by_logging_into_the_asset_management
+  examples: '- What is You can update the location of an asset by logging into the
+    asset management?
+
+    - Can you explain You can update the location of an asset by logging into the
+    asset management?
+
+    - I want to know about You can update the location of an asset by logging into
+    the asset management
+
+    - What do you mean by You can update the location of an asset by logging into
+    the asset management?
+
+    - Tell me about You can update the location of an asset by logging into the asset
+    management
+
+    - Explain You can update the location of an asset by logging into the asset management
+    to me
+
+    - Give me details on You can update the location of an asset by logging into the
+    asset management
+
+    - How does You can update the location of an asset by logging into the asset management
+    work?
+
+    - What are the features of You can update the location of an asset by logging
+    into the asset management?
+
+    - Help me understand You can update the location of an asset by logging into the
+    asset management
+
+    - Where can I learn about You can update the location of an asset by logging into
+    the asset management?
+
+    - Info on You can update the location of an asset by logging into the asset management
+
+    - I need help with You can update the location of an asset by logging into the
+    asset management
+
+    - Could you describe You can update the location of an asset by logging into the
+    asset management?
+
+    - Let me know about You can update the location of an asset by logging into the
+    asset management'
+- intent: you_can_check_the_utilization_rate_by_logging_into_the_asset_management
+  examples: '- What is You can check the utilization rate by logging into the asset
+    management?
+
+    - Can you explain You can check the utilization rate by logging into the asset
+    management?
+
+    - I want to know about You can check the utilization rate by logging into the
+    asset management
+
+    - What do you mean by You can check the utilization rate by logging into the asset
+    management?
+
+    - Tell me about You can check the utilization rate by logging into the asset management
+
+    - Explain You can check the utilization rate by logging into the asset management
+    to me
+
+    - Give me details on You can check the utilization rate by logging into the asset
+    management
+
+    - How does You can check the utilization rate by logging into the asset management
+    work?
+
+    - What are the features of You can check the utilization rate by logging into
+    the asset management?
+
+    - Help me understand You can check the utilization rate by logging into the asset
+    management
+
+    - Where can I learn about You can check the utilization rate by logging into the
+    asset management?
+
+    - Info on You can check the utilization rate by logging into the asset management
+
+    - I need help with You can check the utilization rate by logging into the asset
+    management
+
+    - Could you describe You can check the utilization rate by logging into the asset
+    management?
+
+    - Let me know about You can check the utilization rate by logging into the asset
+    management'
+- intent: to_request_a_repair_submit_a_maintenance_request_through_the_asset_management
+  examples: '- What is To request a repair, submit a maintenance request through the
+    asset management?
+
+    - Can you explain To request a repair, submit a maintenance request through the
+    asset management?
+
+    - I want to know about To request a repair, submit a maintenance request through
+    the asset management
+
+    - What do you mean by To request a repair, submit a maintenance request through
+    the asset management?
+
+    - Tell me about To request a repair, submit a maintenance request through the
+    asset management
+
+    - Explain To request a repair, submit a maintenance request through the asset
+    management to me
+
+    - Give me details on To request a repair, submit a maintenance request through
+    the asset management
+
+    - How does To request a repair, submit a maintenance request through the asset
+    management work?
+
+    - What are the features of To request a repair, submit a maintenance request through
+    the asset management?
+
+    - Help me understand To request a repair, submit a maintenance request through
+    the asset management
+
+    - Where can I learn about To request a repair, submit a maintenance request through
+    the asset management?
+
+    - Info on To request a repair, submit a maintenance request through the asset
+    management
+
+    - I need help with To request a repair, submit a maintenance request through the
+    asset management
+
+    - Could you describe To request a repair, submit a maintenance request through
+    the asset management?
+
+    - Let me know about To request a repair, submit a maintenance request through
+    the asset management'
+- intent: to_transfer_an_asset_submit_a_transfer_request_through_the_asset_management
+  examples: '- What is To transfer an asset, submit a transfer request through the
+    asset management?
+
+    - Can you explain To transfer an asset, submit a transfer request through the
+    asset management?
+
+    - I want to know about To transfer an asset, submit a transfer request through
+    the asset management
+
+    - What do you mean by To transfer an asset, submit a transfer request through
+    the asset management?
+
+    - Tell me about To transfer an asset, submit a transfer request through the asset
+    management
+
+    - Explain To transfer an asset, submit a transfer request through the asset management
+    to me
+
+    - Give me details on To transfer an asset, submit a transfer request through the
+    asset management
+
+    - How does To transfer an asset, submit a transfer request through the asset management
+    work?
+
+    - What are the features of To transfer an asset, submit a transfer request through
+    the asset management?
+
+    - Help me understand To transfer an asset, submit a transfer request through the
+    asset management
+
+    - Where can I learn about To transfer an asset, submit a transfer request through
+    the asset management?
+
+    - Info on To transfer an asset, submit a transfer request through the asset management
+
+    - I need help with To transfer an asset, submit a transfer request through the
+    asset management
+
+    - Could you describe To transfer an asset, submit a transfer request through the
+    asset management?
+
+    - Let me know about To transfer an asset, submit a transfer request through the
+    asset management'
+- intent: you_can_check_the_warranty_status_by_logging_into_the_asset_management
+  examples: '- What is You can check the warranty status by logging into the asset
+    management?
+
+    - Can you explain You can check the warranty status by logging into the asset
+    management?
+
+    - I want to know about You can check the warranty status by logging into the asset
+    management
+
+    - What do you mean by You can check the warranty status by logging into the asset
+    management?
+
+    - Tell me about You can check the warranty status by logging into the asset management
+
+    - Explain You can check the warranty status by logging into the asset management
+    to me
+
+    - Give me details on You can check the warranty status by logging into the asset
+    management
+
+    - How does You can check the warranty status by logging into the asset management
+    work?
+
+    - What are the features of You can check the warranty status by logging into the
+    asset management?
+
+    - Help me understand You can check the warranty status by logging into the asset
+    management
+
+    - Where can I learn about You can check the warranty status by logging into the
+    asset management?
+
+    - Info on You can check the warranty status by logging into the asset management
+
+    - I need help with You can check the warranty status by logging into the asset
+    management
+
+    - Could you describe You can check the warranty status by logging into the asset
+    management?
+
+    - Let me know about You can check the warranty status by logging into the asset
+    management'
+- intent: to_report_a_loss_or_theft_submit_a_report_through_the_asset_management
+  examples: '- What is To report a loss or theft, submit a report through the asset
+    management?
+
+    - Can you explain To report a loss or theft, submit a report through the asset
+    management?
+
+    - I want to know about To report a loss or theft, submit a report through the
+    asset management
+
+    - What do you mean by To report a loss or theft, submit a report through the asset
+    management?
+
+    - Tell me about To report a loss or theft, submit a report through the asset management
+
+    - Explain To report a loss or theft, submit a report through the asset management
+    to me
+
+    - Give me details on To report a loss or theft, submit a report through the asset
+    management
+
+    - How does To report a loss or theft, submit a report through the asset management
+    work?
+
+    - What are the features of To report a loss or theft, submit a report through
+    the asset management?
+
+    - Help me understand To report a loss or theft, submit a report through the asset
+    management
+
+    - Where can I learn about To report a loss or theft, submit a report through the
+    asset management?
+
+    - Info on To report a loss or theft, submit a report through the asset management
+
+    - I need help with To report a loss or theft, submit a report through the asset
+    management
+
+    - Could you describe To report a loss or theft, submit a report through the asset
+    management?
+
+    - Let me know about To report a loss or theft, submit a report through the asset
+    management'
+- intent: you_can_track_your_shipment_by_logging_into_the_transport_management
+  examples: '- What is You can track your shipment by logging into the transport management?
+
+    - Can you explain You can track your shipment by logging into the transport management?
+
+    - I want to know about You can track your shipment by logging into the transport
+    management
+
+    - What do you mean by You can track your shipment by logging into the transport
+    management?
+
+    - Tell me about You can track your shipment by logging into the transport management
+
+    - Explain You can track your shipment by logging into the transport management
+    to me
+
+    - Give me details on You can track your shipment by logging into the transport
+    management
+
+    - How does You can track your shipment by logging into the transport management
+    work?
+
+    - What are the features of You can track your shipment by logging into the transport
+    management?
+
+    - Help me understand You can track your shipment by logging into the transport
+    management
+
+    - Where can I learn about You can track your shipment by logging into the transport
+    management?
+
+    - Info on You can track your shipment by logging into the transport management
+
+    - I need help with You can track your shipment by logging into the transport management
+
+    - Could you describe You can track your shipment by logging into the transport
+    management?
+
+    - Let me know about You can track your shipment by logging into the transport
+    management'
+- intent: to_schedule_a_new_shipment_log_into_the_transport_management
+  examples: '- What is To schedule a new shipment, log into the transport management?
+
+    - Can you explain To schedule a new shipment, log into the transport management?
+
+    - I want to know about To schedule a new shipment, log into the transport management
+
+    - What do you mean by To schedule a new shipment, log into the transport management?
+
+    - Tell me about To schedule a new shipment, log into the transport management
+
+    - Explain To schedule a new shipment, log into the transport management to me
+
+    - Give me details on To schedule a new shipment, log into the transport management
+
+    - How does To schedule a new shipment, log into the transport management work?
+
+    - What are the features of To schedule a new shipment, log into the transport
+    management?
+
+    - Help me understand To schedule a new shipment, log into the transport management
+
+    - Where can I learn about To schedule a new shipment, log into the transport management?
+
+    - Info on To schedule a new shipment, log into the transport management
+
+    - I need help with To schedule a new shipment, log into the transport management
+
+    - Could you describe To schedule a new shipment, log into the transport management?
+
+    - Let me know about To schedule a new shipment, log into the transport management'
+- intent: you_can_report_a_delay_by_logging_into_the_transport_management
+  examples: '- What is You can report a delay by logging into the transport management?
+
+    - Can you explain You can report a delay by logging into the transport management?
+
+    - I want to know about You can report a delay by logging into the transport management
+
+    - What do you mean by You can report a delay by logging into the transport management?
+
+    - Tell me about You can report a delay by logging into the transport management
+
+    - Explain You can report a delay by logging into the transport management to me
+
+    - Give me details on You can report a delay by logging into the transport management
+
+    - How does You can report a delay by logging into the transport management work?
+
+    - What are the features of You can report a delay by logging into the transport
+    management?
+
+    - Help me understand You can report a delay by logging into the transport management
+
+    - Where can I learn about You can report a delay by logging into the transport
+    management?
+
+    - Info on You can report a delay by logging into the transport management
+
+    - I need help with You can report a delay by logging into the transport management
+
+    - Could you describe You can report a delay by logging into the transport management?
+
+    - Let me know about You can report a delay by logging into the transport management'
+- intent: to_update_the_delivery_address_log_into_the_transport_management
+  examples: '- What is To update the delivery address, log into the transport management?
+
+    - Can you explain To update the delivery address, log into the transport management?
+
+    - I want to know about To update the delivery address, log into the transport
+    management
+
+    - What do you mean by To update the delivery address, log into the transport management?
+
+    - Tell me about To update the delivery address, log into the transport management
+
+    - Explain To update the delivery address, log into the transport management to
+    me
+
+    - Give me details on To update the delivery address, log into the transport management
+
+    - How does To update the delivery address, log into the transport management work?
+
+    - What are the features of To update the delivery address, log into the transport
+    management?
+
+    - Help me understand To update the delivery address, log into the transport management
+
+    - Where can I learn about To update the delivery address, log into the transport
+    management?
+
+    - Info on To update the delivery address, log into the transport management
+
+    - I need help with To update the delivery address, log into the transport management
+
+    - Could you describe To update the delivery address, log into the transport management?
+
+    - Let me know about To update the delivery address, log into the transport management'
+- intent: to_request_a_pickup_log_into_the_transport_management
+  examples: '- What is To request a pickup, log into the transport management?
+
+    - Can you explain To request a pickup, log into the transport management?
+
+    - I want to know about To request a pickup, log into the transport management
+
+    - What do you mean by To request a pickup, log into the transport management?
+
+    - Tell me about To request a pickup, log into the transport management
+
+    - Explain To request a pickup, log into the transport management to me
+
+    - Give me details on To request a pickup, log into the transport management
+
+    - How does To request a pickup, log into the transport management work?
+
+    - What are the features of To request a pickup, log into the transport management?
+
+    - Help me understand To request a pickup, log into the transport management
+
+    - Where can I learn about To request a pickup, log into the transport management?
+
+    - Info on To request a pickup, log into the transport management
+
+    - I need help with To request a pickup, log into the transport management
+
+    - Could you describe To request a pickup, log into the transport management?
+
+    - Let me know about To request a pickup, log into the transport management'
+- intent: you_can_check_the_delivery_status_by_logging_into_the_transport_management
+  examples: '- What is You can check the delivery status by logging into the transport
+    management?
+
+    - Can you explain You can check the delivery status by logging into the transport
+    management?
+
+    - I want to know about You can check the delivery status by logging into the transport
+    management
+
+    - What do you mean by You can check the delivery status by logging into the transport
+    management?
+
+    - Tell me about You can check the delivery status by logging into the transport
+    management
+
+    - Explain You can check the delivery status by logging into the transport management
+    to me
+
+    - Give me details on You can check the delivery status by logging into the transport
+    management
+
+    - How does You can check the delivery status by logging into the transport management
+    work?
+
+    - What are the features of You can check the delivery status by logging into the
+    transport management?
+
+    - Help me understand You can check the delivery status by logging into the transport
+    management
+
+    - Where can I learn about You can check the delivery status by logging into the
+    transport management?
+
+    - Info on You can check the delivery status by logging into the transport management
+
+    - I need help with You can check the delivery status by logging into the transport
+    management
+
+    - Could you describe You can check the delivery status by logging into the transport
+    management?
+
+    - Let me know about You can check the delivery status by logging into the transport
+    management'
+- intent: to_request_a_return_shipment_log_into_the_transport_management
+  examples: '- What is To request a return shipment, log into the transport management?
+
+    - Can you explain To request a return shipment, log into the transport management?
+
+    - I want to know about To request a return shipment, log into the transport management
+
+    - What do you mean by To request a return shipment, log into the transport management?
+
+    - Tell me about To request a return shipment, log into the transport management
+
+    - Explain To request a return shipment, log into the transport management to me
+
+    - Give me details on To request a return shipment, log into the transport management
+
+    - How does To request a return shipment, log into the transport management work?
+
+    - What are the features of To request a return shipment, log into the transport
+    management?
+
+    - Help me understand To request a return shipment, log into the transport management
+
+    - Where can I learn about To request a return shipment, log into the transport
+    management?
+
+    - Info on To request a return shipment, log into the transport management
+
+    - I need help with To request a return shipment, log into the transport management
+
+    - Could you describe To request a return shipment, log into the transport management?
+
+    - Let me know about To request a return shipment, log into the transport management'
+- intent: to_report_a_lost_shipment_log_into_the_transport_management
+  examples: '- What is To report a lost shipment, log into the transport management?
+
+    - Can you explain To report a lost shipment, log into the transport management?
+
+    - I want to know about To report a lost shipment, log into the transport management
+
+    - What do you mean by To report a lost shipment, log into the transport management?
+
+    - Tell me about To report a lost shipment, log into the transport management
+
+    - Explain To report a lost shipment, log into the transport management to me
+
+    - Give me details on To report a lost shipment, log into the transport management
+
+    - How does To report a lost shipment, log into the transport management work?
+
+    - What are the features of To report a lost shipment, log into the transport management?
+
+    - Help me understand To report a lost shipment, log into the transport management
+
+    - Where can I learn about To report a lost shipment, log into the transport management?
+
+    - Info on To report a lost shipment, log into the transport management
+
+    - I need help with To report a lost shipment, log into the transport management
+
+    - Could you describe To report a lost shipment, log into the transport management?
+
+    - Let me know about To report a lost shipment, log into the transport management'
+- intent: to_request_a_refund_contact_our_customer_service_team_with_your_shipment_details_they_will_guide_you_through_the_refund_process
+  examples: '- What is To request a refund, contact our customer service team with
+    your shipment details. They will guide you through the refund process?
+
+    - Can you explain To request a refund, contact our customer service team with
+    your shipment details. They will guide you through the refund process?
+
+    - I want to know about To request a refund, contact our customer service team
+    with your shipment details. They will guide you through the refund process
+
+    - What do you mean by To request a refund, contact our customer service team with
+    your shipment details. They will guide you through the refund process?
+
+    - Tell me about To request a refund, contact our customer service team with your
+    shipment details. They will guide you through the refund process
+
+    - Explain To request a refund, contact our customer service team with your shipment
+    details. They will guide you through the refund process to me
+
+    - Give me details on To request a refund, contact our customer service team with
+    your shipment details. They will guide you through the refund process
+
+    - How does To request a refund, contact our customer service team with your shipment
+    details. They will guide you through the refund process work?
+
+    - What are the features of To request a refund, contact our customer service team
+    with your shipment details. They will guide you through the refund process?
+
+    - Help me understand To request a refund, contact our customer service team with
+    your shipment details. They will guide you through the refund process
+
+    - Where can I learn about To request a refund, contact our customer service team
+    with your shipment details. They will guide you through the refund process?
+
+    - Info on To request a refund, contact our customer service team with your shipment
+    details. They will guide you through the refund process
+
+    - I need help with To request a refund, contact our customer service team with
+    your shipment details. They will guide you through the refund process
+
+    - Could you describe To request a refund, contact our customer service team with
+    your shipment details. They will guide you through the refund process?
+
+    - Let me know about To request a refund, contact our customer service team with
+    your shipment details. They will guide you through the refund process'
+- intent: you_can_check_the_carrier_details_by_logging_into_the_transport_management
+  examples: '- What is You can check the carrier details by logging into the transport
+    management?
+
+    - Can you explain You can check the carrier details by logging into the transport
+    management?
+
+    - I want to know about You can check the carrier details by logging into the transport
+    management
+
+    - What do you mean by You can check the carrier details by logging into the transport
+    management?
+
+    - Tell me about You can check the carrier details by logging into the transport
+    management
+
+    - Explain You can check the carrier details by logging into the transport management
+    to me
+
+    - Give me details on You can check the carrier details by logging into the transport
+    management
+
+    - How does You can check the carrier details by logging into the transport management
+    work?
+
+    - What are the features of You can check the carrier details by logging into the
+    transport management?
+
+    - Help me understand You can check the carrier details by logging into the transport
+    management
+
+    - Where can I learn about You can check the carrier details by logging into the
+    transport management?
+
+    - Info on You can check the carrier details by logging into the transport management
+
+    - I need help with You can check the carrier details by logging into the transport
+    management
+
+    - Could you describe You can check the carrier details by logging into the transport
+    management?
+
+    - Let me know about You can check the carrier details by logging into the transport
+    management'
+- intent: you_can_report_a_compliance_issue_by_logging_into_the_compliance_management
+  examples: '- What is You can report a compliance issue by logging into the compliance
+    management?
+
+    - Can you explain You can report a compliance issue by logging into the compliance
+    management?
+
+    - I want to know about You can report a compliance issue by logging into the compliance
+    management
+
+    - What do you mean by You can report a compliance issue by logging into the compliance
+    management?
+
+    - Tell me about You can report a compliance issue by logging into the compliance
+    management
+
+    - Explain You can report a compliance issue by logging into the compliance management
+    to me
+
+    - Give me details on You can report a compliance issue by logging into the compliance
+    management
+
+    - How does You can report a compliance issue by logging into the compliance management
+    work?
+
+    - What are the features of You can report a compliance issue by logging into the
+    compliance management?
+
+    - Help me understand You can report a compliance issue by logging into the compliance
+    management
+
+    - Where can I learn about You can report a compliance issue by logging into the
+    compliance management?
+
+    - Info on You can report a compliance issue by logging into the compliance management
+
+    - I need help with You can report a compliance issue by logging into the compliance
+    management
+
+    - Could you describe You can report a compliance issue by logging into the compliance
+    management?
+
+    - Let me know about You can report a compliance issue by logging into the compliance
+    management'
+- intent: you_can_access_the_company_s_compliance_policies_through_the_compliance_management
+  examples: '- What is You can access the company''s compliance policies through the
+    compliance management?
+
+    - Can you explain You can access the company''s compliance policies through the
+    compliance management?
+
+    - I want to know about You can access the company''s compliance policies through
+    the compliance management
+
+    - What do you mean by You can access the company''s compliance policies through
+    the compliance management?
+
+    - Tell me about You can access the company''s compliance policies through the
+    compliance management
+
+    - Explain You can access the company''s compliance policies through the compliance
+    management to me
+
+    - Give me details on You can access the company''s compliance policies through
+    the compliance management
+
+    - How does You can access the company''s compliance policies through the compliance
+    management work?
+
+    - What are the features of You can access the company''s compliance policies through
+    the compliance management?
+
+    - Help me understand You can access the company''s compliance policies through
+    the compliance management
+
+    - Where can I learn about You can access the company''s compliance policies through
+    the compliance management?
+
+    - Info on You can access the company''s compliance policies through the compliance
+    management
+
+    - I need help with You can access the company''s compliance policies through the
+    compliance management
+
+    - Could you describe You can access the company''s compliance policies through
+    the compliance management?
+
+    - Let me know about You can access the company''s compliance policies through
+    the compliance management'
+- intent: to_request_a_compliance_audit_submit_a_request_through_the_compliance_management
+  examples: '- What is To request a compliance audit, submit a request through the
+    compliance management?
+
+    - Can you explain To request a compliance audit, submit a request through the
+    compliance management?
+
+    - I want to know about To request a compliance audit, submit a request through
+    the compliance management
+
+    - What do you mean by To request a compliance audit, submit a request through
+    the compliance management?
+
+    - Tell me about To request a compliance audit, submit a request through the compliance
+    management
+
+    - Explain To request a compliance audit, submit a request through the compliance
+    management to me
+
+    - Give me details on To request a compliance audit, submit a request through the
+    compliance management
+
+    - How does To request a compliance audit, submit a request through the compliance
+    management work?
+
+    - What are the features of To request a compliance audit, submit a request through
+    the compliance management?
+
+    - Help me understand To request a compliance audit, submit a request through the
+    compliance management
+
+    - Where can I learn about To request a compliance audit, submit a request through
+    the compliance management?
+
+    - Info on To request a compliance audit, submit a request through the compliance
+    management
+
+    - I need help with To request a compliance audit, submit a request through the
+    compliance management
+
+    - Could you describe To request a compliance audit, submit a request through the
+    compliance management?
+
+    - Let me know about To request a compliance audit, submit a request through the
+    compliance management'
+- intent: to_report_a_sustainability_concern_log_into_the_compliance_management
+  examples: '- What is To report a sustainability concern, log into the compliance
+    management?
+
+    - Can you explain To report a sustainability concern, log into the compliance
+    management?
+
+    - I want to know about To report a sustainability concern, log into the compliance
+    management
+
+    - What do you mean by To report a sustainability concern, log into the compliance
+    management?
+
+    - Tell me about To report a sustainability concern, log into the compliance management
+
+    - Explain To report a sustainability concern, log into the compliance management
+    to me
+
+    - Give me details on To report a sustainability concern, log into the compliance
+    management
+
+    - How does To report a sustainability concern, log into the compliance management
+    work?
+
+    - What are the features of To report a sustainability concern, log into the compliance
+    management?
+
+    - Help me understand To report a sustainability concern, log into the compliance
+    management
+
+    - Where can I learn about To report a sustainability concern, log into the compliance
+    management?
+
+    - Info on To report a sustainability concern, log into the compliance management
+
+    - I need help with To report a sustainability concern, log into the compliance
+    management
+
+    - Could you describe To report a sustainability concern, log into the compliance
+    management?
+
+    - Let me know about To report a sustainability concern, log into the compliance
+    management'
+- intent: you_can_access_the_company_s_sustainability_reports_through_the_compliance_management
+  examples: '- What is You can access the company''s sustainability reports through
+    the compliance management?
+
+    - Can you explain You can access the company''s sustainability reports through
+    the compliance management?
+
+    - I want to know about You can access the company''s sustainability reports through
+    the compliance management
+
+    - What do you mean by You can access the company''s sustainability reports through
+    the compliance management?
+
+    - Tell me about You can access the company''s sustainability reports through the
+    compliance management
+
+    - Explain You can access the company''s sustainability reports through the compliance
+    management to me
+
+    - Give me details on You can access the company''s sustainability reports through
+    the compliance management
+
+    - How does You can access the company''s sustainability reports through the compliance
+    management work?
+
+    - What are the features of You can access the company''s sustainability reports
+    through the compliance management?
+
+    - Help me understand You can access the company''s sustainability reports through
+    the compliance management
+
+    - Where can I learn about You can access the company''s sustainability reports
+    through the compliance management?
+
+    - Info on You can access the company''s sustainability reports through the compliance
+    management
+
+    - I need help with You can access the company''s sustainability reports through
+    the compliance management
+
+    - Could you describe You can access the company''s sustainability reports through
+    the compliance management?
+
+    - Let me know about You can access the company''s sustainability reports through
+    the compliance management'
+- intent: to_request_a_sustainability_training_session_submit_a_request_through_the_compliance_management
+  examples: '- What is To request a sustainability training session, submit a request
+    through the compliance management?
+
+    - Can you explain To request a sustainability training session, submit a request
+    through the compliance management?
+
+    - I want to know about To request a sustainability training session, submit a
+    request through the compliance management
+
+    - What do you mean by To request a sustainability training session, submit a request
+    through the compliance management?
+
+    - Tell me about To request a sustainability training session, submit a request
+    through the compliance management
+
+    - Explain To request a sustainability training session, submit a request through
+    the compliance management to me
+
+    - Give me details on To request a sustainability training session, submit a request
+    through the compliance management
+
+    - How does To request a sustainability training session, submit a request through
+    the compliance management work?
+
+    - What are the features of To request a sustainability training session, submit
+    a request through the compliance management?
+
+    - Help me understand To request a sustainability training session, submit a request
+    through the compliance management
+
+    - Where can I learn about To request a sustainability training session, submit
+    a request through the compliance management?
+
+    - Info on To request a sustainability training session, submit a request through
+    the compliance management
+
+    - I need help with To request a sustainability training session, submit a request
+    through the compliance management
+
+    - Could you describe To request a sustainability training session, submit a request
+    through the compliance management?
+
+    - Let me know about To request a sustainability training session, submit a request
+    through the compliance management'
+- intent: to_report_a_violation_log_into_the_compliance_management
+  examples: '- What is To report a violation, log into the compliance management?
+
+    - Can you explain To report a violation, log into the compliance management?
+
+    - I want to know about To report a violation, log into the compliance management
+
+    - What do you mean by To report a violation, log into the compliance management?
+
+    - Tell me about To report a violation, log into the compliance management
+
+    - Explain To report a violation, log into the compliance management to me
+
+    - Give me details on To report a violation, log into the compliance management
+
+    - How does To report a violation, log into the compliance management work?
+
+    - What are the features of To report a violation, log into the compliance management?
+
+    - Help me understand To report a violation, log into the compliance management
+
+    - Where can I learn about To report a violation, log into the compliance management?
+
+    - Info on To report a violation, log into the compliance management
+
+    - I need help with To report a violation, log into the compliance management
+
+    - Could you describe To report a violation, log into the compliance management?
+
+    - Let me know about To report a violation, log into the compliance management'
+- intent: you_can_access_the_company_s_code_of_conduct_through_the_compliance_management
+  examples: '- What is You can access the company''s code of conduct through the compliance
+    management?
+
+    - Can you explain You can access the company''s code of conduct through the compliance
+    management?
+
+    - I want to know about You can access the company''s code of conduct through the
+    compliance management
+
+    - What do you mean by You can access the company''s code of conduct through the
+    compliance management?
+
+    - Tell me about You can access the company''s code of conduct through the compliance
+    management
+
+    - Explain You can access the company''s code of conduct through the compliance
+    management to me
+
+    - Give me details on You can access the company''s code of conduct through the
+    compliance management
+
+    - How does You can access the company''s code of conduct through the compliance
+    management work?
+
+    - What are the features of You can access the company''s code of conduct through
+    the compliance management?
+
+    - Help me understand You can access the company''s code of conduct through the
+    compliance management
+
+    - Where can I learn about You can access the company''s code of conduct through
+    the compliance management?
+
+    - Info on You can access the company''s code of conduct through the compliance
+    management
+
+    - I need help with You can access the company''s code of conduct through the compliance
+    management
+
+    - Could you describe You can access the company''s code of conduct through the
+    compliance management?
+
+    - Let me know about You can access the company''s code of conduct through the
+    compliance management'
+- intent: to_request_a_compliance_training_session_submit_a_request_through_the_compliance_management
+  examples: '- What is To request a compliance training session, submit a request
+    through the compliance management?
+
+    - Can you explain To request a compliance training session, submit a request through
+    the compliance management?
+
+    - I want to know about To request a compliance training session, submit a request
+    through the compliance management
+
+    - What do you mean by To request a compliance training session, submit a request
+    through the compliance management?
+
+    - Tell me about To request a compliance training session, submit a request through
+    the compliance management
+
+    - Explain To request a compliance training session, submit a request through the
+    compliance management to me
+
+    - Give me details on To request a compliance training session, submit a request
+    through the compliance management
+
+    - How does To request a compliance training session, submit a request through
+    the compliance management work?
+
+    - What are the features of To request a compliance training session, submit a
+    request through the compliance management?
+
+    - Help me understand To request a compliance training session, submit a request
+    through the compliance management
+
+    - Where can I learn about To request a compliance training session, submit a request
+    through the compliance management?
+
+    - Info on To request a compliance training session, submit a request through the
+    compliance management
+
+    - I need help with To request a compliance training session, submit a request
+    through the compliance management
+
+    - Could you describe To request a compliance training session, submit a request
+    through the compliance management?
+
+    - Let me know about To request a compliance training session, submit a request
+    through the compliance management'
+- intent: about_techgenzi
+  examples: '- What does TechGenzi offer?
+
+    - What are the services provided by TechGenzi?
+
+    - What can I get from TechGenzi?
+
+    - What products does TechGenzi sell?
+
+    - What solutions does TechGenzi provide?
+
+    - What kind of services does TechGenzi specialize in?
+
+    - Does TechGenzi offer digital services or physical products?
+
+    - What industries does TechGenzi cater to?
+
+    - Is TechGenzi focused on software or hardware?
+
+    - What packages or plans does TechGenzi have?
+
+    - How do TechGenzi''s offerings compare to competitors?
+
+    - Is TechGenzi’s service worth the price?
+
+    - What makes TechGenzi’s offerings unique?
+
+    - How reliable are TechGenzi’s services?
+
+    - Are TechGenzi’s services suitable for startups?
+
+    - Can TechGenzi help with my business needs?
+
+    - What problems does TechGenzi solve?
+
+    - Does TechGenzi offer custom solutions?
+
+    - How can I benefit from TechGenzi’s services?
+
+    - Is TechGenzi the right fit for my company?
+
+    - Does TechGenzi provide technical support?
+
+    - Are there case studies of TechGenzi''s offerings?
+
+    - How can I access TechGenzi’s services?
+
+    - Does TechGenzi offer trial versions or demos?
+
+    - What is the process to get started with TechGenzi?'
+- intent: nlu_fallback
+  examples: ''
