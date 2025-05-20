@@ -1,0 +1,2233 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - Hi
+      - Hello
+      - Hey
+      - Good morning
+      - Good afternoon
+      - Good evening
+      - Hi there
+      - Hey there
+      - What's up
+      - Howdy
+      - Greetings
+      - Morning
+      - Afternoon
+      - Evening
+      - Hi there!
+      - Hello! How's your day going?
+      - Good morning! Beautiful day, isn't it?
+      - Hey! What can I do for you today?
+      - Hi there! How can I help?
+
+  - intent: goodbye
+    examples: |
+      - Bye
+      - Goodbye
+      - See you later
+      - Take care
+      - Have a good day
+      - Farewell
+      - See you soon
+      - Until next time
+      - Bye for now
+      - See you later!
+      - Gotta go now, talk to you soon!
+      - Bye bye!
+      - Catch you later!
+      - I'm off now, take care!
+
+  - intent: thank_you
+    examples: |
+      - Thank you
+      - Thanks
+      - Thanks a lot
+      - Thank you so much
+      - I appreciate it
+      - Many thanks
+      - Grateful
+      - Cheers
+      - Much appreciated
+      - Thank you!
+      - Thanks a bunch!
+      - I appreciate it!
+      - That's very helpful, thanks!
+      - Awesome, thank you!
+
+  - intent: ask_company_info
+    examples: |
+      - What is Techgenzi?
+      -what is techgenzi offers?
+      - Tell me about Techgenzi
+      - What does Techgenzi do?
+      - Can you explain what Techgenzi is?
+      - I want to know about Techgenzi
+      - What services does Techgenzi offer?
+      - What is Techgenzi known for?
+
+  - intent: ask_location
+    examples: |
+      - Where is Techgenzi located?
+      - What is the address of Techgenzi?
+      - Can you tell me where Techgenzi is?
+      - Where can I find Techgenzi?
+      - What is the location of Techgenzi?
+      - Where are Techgenzi's offices?
+
+  - intent: ask_services
+    examples: |
+      - What services does Techgenzi offer?
+      - What services do you offer?
+      - What does Techgenzi do?
+      - Can you list the services provided by Techgenzi?
+      - What kind of services does Techgenzi offer?
+      - What solutions does Techgenzi provide?
+      - What are the main services of Techgenzi?
+      - I'd like to know about your services
+      - What kind of services are available?
+      - What can you help me with?
+
+  - intent: ask_business_duration
+    examples: |
+      - How long has Techgenzi been in business?
+      - When was Techgenzi founded?
+      - How many years has Techgenzi been operating?
+      - What is the history of Techgenzi?
+      - When did Techgenzi start?
+      - How long has Techgenzi been around?
+
+  - intent: ask_benefits
+    examples: |
+      - Who can benefit from Techgenzi's services?
+      - What are the benefits of Techgenzi's services?
+      - How can businesses benefit from Techgenzi?
+      - What advantages does Techgenzi offer?
+      - Why should I choose Techgenzi?
+      - What are the benefits of working with Techgenzi?
+
+  - intent: ask_industries
+    examples: |
+      - What industries does Techgenzi cater to?
+      - Which industries does Techgenzi serve?
+      - What kind of industries does Techgenzi work with?
+      - Can you list the industries Techgenzi serves?
+      - What sectors does Techgenzi focus on?
+      - Which industries benefit from Techgenzi's services?
+
+  - intent: ask_vision
+    examples: |
+      - What is the vision of Techgenzi?
+      - What are the goals of Techgenzi?
+      - Can you tell me about Techgenzi's vision?
+      - What does Techgenzi aim to achieve?
+      - What is the long-term vision of Techgenzi?
+      - What is Techgenzi's vision statement?
+
+  - intent: ask_mission
+    examples: |
+      - What is the mission of Techgenzi?
+      - What are the objectives of Techgenzi?
+      - Can you explain Techgenzi's mission?
+      - What is the mission statement of Techgenzi?
+      - What does Techgenzi strive to do?
+      - What is the core mission of Techgenzi?
+
+  - intent: ask_core_values
+    examples: |
+      - What are the core values of Techgenzi?
+      - What principles does Techgenzi follow?
+      - Can you tell me about Techgenzi's core values?
+      - What values does Techgenzi uphold?
+      - What are the guiding principles of Techgenzi?
+      - What core values drive Techgenzi?
+
+  - intent: ask_founders
+    examples: |
+      - Who are the founders of Techgenzi?
+      - Who started Techgenzi?
+      - Can you tell me about the founders of Techgenzi?
+      - Who are the people behind Techgenzi?
+      - Who founded Techgenzi?
+      - Who are the key founders of Techgenzi?
+
+  - intent: ask_services_offered
+    examples: |
+      - What services does Techgenzi offer?
+      - What are the services provided by Techgenzi?
+      - Can you list the services offered by Techgenzi?
+      - What kind of services does Techgenzi offer?
+      - What solutions does Techgenzi provide?
+      - What are the main services of Techgenzi?
+
+  - intent: ask_cloud_services
+    examples: |
+      - Does Techgenzi provide cloud services?
+      - Does Techgenzi offer cloud-based solutions?
+      - Can Techgenzi help with cloud services?
+      - Does Techgenzi specialize in cloud services?
+      - What cloud services does Techgenzi offer?
+
+  - intent: ask_mobile_app_development
+    examples: |
+      - Can Techgenzi help with mobile app development?
+      - Does Techgenzi offer mobile app development services?
+      - Can Techgenzi build custom mobile apps?
+      - What mobile app development services does Techgenzi offer?
+      - Does Techgenzi develop mobile apps for Android and iOS?
+
+  - intent: ask_digital_marketing
+    examples: |
+      - Does Techgenzi provide digital marketing?
+      - What digital marketing services does Techgenzi offer?
+      - Can Techgenzi help with digital marketing?
+      - Does Techgenzi offer comprehensive digital marketing services?
+      - What kind of digital marketing does Techgenzi provide?
+
+  - intent: ask_start_project
+    examples: |
+      - How do I start a project with Techgenzi?
+      - How can I start working with Techgenzi?
+      - What is the process to start a project with Techgenzi?
+      - How do I begin a project with Techgenzi?
+      - What steps do I need to take to start a project with Techgenzi?
+
+  - intent: ask_full_stack_web_development
+    examples: |
+      - What is full-stack web development?
+      - Can Techgenzi do full-stack web development?
+      - What does full-stack web development mean?
+      - What is full-stack development?
+      - What is full-stack web development and how does it benefit my business?
+
+  - intent: ask_technologies_used
+    examples: |
+      - What technologies does Techgenzi use for web development?
+      - What technologies does Techgenzi use?
+      - What tools does Techgenzi use for web development?
+      - What are the technologies used by Techgenzi?
+      - What modern technologies does Techgenzi use?
+
+  - intent: ask_mobile_app_development_approach
+    examples: |
+      - How does Techgenzi approach mobile app development?
+      - What is Techgenzi's approach to mobile app development?
+      - How does Techgenzi develop mobile apps?
+      - What is the process for mobile app development at Techgenzi?
+      - How does Techgenzi ensure high-performance mobile apps?
+
+  - intent: ask_ui_ux_design
+    examples: |
+      - What is UI/UX design?
+      - How does UI/UX design benefit my business?
+      - What is the importance of UI/UX design?
+      - How does Techgenzi approach UI/UX design?
+      - What does UI/UX design mean?
+
+  - intent: ask_custom_solutions
+    examples: |
+      - Can Techgenzi create custom solutions for my business?
+      - Does Techgenzi offer bespoke solutions?
+      - Can Techgenzi tailor solutions to my business needs?
+      - What custom solutions does Techgenzi offer?
+      - How can Techgenzi help with custom solutions?
+  - intent: ask_web_development
+    examples: |
+      - What makes Techgenzi's web development different?
+      - How is Techgenzi's web development unique?
+      - What sets Techgenzi apart in web development?
+      - Why should I choose Techgenzi for web development?
+      - What are the key features of Techgenzi's web development services?
+
+  - intent: ask_data_security
+    examples: |
+      - How does Techgenzi ensure data security?
+      - What measures does Techgenzi take to ensure data security?
+      - How does Techgenzi protect user data?
+      - What data protection policies does Techgenzi follow?
+      - How does Techgenzi comply with data protection regulations?
+
+  - intent: ask_custom_app_process
+    examples: |
+      - What is the process for developing a custom app with Techgenzi?
+      - How does Techgenzi develop custom apps?
+      - What steps are involved in creating a custom app with Techgenzi?
+      - Can you walk me through the custom app development process at Techgenzi?
+      - How long does it take to develop a custom app with Techgenzi?
+
+  - intent: ask_project_timelines
+    examples: |
+      - How does Techgenzi handle project timelines?
+      - What is the timeline for a project with Techgenzi?
+      - How long does a typical project with Techgenzi take?
+      - How does Techgenzi ensure timely delivery of projects?
+      - What is the project timeline management process at Techgenzi?
+
+  - intent: ask_third_party_integration
+    examples: |
+      - Can Techgenzi integrate third-party services into my project?
+      - Does Techgenzi support third-party integrations?
+      - How does Techgenzi handle third-party API integrations?
+      - Can Techgenzi integrate external services into my project?
+      - What third-party services can Techgenzi integrate?
+
+  - intent: ask_quality_assurance
+    examples: |
+      - How does Techgenzi ensure quality in its projects?
+      - What quality assurance processes does Techgenzi follow?
+      - How does Techgenzi ensure the quality of its deliverables?
+      - What testing processes does Techgenzi use to ensure quality?
+      - How does Techgenzi maintain high standards in its projects?
+
+  - intent: ask_post_launch_support
+    examples: |
+      - What kind of support does Techgenzi offer after project completion?
+      - Does Techgenzi provide post-launch support?
+      - How does Techgenzi support projects after launch?
+      - What happens after my project is completed with Techgenzi?
+      - How long does Techgenzi provide support after project completion?
+
+  - intent: ask_feedback_revisions
+    examples: |
+      - How does Techgenzi handle feedback and revisions?
+      - What is Techgenzi's process for handling feedback and revisions?
+      - How many revisions does Techgenzi allow?
+      - How does Techgenzi incorporate client feedback?
+      - How responsive is Techgenzi to feedback and revisions?
+
+  - intent: ask_seo
+    examples: |
+      - Can Techgenzi help with SEO for my website?
+      - Does Techgenzi offer SEO services?
+      - How does Techgenzi improve website visibility through SEO?
+      - What SEO strategies does Techgenzi use?
+      - How can Techgenzi help my website rank higher in search engines?
+
+  - intent: ask_tech_trends
+    examples: |
+      - How does Techgenzi stay updated with the latest technology trends?
+      - What does Techgenzi do to stay ahead of technology trends?
+      - How does Techgenzi ensure it uses the latest technologies?
+      - How does Techgenzi keep up with technological advancements?
+      - What steps does Techgenzi take to stay current with technology trends?
+  - intent: ask_startup_work
+    examples: |
+      - Does Techgenzi work with startups?
+      - Do you work with startups?
+      - Is Techgenzi suitable for startups?
+      - Can startups benefit from Techgenzi's services?
+      - Are there services for startups at Techgenzi?
+
+  - intent: ask_startup_services
+    examples: |
+      - What startup services does Techgenzi offer?
+      - What services do you provide for startups?
+      - Can you list the services for startups?
+      - What kind of services can startups get from Techgenzi?
+      - How can Techgenzi assist startups?
+
+  - intent: ask_mvp
+    examples: |
+      - Can Techgenzi help me build a minimum viable product (MVP)?
+      - Do you help startups build MVPs?
+      - How can Techgenzi assist with MVP development?
+      - Is it possible to build an MVP with Techgenzi?
+      - What is Techgenzi's approach to MVPs?
+
+  - intent: ask_startup_growth_support
+    examples: |
+      - What kind of support does Techgenzi offer for startup growth?
+      - How does Techgenzi support startup growth?
+      - What support can startups expect from Techgenzi?
+      - How can Techgenzi help my startup grow?
+      - What growth support does Techgenzi provide?
+
+  - intent: ask_startup_funding
+    examples: |
+      - How can Techgenzi help with startup funding?
+      - Can Techgenzi assist with startup funding?
+      - What role does Techgenzi play in startup funding?
+      - How does Techgenzi help startups get funding?
+      - Can Techgenzi help attract investors for startups?
+
+  - intent: ask_startup_marketing
+    examples: |
+      - Can Techgenzi help with startup marketing?
+      - What marketing services does Techgenzi offer for startups?
+      - How can Techgenzi assist with startup marketing?
+      - Does Techgenzi provide marketing support for startups?
+      - What marketing strategies does Techgenzi recommend for startups?
+
+  - intent: ask_scalability
+    examples: |
+      - How does Techgenzi ensure scalability for startups?
+      - What scalability solutions does Techgenzi offer?
+      - How can Techgenzi help ensure my startup scales?
+      - What is Techgenzi's approach to scalability for startups?
+      - How does Techgenzi help startups handle growth?
+
+  - intent: ask_technology_stack
+    examples: |
+      - What kind of technology stack does Techgenzi recommend for startups?
+      - What technology stack is best for startups according to Techgenzi?
+      - How does Techgenzi choose a technology stack for startups?
+      - What technology stack does Techgenzi use for startups?
+      - Can Techgenzi recommend a technology stack for my startup?
+
+  - intent: ask_startup_validation
+    examples: |
+      - How can Techgenzi help with startup validation?
+      - What validation services does Techgenzi offer for startups?
+      - How does Techgenzi assist with startup idea validation?
+      - Can Techgenzi help validate my startup idea?
+      - What steps does Techgenzi take to validate a startup?
+
+  - intent: ask_startup_pivoting
+    examples: |
+      - Can Techgenzi help with startup pivoting?
+      - How does Techgenzi assist with startup pivoting?
+      - What is Techgenzi's approach to startup pivoting?
+      - Can Techgenzi help my startup pivot?
+      - How can Techgenzi support a startup pivot?
+  - intent: ask_enterprise_service
+    examples: |
+      - Does Techgenzi serve large enterprises?
+      - Do you provide services for large enterprises?
+      - Is Techgenzi suitable for enterprises?
+      - Can enterprises benefit from Techgenzi's services?
+      - Are there services for enterprises at Techgenzi?
+      - Does Techgenzi cater to large organizations?
+
+  - intent: ask_enterprise_help
+    examples: |
+      - How does Techgenzi help enterprises?
+      - What help does Techgenzi offer to large enterprises?
+      - How can Techgenzi assist large organizations?
+      - What benefits do enterprises get from Techgenzi?
+      - How does Techgenzi support enterprises?
+      - What kind of assistance does Techgenzi provide to enterprises?
+
+  - intent: ask_enterprise_solutions
+    examples: |
+      - What kind of enterprise solutions does Techgenzi offer?
+      - What solutions does Techgenzi provide for enterprises?
+      - Can you list the enterprise solutions offered by Techgenzi?
+      - What enterprise solutions are available from Techgenzi?
+      - What solutions does Techgenzi recommend for enterprises?
+      - What enterprise solutions does Techgenzi specialize in?
+
+  - intent: ask_enterprise_security
+    examples: |
+      - How does Techgenzi ensure enterprise-level security?
+      - What security measures does Techgenzi provide for enterprises?
+      - How does Techgenzi ensure the security of enterprise data?
+      - What security protocols does Techgenzi follow for enterprises?
+      - How does Techgenzi protect enterprise systems?
+      - What security standards does Techgenzi adhere to for enterprises?
+
+  - intent: ask_enterprise_integration
+    examples: |
+      - Can Techgenzi integrate with existing enterprise systems?
+      - How does Techgenzi handle integration with existing systems?
+      - Can Techgenzi's solutions work with my current systems?
+      - How does Techgenzi ensure seamless integration with existing enterprise systems?
+      - What integration capabilities does Techgenzi offer for enterprises?
+      - How does Techgenzi support integration with legacy systems?
+
+  - intent: ask_large_scale_projects
+    examples: |
+      - How does Techgenzi handle large-scale projects?
+      - What is Techgenzi's approach to large-scale projects?
+      - How does Techgenzi manage large projects?
+      - What experience does Techgenzi have with large-scale projects?
+      - How does Techgenzi ensure success in large-scale projects?
+      - What tools does Techgenzi use for large-scale projects?
+
+  - intent: ask_enterprise_support
+    examples: |
+      - What kind of support does Techgenzi offer for enterprise clients?
+      - How does Techgenzi support enterprise clients?
+      - What support services does Techgenzi provide for enterprises?
+      - How does Techgenzi ensure ongoing support for enterprises?
+      - What maintenance and support does Techgenzi offer for enterprises?
+      - How does Techgenzi assist enterprises with support?
+
+  - intent: ask_enterprise_scalability
+    examples: |
+      - How does Techgenzi ensure scalability for enterprise solutions?
+      - What scalability options does Techgenzi offer for enterprises?
+      - How does Techgenzi design scalable solutions for enterprises?
+      - What is Techgenzi's approach to scalability for enterprises?
+      - How does Techgenzi ensure solutions can scale with enterprise growth?
+      - What scalability features does Techgenzi provide for enterprises?
+
+  - intent: ask_enterprise_technology_stack
+    examples: |
+      - What kind of technology stack does Techgenzi recommend for enterprises?
+      - What technology stack is best for enterprises according to Techgenzi?
+      - How does Techgenzi choose a technology stack for enterprises?
+      - What technology stack does Techgenzi use for enterprises?
+      - Can Techgenzi recommend a technology stack for my enterprise?
+      - What technology stacks does Techgenzi specialize in for enterprises?
+
+  - intent: ask_enterprise_digital_transformation
+    examples: |
+      - How can Techgenzi help with enterprise digital transformation?
+      - What digital transformation services does Techgenzi offer for enterprises?
+      - How does Techgenzi assist with digital transformation for enterprises?
+      - Can Techgenzi help my enterprise with digital transformation?
+      - What role does Techgenzi play in enterprise digital transformation?
+      - How does Techgenzi support enterprise digital transformation initiatives?
+
+  - intent: ask_project_timeline
+    examples: |
+      - How long does it take to develop a website or app with Techgenzi?
+      - What is the typical timeline for a project with Techgenzi?
+      - How long does a project with Techgenzi usually take?
+      - What are the project timelines like at Techgenzi?
+      - How quickly can Techgenzi develop a website?
+      - How long does app development take at Techgenzi?
+
+  - intent: ask_track_progress
+    examples: |
+      - How do I track the progress of my project?
+      - How can I monitor my project's progress with Techgenzi?
+      - What tools does Techgenzi use to track project progress?
+      - How does Techgenzi keep me updated on my project?
+      - How can I stay informed about my project's progress?
+      - How does Techgenzi communicate project updates?
+
+  - intent: ask_project_management_methodologies
+    examples: |
+      - What project management methodologies does Techgenzi use?
+      - How does Techgenzi manage projects?
+      - What methodologies does Techgenzi follow for project management?
+      - How does Techgenzi ensure project success?
+      - What project management techniques does Techgenzi use?
+      - How does Techgenzi handle project management?
+
+  - intent: ask_handle_scope_changes
+    examples: |
+      - How does Techgenzi handle project scope changes?
+      - What is Techgenzi's approach to scope changes?
+      - How does Techgenzi manage changes in project scope?
+      - How does Techgenzi handle changes during a project?
+      - What happens if the project scope changes?
+      - How does Techgenzi ensure scope changes are managed effectively?
+
+  - intent: ask_detailed_project_timeline
+    examples: |
+      - Can Techgenzi provide a detailed project timeline?
+      - How detailed is the project timeline provided by Techgenzi?
+      - What does the project timeline from Techgenzi look like?
+      - Can I get a detailed timeline for my project?
+      - How does Techgenzi outline project milestones?
+      - What key milestones are included in Techgenzi's project timeline?
+
+  - intent: ask_ensure_timely_delivery
+    examples: |
+      - How does Techgenzi ensure timely delivery?
+      - What measures does Techgenzi take to ensure on-time delivery?
+      - How does Techgenzi ensure projects are delivered on time?
+      - What is Techgenzi's process for timely project delivery?
+      - How does Techgenzi manage project timelines to ensure timely delivery?
+      - How does Techgenzi ensure projects meet their deadlines?
+
+  - intent: ask_project_delay
+    examples: |
+      - What happens if my project is delayed?
+      - How does Techgenzi handle project delays?
+      - What is Techgenzi's policy on project delays?
+      - How does Techgenzi communicate project delays?
+      - What steps does Techgenzi take to address project delays?
+      - How does Techgenzi minimize the impact of project delays?
+
+  - intent: ask_project_budgeting
+    examples: |
+      - How does Techgenzi handle project budgeting?
+      - What is Techgenzi's approach to project budgeting?
+      - How does Techgenzi manage project budgets?
+      - How does Techgenzi ensure project budgeting is transparent?
+      - What budgeting strategies does Techgenzi use for projects?
+      - How does Techgenzi provide detailed cost breakdowns for projects?
+
+  - intent: ask_fixed_price_quote
+    examples: |
+      - Can Techgenzi provide a fixed-price quote for my project?
+      - How does Techgenzi provide fixed-price quotes?
+      - What is the process for getting a fixed-price quote from Techgenzi?
+      - Can I get a fixed-price quote for my project?
+      - How does Techgenzi determine fixed-price quotes?
+      - What factors does Techgenzi consider for fixed-price quotes?
+
+  - intent: ask_ensure_project_quality
+    examples: |
+      - How does Techgenzi ensure project quality?
+      - What quality assurance processes does Techgenzi follow?
+      - How does Techgenzi maintain high project quality?
+      - What steps does Techgenzi take to ensure project quality?
+      - How does Techgenzi validate project quality?
+      - What testing processes does Techgenzi use to ensure project quality?
+
+  - intent: ask_development_cost
+    examples: |
+      - How much does it cost to develop a website or app with Techgenzi?
+      - What is the cost of developing a website with Techgenzi?
+      - How much does app development cost at Techgenzi?
+      - What are the costs involved in a project with Techgenzi?
+      - How does Techgenzi price its projects?
+      - What is the typical cost for a project with Techgenzi?
+
+  - intent: ask_payment_plans
+    examples: |
+      - Does Techgenzi offer payment plans for projects?
+      - What payment plans does Techgenzi offer?
+      - Can I pay in installments for my project?
+      - How flexible are Techgenzi's payment plans?
+      - What are the payment plan options at Techgenzi?
+      - How does Techgenzi handle payment plans?
+
+  - intent: ask_payment_methods
+    examples: |
+      - What payment methods does Techgenzi accept?
+      - How can I make payments to Techgenzi?
+      - What are the accepted payment methods at Techgenzi?
+      - Can I use a credit card to pay for my project?
+      - Does Techgenzi accept online payments?
+      - What payment options does Techgenzi offer?
+
+  - intent: ask_budget_overruns
+    examples: |
+      - How does Techgenzi handle project budget overruns?
+      - What is Techgenzi's policy on budget overruns?
+      - How does Techgenzi manage budget overruns?
+      - What happens if my project goes over budget?
+      - How does Techgenzi avoid budget overruns?
+      - How does Techgenzi handle changes in project budget?
+
+  - intent: ask_cost_breakdown
+    examples: |
+      - Can Techgenzi provide a detailed cost breakdown for my project?
+      - How detailed is the cost breakdown provided by Techgenzi?
+      - What does the cost breakdown from Techgenzi look like?
+      - Can I get a detailed cost breakdown for my project?
+      - How does Techgenzi outline project costs?
+      - What key costs are included in Techgenzi's cost breakdown?
+
+  - intent: ask_cost_effectiveness
+    examples: |
+      - How does Techgenzi ensure cost-effectiveness?
+      - What measures does Techgenzi take to ensure cost-effectiveness?
+      - How does Techgenzi ensure projects are cost-effective?
+      - What is Techgenzi's approach to cost-effectiveness?
+      - How does Techgenzi balance cost and quality?
+      - How does Techgenzi ensure cost-effective solutions?
+
+  - intent: ask_pricing_model
+    examples: |
+      - What is the pricing model for Techgenzi's services?
+      - How does Techgenzi price its services?
+      - What pricing models does Techgenzi offer?
+      - How does Techgenzi determine project costs?
+      - What are the different pricing models available at Techgenzi?
+      - How does Techgenzi structure its pricing?
+
+  - intent: ask_project_deposits
+    examples: |
+      - How does Techgenzi handle project deposits?
+      - What is the deposit requirement for a project with Techgenzi?
+      - How much deposit does Techgenzi require?
+      - What is the purpose of the project deposit?
+      - How does Techgenzi manage project deposits?
+      - What happens to the deposit if the project is canceled?
+
+  - intent: ask_refund_policy
+    examples: |
+      - Can Techgenzi provide a refund if I'm not satisfied with the project?
+      - What is Techgenzi's refund policy?
+      - How does Techgenzi handle refunds?
+      - What happens if I'm not satisfied with the project?
+      - Can I get a refund if the project doesn't meet my expectations?
+      - How does Techgenzi address dissatisfaction with a project?
+
+  - intent: ask_project_invoicing
+    examples: |
+      - How does Techgenzi handle project invoicing?
+      - What is Techgenzi's invoicing process?
+      - How often does Techgenzi invoice for a project?
+      - How does Techgenzi ensure transparency in billing?
+      - What invoicing methods does Techgenzi use?
+      - How does Techgenzi manage project invoicing?
+
+  - intent: ask_what_can_i_get
+    examples: |
+      - what can i get from techgenzi
+      - what solutions does techgenzi provide
+      - what kind of services does techgenzi specialize in
+      - does techgenzi offer digital services or physical products
+      - what industries does techgenzi cater to
+      - is techgenzi focused on software or hardware
+
+  - intent: ask_products_sold
+    examples: |
+      - what products does techgenzi sell
+      - what solutions does techgenzi provide
+      - what kind of services does techgenzi specialize in
+      - does techgenzi offer digital services or physical products
+      - what industries does techgenzi cater to
+      - is techgenzi focused on software or hardware
+
+  - intent: ask_solutions_provided
+    examples: |
+      - what solutions does techgenzi provide
+      - what kind of services does techgenzi specialize in
+      - does techgenzi offer digital services or physical products
+      - what industries does techgenzi cater to
+      - is techgenzi focused on software or hardware
+
+  - intent: ask_trial_versions_or_demos
+    examples: |
+      - does techgenzi offer trial versions or demos
+      - can i get a demo of techgenzi's services
+      - are there any trial versions available for techgenzi's products
+      - does techgenzi provide trial versions
+      - can i request a demo from techgenzi
+
+  - intent: ask_services_specialized_in
+    examples: |
+      - what kind of services does techgenzi specialize in
+      - what services does techgenzi offer
+      - can you tell me about techgenzi's expertise
+      - what are techgenzi's core services
+      - what services is techgenzi known for
+      - what are the main services techgenzi provides
+
+  - intent: ask_digital_or_physical_products
+    examples: |
+      - does techgenzi offer digital services or physical products
+      - what type of products does techgenzi sell
+      - is techgenzi focused on digital or physical products
+      - does techgenzi provide software or hardware
+      - what kind of products does techgenzi specialize in
+      - does techgenzi offer digital solutions
+
+  - intent: ask_industries_catered
+    examples: |
+      - what industries does techgenzi cater to
+      - which industries does techgenzi serve
+      - what kind of industries does techgenzi focus on
+      - does techgenzi serve multiple industries
+      - what are the industries techgenzi works with
+      - which sectors does techgenzi provide solutions for
+
+  - intent: ask_software_or_hardware_focus
+    examples: |
+      - is techgenzi focused on software or hardware
+      - does techgenzi provide more software or hardware solutions
+      - is techgenzi a software or hardware company
+      - what is techgenzi's main focus software or hardware
+      - does techgenzi specialize in software or hardware
+      - is techgenzi primarily a software company
+
+  - intent: ask_packages_or_plans
+    examples: |
+      - what packages or plans does techgenzi have
+      - what kind of plans does techgenzi offer
+      - does techgenzi offer subscription-based models
+      - what are the different packages techgenzi provides
+      - can i get a customized plan from techgenzi
+      - what are the pricing plans for techgenzi's services
+
+  - intent: ask_company_offer
+    examples: |
+        - what does techgenzi offer
+        - what can i get from techgenzi
+        - what products does techgenzi sell
+        - what solutions does techgenzi provide
+        - what kind of services does techgenzi offer
+        - can you tell me about techgenzi's offerings
+
+  - intent: ask_compare_to_competitors
+    examples: |
+      - How do Techgenzi's offerings compare to competitors?
+      - How is Techgenzi different from its competitors?
+      - What sets Techgenzi apart from other companies?
+      - How does Techgenzi compare to other service providers?
+      - What makes Techgenzi unique compared to competitors?
+      - How does Techgenzi stand out from the competition?
+
+  - intent: ask_worth_the_price
+    examples: |
+      - Is Techgenzi's service worth the price?
+      - Are Techgenzi's services worth the investment?
+      - Is Techgenzi worth the cost?
+      - Does Techgenzi offer good value for money?
+      - Are Techgenzi's solutions cost-effective?
+      - Is Techgenzi worth the investment?
+
+  - intent: ask_unique_offerings
+    examples: |
+      - What makes Techgenzi's offerings unique?
+      - What unique solutions does Techgenzi provide?
+      - What sets Techgenzi's services apart?
+      - What unique features does Techgenzi offer?
+      - What makes Techgenzi different from others?
+      - What unique benefits does Techgenzi provide?
+
+  - intent: ask_reliability_of_services
+    examples: |
+      - How reliable are Techgenzi's services?
+      - Can I trust Techgenzi's services?
+      - How dependable are Techgenzi's solutions?
+      - How reliable is Techgenzi's service?
+      - Can I rely on Techgenzi's services?
+      - How trustworthy are Techgenzi's services?
+
+  - intent: ask_suitability_for_startups
+    examples: |
+      - Are Techgenzi's services suitable for startups?
+      - Is Techgenzi a good fit for startups?
+      - Can startups benefit from Techgenzi's services?
+      - Are Techgenzi's solutions appropriate for startups?
+      - Is Techgenzi's service startup-friendly?
+      - Can startups use Techgenzi's services effectively?
+
+  - intent: ask_help_with_business_needs
+    examples: |
+      - Can Techgenzi help with my business needs?
+      - Can Techgenzi meet my business requirements?
+      - Can Techgenzi provide solutions for my business?
+      - Can Techgenzi help my business grow?
+      - Can Techgenzi address my business challenges?
+      - Can Techgenzi provide what my business needs?
+      - Is Techgenzi able to assist with my business needs?      
+
+  - intent: ask_problems_solved
+    examples: |
+      - What problems does Techgenzi solve?
+      - What challenges can Techgenzi help with?
+      - What issues does Techgenzi address?
+      - What problems can Techgenzi resolve?
+      - What business problems does Techgenzi tackle?
+      - What challenges does Techgenzi solve for businesses?
+      - How does Techgenzi address business problems?
+
+  - intent: ask_benefits_of_services
+    examples: |
+      - How can I benefit from Techgenzi's services?
+      - What benefits does Techgenzi offer?
+      - What advantages can I get from Techgenzi's services?
+      - How will Techgenzi's services help my business?
+      - What benefits can I expect from Techgenzi?
+      - How can Techgenzi's services improve my business?
+      - What are the benefits of using Techgenzi's services?
+
+  - intent: ask_right_fit_for_company
+    examples: |
+      - Is Techgenzi the right fit for my company?
+      - Is Techgenzi a good match for my business?
+      - Can Techgenzi meet my company's needs?
+      - Is Techgenzi suitable for my business?
+      - Is Techgenzi a good choice for my company?
+      - Can Techgenzi provide what my company needs?
+      - How can Techgenzi help my company?
+
+  - intent: ask_technical_support
+    examples: |
+      - Does Techgenzi provide technical support?
+      - What kind of technical support does Techgenzi offer?
+      - How does Techgenzi handle technical support?
+      - Can I get technical support from Techgenzi?
+      - What support options does Techgenzi provide?
+      - How can I get technical support from Techgenzi?
+      - Is technical support available from Techgenzi?
+
+  - intent: ask_case_studies
+    examples: |
+      - Are there case studies of Techgenzi's offerings?
+      - Can I see case studies of Techgenzi's work?
+      - What case studies does Techgenzi have?
+      - How can I access Techgenzi's case studies?
+      - Does Techgenzi provide case studies?
+      - What kind of case studies does Techgenzi offer?
+      - Can I find case studies of Techgenzi's solutions?
+
+  - intent: ask_access_services
+    examples: |
+      - How can I access Techgenzi's services?
+      - How do I get started with Techgenzi?
+      - What is the process to access Techgenzi's services?
+      - How can I use Techgenzi's services?
+      - How do I access Techgenzi's solutions?
+      - How can I get in touch with Techgenzi for their services?
+      - What steps do I need to take to use Techgenzi's services?
+
+  - intent: ask_get_started_process
+    examples: |
+      - What is the process to get started with Techgenzi?
+      - How do I start using Techgenzi's services?
+      - What steps are involved in getting started with Techgenzi?
+      - How can I begin using Techgenzi's solutions?
+      - What is the process for starting with Techgenzi?
+      - How do I get started with Techgenzi's services?
+      - What is the process to start using Techgenzi's solutions?
+
+  - intent: ask_ongoing_website_support
+    examples: |
+      - Can Techgenzi provide ongoing support for the website?
+      - Does Techgenzi offer post-launch support for websites?
+      - What kind of support does Techgenzi provide after launch?
+      - How does Techgenzi ensure website maintenance?
+      - Can I get continuous support for my website from Techgenzi?
+      - What support options does Techgenzi offer for websites after launch?
+      - How can I get ongoing support for my website from Techgenzi?
+
+  - intent: ask_maintenance_services
+    examples: |
+      - What kind of maintenance services do they offer?
+      - What maintenance services does Techgenzi provide?
+      - How does Techgenzi handle website maintenance?
+      - What are the maintenance services offered by Techgenzi?
+      - Can you tell me about Techgenzi's maintenance services?
+      - What services does Techgenzi offer for website maintenance?
+      - How does Techgenzi ensure website maintenance and support?
+
+  - intent: ask_who_will_work
+    examples: |
+      - Who will work on my project?
+      - Who will be handling my project?
+      - Who will be assigned to my project?
+      - Who will manage my project?
+      - Who will be responsible for my project?
+      - Who will be working on my project?
+
+  - intent: ask_meet_team
+    examples: |
+      - Can I meet the team working on my project?
+      - Can I meet the project manager?
+      - Can I meet the developers?
+      - Can I have a meeting with the team?
+      - Can I meet the key team members?
+      - Can I meet the people working on my project?
+
+  - intent: ask_team_qualifications
+    examples: |
+      - What qualifications do Techgenzi's team members have?
+      - What certifications do the team members have?
+      - What experience do the team members have?
+      - How qualified are the team members?
+      - What are the team members' qualifications?
+      - What expertise do the team members have?
+
+  - intent: ask_team_collaboration
+    examples: |
+      - How does Techgenzi ensure team collaboration?
+      - What tools does Techgenzi use for team collaboration?
+      - How does Techgenzi manage team collaboration?
+      - How does Techgenzi ensure seamless collaboration?
+      - What collaboration tools does Techgenzi use?
+      - How does Techgenzi handle team communication?
+
+  - intent: ask_communicate_developers
+    examples: |
+      - Can I communicate directly with the developers?
+      - Can I talk to the developers directly?
+      - Can I have direct contact with the developers?
+      - Can I communicate with the development team?
+      - Can I interact with the developers?
+      - Can I have regular check-ins with the developers?
+
+  - intent: ask_team_training
+    examples: |
+      - How does Techgenzi handle team training and development?
+      - What training programs does Techgenzi offer?
+      - How does Techgenzi ensure continuous learning?
+      - How does Techgenzi invest in team development?
+      - What development opportunities does Techgenzi provide?
+      - How does Techgenzi keep the team updated?
+
+  - intent: ask_team_size
+    examples: |
+      - What is the size of Techgenzi's team?
+      - How many people will work on my project?
+      - What is the team size for a typical project?
+      - How large is the team at Techgenzi?
+      - What is the size of the core team?
+      - How does Techgenzi scale its team?
+
+  - intent: ask_team_accountability
+    examples: |
+      - How does Techgenzi ensure team accountability?
+      - What accountability measures does Techgenzi take?
+      - How does Techgenzi manage team accountability?
+      - What processes does Techgenzi use to ensure accountability?
+      - How does Techgenzi ensure clear roles and responsibilities?
+      - How does Techgenzi ensure accountability in projects?
+
+  - intent: ask_request_team_members
+    examples: |
+      - Can I request specific team members for my project?
+      - Can I choose the team members for my project?
+      - Can I select the developers for my project?
+      - Can I request specific developers?
+      - Can I have input on the team members?
+      - Can I request a specific project manager?
+
+  - intent: ask_team_turnover
+    examples: |
+      - How does Techgenzi handle team turnover?
+      - What is Techgenzi's policy on team turnover?
+      - How does Techgenzi manage team changes?
+      - What happens if a team member leaves during my project?
+      - How does Techgenzi ensure continuity during team turnover?
+      - How does Techgenzi handle changes in team members?
+
+  - intent: ask_contact_for_help
+    examples: |
+      - How can I contact Techgenzi if I need help?
+      - What is the best way to get in touch with Techgenzi for support?
+      - How do I reach out to Techgenzi for help?
+      - What contact options does Techgenzi offer for support?
+      - How can I get support from Techgenzi?
+      - What channels can I use to contact Techgenzi for help?
+
+  - intent: ask_support_hours
+    examples: |
+      - What are Techgenzi's support hours?
+      - When is Techgenzi's support team available?
+      - What are the support hours at Techgenzi?
+      - How long is support available each day?
+      - What are the business hours for support?
+      - When can I contact Techgenzi for support?
+
+  - intent: ask_support_ticket_handling
+    examples: |
+      - How does Techgenzi handle support tickets?
+      - What is Techgenzi's process for support tickets?
+      - How does Techgenzi ensure prompt response to support tickets?
+      - What system does Techgenzi use for support tickets?
+      - How does Techgenzi manage support requests?
+      - How does Techgenzi ensure support tickets are resolved quickly?
+
+  - intent: ask_training_for_products
+    examples: |
+      - Can Techgenzi provide training for using the products they build?
+      - Do you offer training for the products you develop?
+      - How does Techgenzi help with training for new products?
+      - What training does Techgenzi offer for new systems?
+      - Can Techgenzi provide training for my team?
+      - How does Techgenzi ensure my team can use the new systems?
+
+  - intent: ask_support_for_technical_issues
+    examples: |
+      - What kind of support does Techgenzi offer for technical issues?
+      - How does Techgenzi handle technical support?
+      - What support does Techgenzi provide for technical problems?
+      - How does Techgenzi assist with technical issues?
+      - What kind of technical support can I expect from Techgenzi?
+      - How does Techgenzi ensure technical issues are resolved?
+
+  - intent: ask_ensure_customer_satisfaction
+    examples: |
+      - How does Techgenzi ensure customer satisfaction?
+      - What measures does Techgenzi take to ensure customer satisfaction?
+      - How does Techgenzi prioritize customer satisfaction?
+      - What is Techgenzi's approach to customer satisfaction?
+      - How does Techgenzi handle customer feedback?
+      - How does Techgenzi ensure customers are satisfied?
+
+  - intent: ask_provide_documentation
+    examples: |
+      - Can Techgenzi provide documentation for the products they build?
+      - What documentation does Techgenzi provide?
+      - How does Techgenzi ensure documentation is comprehensive?
+      - What kind of documentation can I expect from Techgenzi?
+      - How does Techgenzi manage project documentation?
+      - What tools does Techgenzi use for documentation?
+
+  - intent: ask_support_for_third_party_integrations
+    examples: |
+      - How does Techgenzi handle support for third-party integrations?
+      - What support does Techgenzi offer for third-party integrations?
+      - How does Techgenzi ensure third-party integrations work correctly?
+      - What is Techgenzi's approach to supporting third-party integrations?
+      - How does Techgenzi maintain third-party integrations?
+      - How does Techgenzi handle issues with third-party integrations?
+
+  - intent: ask_support_for_future_updates
+    examples: |
+      - Can Techgenzi offer support for future updates and enhancements?
+      - How does Techgenzi support future updates?
+      - What is Techgenzi's policy on future updates and enhancements?
+      - How does Techgenzi ensure products remain up-to-date?
+      - What support does Techgenzi offer for future enhancements?
+      - How does Techgenzi handle future updates?
+
+  - intent: ask_kind_of_training
+    examples: |
+      - What kind of training does Techgenzi offer?
+      - How does Techgenzi provide training?
+      - What training sessions does Techgenzi offer?
+      - How does Techgenzi conduct training workshops?
+      - What documentation does Techgenzi provide for training?
+      - How does Techgenzi ensure training is effective?
+
+  - intent: ask_access_training_materials
+    examples: |
+      - How can I access Techgenzi's training materials?
+      - Where can I find the training materials provided by Techgenzi?
+      - How does Techgenzi provide access to training materials?
+      - Can I access training materials online?
+      - How does Techgenzi distribute training materials?
+      - How can I get the training materials for my project?
+
+  - intent: ask_ongoing_training
+    examples: |
+      - Does Techgenzi offer ongoing training?
+      - How does Techgenzi support ongoing training?
+      - What is Techgenzi's approach to ongoing training?
+      - How does Techgenzi ensure continuous training?
+      - What ongoing training options does Techgenzi offer?
+      - How does Techgenzi handle ongoing training needs?
+
+  - intent: ask_knowledge_base_contents
+    examples: |
+      - What is included in Techgenzi's knowledge base?
+      - What kind of information is in Techgenzi's knowledge base?
+      - How comprehensive is Techgenzi's knowledge base?
+      - What resources does Techgenzi provide in the knowledge base?
+      - How does Techgenzi support knowledge sharing?
+      - What kind of documentation is in the knowledge base?
+
+  - intent: ask_access_knowledge_base
+    examples: |
+      - How can I access Techgenzi's knowledge base?
+      - How do I get access to the knowledge base?
+      - Where can I find the knowledge base?
+      - How can I access the knowledge base materials?
+      - How do I access the knowledge base portal?
+      - How can I get access to the knowledge base?
+
+  - intent: ask_custom_training_programs
+    examples: |
+      - Does Techgenzi provide custom training programs?
+      - Can Techgenzi create custom training programs?
+      - How does Techgenzi handle custom training?
+      - Can Techgenzi tailor training programs to my needs?
+      - Does Techgenzi offer personalized training programs?
+      - How can I get custom training from Techgenzi?
+
+  - intent: ask_training_effectiveness
+    examples: |
+      - How does Techgenzi ensure training effectiveness?
+      - What measures does Techgenzi take to ensure training is effective?
+      - How does Techgenzi measure training effectiveness?
+      - What is Techgenzi's approach to ensuring training effectiveness?
+      - How does Techgenzi ensure training is comprehensive?
+      - How does Techgenzi follow up on training effectiveness?
+
+  - intent: ask_training_for_non_technical_users
+    examples: |
+      - Can Techgenzi provide training for non-technical users?
+      - How does Techgenzi handle training for non-technical users?
+      - What kind of training does Techgenzi offer for non-technical users?
+      - How does Techgenzi ensure non-technical users can use the systems?
+      - What training options does Techgenzi offer for non-technical users?
+      - How does Techgenzi tailor training for non-technical users?
+
+  - intent: ask_training_for_remote_teams
+    examples: |
+      - How does Techgenzi handle training for remote teams?
+      - What training options does Techgenzi offer for remote teams?
+      - How does Techgenzi support remote training?
+      - What is Techgenzi's approach to virtual training?
+      - How does Techgenzi ensure remote teams are trained effectively?
+      - How does Techgenzi provide training materials for remote teams?
+
+  - intent: ask_client_success_stories
+    examples: |
+      - Do you have any client success stories?
+      - Can you share some client success stories?
+      - What are some of your client success stories?
+      - Do you have any testimonials from clients?
+      - Can you provide some client success stories?
+      - What do your clients say about you? 
+
+  - intent: ask_references
+    examples: |
+      - Can you provide references from previous clients?
+      - Do you have any references from past clients?
+      - Can you give me some client references?
+      - Do you have any client recommendations?
+      - Can you share some client testimonials?
+      - What do your clients say about you?
+
+  - intent: ask_client_feedback
+    examples: |
+      - What do your clients say about you?
+      - What is the feedback from your clients?
+      - Can you share some client testimonials?
+      - What do clients say about your services?
+      - How do your clients feel about your company?
+      - What is the general feedback from clients?
+  - intent: ask_client_satisfaction
+    examples: |
+      - How does Techgenzi ensure client satisfaction?
+      - What measures does Techgenzi take to ensure client satisfaction?
+      - How does Techgenzi prioritize client satisfaction?
+      - What is Techgenzi's approach to client satisfaction?
+      - How does Techgenzi handle client satisfaction?
+      - How does Techgenzi ensure clients are satisfied?
+  - intent: ask_kind_of_testimonials
+    examples: |
+      - What kind of testimonials does Techgenzi have?
+      - Can you share some testimonials from clients?
+      - What do clients say in their testimonials?
+      - How do clients describe their experience with Techgenzi?
+      - What testimonials do you have from clients?
+      - Can you provide some client testimonials?
+      - What kind of feedback do clients give in testimonials?
+
+  - intent: ask_ensure_transparency
+    examples: |
+      - How does Techgenzi ensure transparency with clients?
+      - What measures does Techgenzi take to ensure transparency?
+      - How does Techgenzi maintain transparency with clients?
+      - What is Techgenzi's approach to transparency?
+      - How does Techgenzi ensure clear communication with clients?
+      - How does Techgenzi ensure transparency in projects?
+
+  - intent: ask_examples_of_work
+    examples: |
+      - Can Techgenzi provide examples of their work?
+      - Do you have examples of your work?
+      - Can you show me some examples of your work?
+      - What kind of projects have you completed?
+      - How can I see examples of your work?
+      - Can you provide a portfolio of your work?
+      - What examples of work does Techgenzi offer?
+
+  - intent: ask_build_long_term_relationships
+    examples: |
+      - How does Techgenzi build long-term relationships with clients?
+      - What is Techgenzi's approach to long-term client relationships?
+      - How does Techgenzi ensure long-term client satisfaction?
+      - What steps does Techgenzi take to build long-term relationships?
+      - How does Techgenzi maintain long-term relationships with clients?
+      - How does Techgenzi foster long-term relationships with clients?
+
+  - intent: ask_build_ecommerce_website
+    examples: |
+      - Can Techgenzi build a website with e-commerce functionality?
+      - Does Techgenzi develop e-commerce websites?
+      - Can you build an e-commerce site?
+      - What e-commerce solutions do you offer?
+      - How does Techgenzi handle e-commerce development?
+      - Can Techgenzi create an online store?
+
+  - intent: ask_work_with_non_profit
+    examples: |
+      - Does Techgenzi work with non-profit organizations?
+      - Do you offer services for non-profits?
+      - Can non-profits benefit from Techgenzi's services?
+      - What services do you offer for non-profit organizations?
+      - How does Techgenzi support non-profits?
+      - Do you have special pricing for non-profits?
+
+  - intent: ask_custom_crm_system
+    examples: |
+      - Can Techgenzi help with a custom CRM system?
+      - Do you develop custom CRM solutions?
+      - How does Techgenzi handle custom CRM systems?
+      - Can you build a CRM tailored to my business?
+      - What CRM solutions do you offer?
+      -CRM?
+      -crm?
+      -what is crm?
+      - How does Techgenzi support CRM development?
+
+  - intent: ask_handle_data_migration
+    examples: |
+      - How does Techgenzi handle data migration?
+      - What is Techgenzi's process for data migration?
+      - How does Techgenzi ensure data is transferred securely?
+      - Can Techgenzi handle large data migrations?
+      - What tools does Techgenzi use for data migration?
+      - How does Techgenzi ensure data accuracy during migration?
+
+  - intent: ask_integrate_social_media
+    examples: |
+      - Can Techgenzi integrate social media into my website or app?
+      - How does Techgenzi handle social media integration?
+      - Can you add social media features to my site?
+      - What social media platforms can Techgenzi integrate?
+      - How does Techgenzi enhance user engagement with social media?
+      - Can Techgenzi integrate social sharing features?
+
+  - intent: ask_ensure_mobile_responsiveness
+    examples: |
+      - How does Techgenzi ensure mobile responsiveness?
+      - What is Techgenzi's approach to mobile-responsive design?
+      - How does Techgenzi ensure websites work on all devices?
+      - Can Techgenzi develop mobile-responsive apps?
+      - How does Techgenzi test mobile responsiveness?
+      - What tools does Techgenzi use for mobile-responsive development?
+
+  - intent: ask_custom_erp_system
+    examples: |
+      - Can Techgenzi help with a custom ERP system?
+      - Do you develop custom ERP solutions?
+      - How does Techgenzi handle custom ERP systems?
+      - Can you build an ERP tailored to my business?
+      - What ERP solutions do you offer?
+      - How does Techgenzi support ERP development?
+
+  - intent: ask_handle_project_documentation
+    examples: |
+      - How does Techgenzi handle project documentation?
+      - What kind of documentation does Techgenzi provide?
+      - How does Techgenzi ensure documentation is comprehensive?
+      - What project documentation can I expect from Techgenzi?
+      - How does Techgenzi manage project documentation?
+      - What tools does Techgenzi use for documentation?
+
+  - intent: ask_custom_cms_system
+    examples: |
+      - Can Techgenzi help with a custom CMS system?
+      - Do you develop custom CMS solutions?
+      - How does Techgenzi handle custom CMS systems?
+      - Can you build a CMS tailored to my business?
+      - What CMS solutions do you offer?
+      - How does Techgenzi support CMS development?
+
+  - intent: ask_ensure_seo_optimization
+    examples: |
+      - How does Techgenzi ensure SEO optimization?
+      - What SEO services does Techgenzi offer?
+      - How does Techgenzi improve website visibility?
+      - What SEO practices does Techgenzi follow?
+      - How does Techgenzi handle keyword research?
+      - How does Techgenzi ensure on-page optimization?
+
+  - intent: ask_schedule_demo
+    examples: |
+      - How can I schedule a demo with Techgenzi?
+      - How do I request a demo from Techgenzi?
+      - Can I get a demo of Techgenzi's services?
+      - How can I arrange a demo with Techgenzi?
+      - What is the process for scheduling a demo?
+      - How can I get a demo of Techgenzi's solutions?
+      - How do I schedule a demo session with Techgenzi?
+
+  - intent: ask_speak_to_representative
+    examples: |
+      - Can I speak to a representative directly?
+      - How can I talk to someone directly?
+      - Can I speak to a sales representative?
+      - How do I contact a representative?
+      - Can I speak to a support representative?
+      - How can I get in touch with a representative?
+
+  - intent: ask_contact_details
+    examples: |
+      - What are Techgenzi's contact details?
+      - How can I contact Techgenzi?
+      - What is Techgenzi's phone number?
+      - What is Techgenzi's email address?
+      - How can I reach Techgenzi?
+      - What are the contact details for Techgenzi?
+
+  - intent: ask_get_in_touch_with_sales
+    examples: |
+      - How can I get in touch with Techgenzi's sales team?
+      - How do I contact the sales team?
+      - What is the email for the sales team?
+      - How can I reach the sales team?
+      - What is the phone number for the sales team?
+      - How do I get in touch with sales?
+
+  - intent: ask_address
+    examples: |
+      - What is Techgenzi's address?
+      - Where is Techgenzi located?
+      - What is the address of Techgenzi's office?
+      - How can I find Techgenzi's office?
+      - What is the location of Techgenzi?
+      - Where can I find Techgenzi?
+
+  - intent: ask_demo
+    examples: |
+      - How do I schedule a demo?
+      - What's included in the demo?
+      - Can I try a free demo?
+
+  - intent: ask_price
+    examples: |
+      - What's included in the basic plan?
+      - Do you offer discounts?
+      - Is there a free trial available?
+
+  - intent: ask_features
+    examples: |
+      - Can you tell me about your features?
+      - What features do you offer?
+      - What are the features of your solutions?
+
+  - intent: ask_how_it_works
+    examples: |
+      - How does this work?
+      - How does it work?
+      - How does your solution work?
+
+  - intent: ask_thanks
+    examples: |
+      - Thank you
+      - Thanks
+      - Thanks a lot
+      - Thank you very much
+
+  - intent: ask_more_detail
+    examples: |
+      - Can you explain that in more detail?
+      - I need more information
+      - Can you elaborate on that?
+
+  - intent: ask_comparison
+    examples: |
+      - How does that compare to other options?
+      - How is it different from other solutions?
+      - What sets you apart from others?
+
+  - intent: ask_basic_plan
+    examples: |
+      - What's included in the basic plan?
+      - Can you tell me about the basic plan?
+      - What does the basic plan offer?
+
+  - intent: ask_discounts
+    examples: |
+      - Do you offer discounts?
+      - Are there any discounts available?
+      - Can I get a discount?
+
+  - intent: ask_free_trial
+    examples: |
+      - Is there a free trial available?
+      - Can I try it for free?
+      - Do you offer a free trial?
+
+  - intent: ask_free_demo
+    examples: |
+      - Can I try a free demo?
+      - Is there a free demo available?
+      - Can I get a free demo?
+
+  - intent: ask_demo_schedule
+    examples: |
+      - How do I schedule a demo?
+      - How can I book a demo?
+      - Can I schedule a demo?
+
+  - intent: ask_demo_inclusion
+    examples: |
+      - What's included in the demo?
+      - What will be covered in the demo?
+      - What can I expect in the demo?
+  - intent: ask_hrm_solutions
+    examples: |
+      -HRM ?
+      -hrm?
+      -tell me about hrm?
+      - What HRM solutions does TechGenzi offer?
+      - Tell me about TechGenzi's HRM products.
+
+  - intent: ask_payroll_processing
+    examples: |
+      - How does TechGenzi's HRM system handle payroll processing?
+      - What payroll features are available in TechGenzi's HRM system?
+
+  - intent: ask_attendance_tracking
+    examples: |
+      - Can TechGenzi's HRM system track employee attendance?
+      - How does TechGenzi's HRM system handle attendance tracking?
+
+  - intent: ask_performance_management
+    examples: |
+      - What performance management tools are available in TechGenzi's HRM system?
+      - How does TechGenzi's HRM system support performance management?
+
+  - intent: ask_recruitment_support
+    examples: |
+      - How does TechGenzi's HRM system support recruitment?
+      - What recruitment features are available in TechGenzi's HRM system?
+      - Can TechGenzi's HRM system help with job postings?
+      - How does TechGenzi's HRM system manage candidate tracking?
+      - What tools does TechGenzi's HRM system offer for interview scheduling?
+      - How does TechGenzi's HRM system improve the candidate experience?
+      - Can TechGenzi's HRM system integrate with other recruitment platforms?
+
+  - intent: ask_benefits_management
+    examples: |
+      - What employee benefits management tools are available in TechGenzi's HRM system?
+      - How does TechGenzi's HRM system handle benefits management?
+      - Can TechGenzi's HRM system manage benefits enrollment?
+      - How does TechGenzi's HRM system process benefits claims?
+      - What communication tools does TechGenzi's HRM system offer for benefits?
+      - How does TechGenzi's HRM system ensure compliance with benefits regulations?
+      - Can TechGenzi's HRM system customize benefits packages for different employee groups?
+
+  - intent: ask_training_development
+    examples: |
+      - Can TechGenzi's HRM system handle employee training and development?
+      - What training and development features are available in TechGenzi's HRM system?
+      - How does TechGenzi's HRM system manage course management?
+      - What learning paths are available in TechGenzi's HRM system?
+      - How does TechGenzi's HRM system track employee performance in training?
+      - Can TechGenzi's HRM system integrate with external learning platforms?
+      - How does TechGenzi's HRM system support career development?
+
+  - intent: ask_employee_onboarding
+    examples: |
+      - How does TechGenzi's HRM system manage employee onboarding?
+      - What onboarding features are available in TechGenzi's HRM system?
+      - Can TechGenzi's HRM system automate the onboarding process?
+      - How does TechGenzi's HRM system handle new employee orientation?
+      - What document sharing features are available in TechGenzi's HRM system?
+      - How does TechGenzi's HRM system manage onboarding checklists?
+      - Can TechGenzi's HRM system integrate with other HR tools during onboarding?
+
+  - intent: ask_reporting_analytics
+    examples: |
+      - What reporting and analytics features are available in TechGenzi's HRM system?
+      - How does TechGenzi's HRM system support reporting and analytics?
+      - Can TechGenzi's HRM system generate custom reports?
+      - What real-time dashboards are available in TechGenzi's HRM system?
+      - How does TechGenzi's HRM system visualize data?
+      - Can TechGenzi's HRM system provide insights into employee performance?
+      - How does TechGenzi's HRM system help with strategic decision-making?
+
+  - intent: ask_employee_self_service
+    examples: |
+      - How does TechGenzi's HRM system support employee self-service?
+      - What self-service features are available in TechGenzi's HRM system?
+      - Can employees view their pay stubs in TechGenzi's HRM system?
+      - How does TechGenzi's HRM system handle personal information updates?
+      - Can employees request time off through TechGenzi's HRM system?
+      - How does TechGenzi's HRM system provide access to company policies?
+      - Can employees track their benefits through TechGenzi's HRM system?
+
+  - intent: ask_training_provided
+    examples: |
+      - Do you provide training?
+      - Is there training available?
+      - Can I get training through TechGenzi?
+      - What training programs do you offer?
+      - How does TechGenzi support employee training?
+      - Are there any training features in TechGenzi's HRM system?
+      - Can TechGenzi help with skill development?
+
+  - intent: ask_solutions_for_manufacturing
+    examples: |
+      - What solutions does TechGenzi offer for manufacturing industries?
+      - Tell me about TechGenzi's manufacturing solutions.
+
+  - intent: ask_compliance_management
+    examples: |
+      - Can you tell me about TechGenzi's compliance management solutions?
+      - What is TechGenzi's compliance management solution?
+
+  - intent: ask_it_services
+    examples: |
+      - What services does TechGenzi provide in the IT sector?
+      - Tell me about TechGenzi's IT services.
+
+  - intent: ask_discounts_for_startups
+    examples: |
+      - Do you offer discounts for startups?
+      - Are there any preferential policies for startups?
+      - Can startups get any discounts from TechGenzi?
+      - What support does TechGenzi provide for startups?
+      - Are there any special deals for startups?
+      - How can startups benefit from TechGenzi's services?
+      - Does TechGenzi have any startup-friendly pricing?
+
+  - intent: ask_ipss
+    examples: |
+      - What is TechGenzi's IPSS?
+      - Tell me about TechGenzi's Integrated Productivity Solutions Suite.
+      - What does TechGenzi's IPSS offer?
+      - How does TechGenzi's IPSS help manufacturing industries?
+      - What are the key features of TechGenzi's IPSS?
+      - How can TechGenzi's IPSS improve my business operations?
+      - What benefits does TechGenzi's IPSS provide?
+
+  - intent: ask_transport_management
+    examples: |
+      - What is TechGenzi's Transport Management Solution?
+      - Tell me about TechGenzi's transport management.
+      - What does TechGenzi offer for transport management?
+      - How does TechGenzi's transport management solution work?
+      - What are the key features of TechGenzi's transport management?
+      - How can TechGenzi's transport management help my business?
+      - What benefits does TechGenzi's transport management provide?
+
+  - intent: ask_learning_management
+    examples: |
+      - What is TechGenzi's Learning Management Solution?
+      - Tell me about TechGenzi's learning management.
+      - What does TechGenzi offer for learning management?
+      - How does TechGenzi's learning management solution work?
+      - What are the key features of TechGenzi's learning management?
+      - How can TechGenzi's learning management help my institution?
+      - What benefits does TechGenzi's learning management provide?
+
+  - intent: ask_human_resource_management
+    examples: |
+      - What is TechGenzi's Human Resource Management Solution?
+      - Tell me about TechGenzi's HR management.
+      - What does TechGenzi offer for HR management?
+      - How does TechGenzi's HR management solution work?
+      - What are the key features of TechGenzi's HR management?
+      - How can TechGenzi's HR management help my business?
+      - What benefits does TechGenzi's HR management provide?
+
+  - intent: ask_production_management
+    examples: |
+      - What is TechGenzi's Production Management Solution?
+      - Tell me about TechGenzi's production management.
+      - What does TechGenzi offer for production management?
+      - How does TechGenzi's production management solution work?
+      - What are the key features of TechGenzi's production management?
+      - How can TechGenzi's production management help my business?
+      - What benefits does TechGenzi's production management provide?
+
+  - intent: ask_customer_relationship_management
+    examples: |
+      - What is TechGenzi's Customer Relationship Management Solution?
+      - Tell me about TechGenzi's CRM.
+      - What does TechGenzi offer for CRM?
+      - How does TechGenzi's CRM solution work?
+      - What are the key features of TechGenzi's CRM?
+      - How can TechGenzi's CRM help my business?
+      - What benefits does TechGenzi's CRM provide?
+
+  - intent: ask_asset_management
+    examples: |
+      - What is TechGenzi's Asset Management Solution?
+      - Tell me about TechGenzi's asset management.
+      - What does TechGenzi offer for asset management?
+      - How does TechGenzi's asset management solution work?
+      - What are the key features of TechGenzi's asset management?
+      - How can TechGenzi's asset management help my business?
+      - What benefits does TechGenzi's asset management provide?
+
+  - intent: ask_talent_management
+    examples: |
+      - What is TechGenzi's Talent Management Service?
+      - Tell me about TechGenzi's talent management.
+      - What does TechGenzi offer for talent management?
+      - How does TechGenzi's talent management solution work?
+      - What are the key features of TechGenzi's talent management?
+      - How can TechGenzi's talent management help my business?
+      - What benefits does TechGenzi's talent management provide?
+
+  - intent: ask_iot_solutions
+    examples: |
+      - What are TechGenzi's IoT Solutions?
+      - Tell me about TechGenzi's IoT solutions.
+      - What does TechGenzi offer for IoT?
+      - How do TechGenzi's IoT solutions work?
+      - What are the key features of TechGenzi's IoT solutions?
+      - How can TechGenzi's IoT solutions help my business?
+      - What benefits do TechGenzi's IoT solutions provide?
+
+  - intent: ask_enterprise_mobile_app
+    examples: |
+      - What are TechGenzi's Enterprise Mobile App Solutions?
+      - Tell me about TechGenzi's mobile app solutions.
+      - What does TechGenzi offer for enterprise mobile apps?
+      - How do TechGenzi's mobile app solutions work?
+      - What are the key features of TechGenzi's mobile app solutions?
+      - How can TechGenzi's mobile app solutions help my business?
+      - What benefits do TechGenzi's mobile app solutions provide?
+      
+  - intent: leave_management
+    examples: |
+      - How do I apply for a leave?
+      - What's the process to request a leave?
+      - Can I check my leave balance?
+      - How can I see how many leaves I have left?
+      - I need to request a leave extension, how do I do that?
+      - How do I cancel a leave request I've already submitted?
+      - What's the procedure for getting my leave approved?
+      - Can I apply for a sick leave online?
+      - How do I know if my leave request has been approved?
+      - Is there a way to track the status of my leave application?
+
+  - intent: payroll_inquiry
+    examples: |
+      - How can I check my payroll details?
+      - When will the payroll be processed this month?
+      - How do I view my salary slip?
+      - Can I see my tax deductions in the payroll?
+      - How can I update my bank account details for payroll?
+      - When can I expect my salary to be credited?
+      - How do I check my Provident Fund (PF) contributions?
+      - Is there a way to view my previous payroll records?
+      - How can I request a payroll adjustment?
+      - Can I see my Employee State Insurance (ESI) deductions?
+
+  - intent: timesheet_management
+    examples: |
+      - How do I submit my timesheet?
+      - Can I view my timesheet report?
+      - How do I approve my team's timesheets?
+      - Is there a way to track my project hours through timesheets?
+      - How can I update my timesheet if I made a mistake?
+      - Can I see the timesheets of my team members?
+      - How do I know if my timesheet has been approved?
+      - Is there a deadline for submitting timesheets?
+      - How can I request an extension for submitting my timesheet?
+      - Can I view historical timesheet data?
+
+  - intent: access_control
+    examples: |
+      - How do I set up access control for my team?
+      - Can I view attendance records through access control?
+      - How can I change access control settings?
+      - Can I monitor attendance through access control?
+      - How do I assign roles and permissions to my team members?
+      - Can I see who has access to certain areas of the system?
+      - How can I restrict access to sensitive information?
+      - Is there a way to track who accessed the system and when?
+      - How do I enable biometric card integration for attendance?
+      - Can I generate attendance reports for a specific period?
+
+  - intent: skills_performance
+    examples: |
+      - How can I update my skills profile?
+      - Where can I see my performance review?
+      - How can I improve my performance rating?
+      - Where can I find training resources for skill development?
+      - How do I add new skills to my profile?
+      - Can I see feedback from my manager and peers?
+      - How can I request a performance review?
+      - Is there a way to track my skill development progress?
+      - How can I set performance goals for myself?
+      - Can I see how my performance compares to my peers?
+
+  - intent: planning_control
+    examples: |
+      - How do I plan my team's schedule?
+      - Can I control the workflow of my team?
+      - How can I optimize my team's workflow?
+      - Can I plan resource allocation using HRM?
+      - How do I set up tasks and deadlines for my team?
+      - Can I monitor the progress of my team's tasks?
+      - How can I adjust the workflow if a task is delayed?
+      - Is there a way to see the overall workload of my team?
+      - How can I prioritize tasks for my team?
+      - Can I delegate tasks to team members through the system?
+
+  - intent: hrm_overview
+    examples: |
+      - What is Human Resource Management (HRM)?
+      - Can you explain the concept of HRM?
+      - What are the main objectives of HRM?
+      - What are the main objectives of hrm?
+      - How does HRM contribute to a company's success?
+      - What are the key components of HRM?
+      - How does HRM differ from traditional personnel management?
+      - What role does HRM play in strategic planning?
+      - How can HRM help in building a strong company culture?
+      - What are the different functions of HRM?
+      - How does HRM impact employee engagement and retention?
+
+  - intent: hrm_software
+    examples: |
+      - What kind of software is used for HRM?
+      - Can you recommend any HRM software?
+      - How do I choose the right HRM software for my company?
+      - What features should I look for in HRM software?
+      - What are the benefits of using HRM software?
+      - How can HRM software improve efficiency in HR processes?
+      - What are some popular HRM software solutions in the market?
+      - How do I integrate HRM software with existing systems?
+      - What are the costs associated with HRM software?
+      - How can HRM software help in compliance with labor laws?
+
+  - intent: hrm_benefits
+    examples: |
+      - What are the benefits of effective HRM?
+      - How does HRM improve employee satisfaction?
+      - How does HRM contribute to organizational efficiency?
+      - What role does HRM play in employee development?
+      - How does HRM help in managing organizational change?
+      - What are the long-term benefits of HRM for a company?
+      - How can HRM help in reducing employee turnover?
+      - What are the benefits of HRM for small businesses?
+      - How does HRM contribute to a positive work environment?
+      - How can HRM help in managing employee performance?
+
+  - intent: hrm_challenges
+    examples: |
+      - What are the common challenges in HRM?
+      - How do I handle employee turnover in HRM?
+      - What are the difficulties in implementing HRM strategies?
+      - How can I address compliance issues in HRM?
+      - What are the challenges in managing remote teams in HRM?
+      - How can HRM overcome resistance to change?
+      - What are the challenges in attracting and retaining top talent?
+      - How can HRM manage a diverse workforce effectively?
+      - What are the challenges in maintaining employee engagement?
+      - How can HRM ensure effective communication in a remote setting?
+
+  - intent: hrm_best_practices
+    examples: |
+      - What are the best practices in HRM?
+      - How can I improve my HRM processes?
+      - What strategies are effective for HRM?
+      - How can I ensure effective communication in HRM?
+      - What are the key elements of a successful HRM system?
+      - How can HRM support employee well-being?
+      - What are the best practices for HRM in a remote work environment?
+      - How can HRM foster a culture of continuous learning?
+      - What are the best practices for managing employee performance?
+      - How can HRM ensure compliance with labor laws and regulations?
+
+  - intent: hrm_recruitment
+    examples: |
+      - What is the recruitment process in HRM?
+      - How can I improve my recruitment strategies?
+      - What are the best practices for hiring top talent?
+      - How do I conduct effective interviews?
+      - What tools can I use for recruitment?
+      - How can I attract more candidates to my job postings?
+      - What are the key factors to consider when selecting a candidate?
+      - How can I ensure diversity in my recruitment process?
+      - What are the common pitfalls in recruitment?
+      - How can I measure the success of my recruitment efforts?
+
+  - intent: hrm_training_development
+    examples: |
+      - What is the role of training and development in HRM?
+      - How can I design effective training programs?
+      - What are the best practices for employee development?
+      - How do I identify training needs in my organization?
+      - What tools can I use for training and development?
+      - How can I ensure that training is effective and impactful?
+      - What are the key factors to consider when selecting a training provider?
+      - How can I measure the success of my training programs?
+      - What are the common pitfalls in training and development?
+      - How can I foster a culture of continuous learning?
+
+  - intent: hrm_employee_relations
+    examples: |
+      - What is the role of employee relations in HRM?
+      - How can I improve employee engagement and satisfaction?
+      - What are the best practices for managing employee relations?
+      - How do I handle employee conflicts effectively?
+      - What tools can I use for employee relations?
+      - How can I ensure a positive work environment?
+      - What are the key factors to consider when managing employee relations?
+      - How can I measure the success of my employee relations efforts?
+      - What are the common pitfalls in employee relations?
+      - How can I foster a culture of open communication?
+
+  - intent: hrm_compliance
+    examples: |
+      - What is the role of compliance in HRM?
+      - How can I ensure compliance with labor laws?
+      - What are the best practices for managing compliance?
+      - How do I stay updated on labor laws and regulations?
+      - What tools can I use for compliance management?
+      - How can I ensure that my HR practices are compliant?
+      - What are the key factors to consider when managing compliance?
+      - How can I measure the success of my compliance efforts?
+      - What are the common pitfalls in compliance management?
+      - How can I handle compliance audits effectively?
+
+  - intent: hrm_talent_management
+    examples: |
+      - What is the role of talent management in HRM?
+      - How can I develop a talent management strategy?
+      - What are the best practices for managing talent?
+      - How do I identify high-potential employees?
+      - What tools can I use for talent management?
+      - How can I ensure that my talent management efforts are effective?
+      - What are the key factors to consider when managing talent?
+      - How can I measure the success of my talent management efforts?
+      - What are the common pitfalls in talent management?
+      - How can I foster a culture of talent development?
+
+  - intent: hrm_performance_management
+    examples: |
+      - What is performance management in HRM?
+      - How can I implement an effective performance management system?
+      - What are the best practices for performance appraisals?
+      - How do I set performance goals for my team?
+      - What tools can I use for performance management?
+      - How can I ensure that performance reviews are fair and objective?
+      - What are the key factors to consider when managing performance?
+      - How can I measure the success of my performance management efforts?
+      - What are the common pitfalls in performance management?
+      - How can I handle underperforming employees?
+
+  - intent: hrm_culture
+    examples: |
+      - What is organizational culture in HRM?
+      - How can I build a strong company culture?
+      - What are the best practices for fostering a positive work culture?
+      - How do I measure the impact of company culture on performance?
+      - What tools can I use to assess company culture?
+      - How can I ensure that new hires fit our company culture?
+      - What are the key factors to consider when shaping company culture?
+      - How can I measure the success of our company culture initiatives?
+      - What are the common pitfalls in shaping company culture?
+      - How can I handle cultural conflicts within the organization?
+
+  - intent: hrm_technology
+    examples: |
+      - What role does technology play in HRM?
+      - How can I leverage HR technology to improve efficiency?
+      - What are the best practices for integrating HR technology?
+      - How do I choose the right HR technology solutions?
+      - What tools are available for HR analytics?
+      - How can I ensure data security in HR technology?
+      - What are the key factors to consider when adopting HR technology?
+      - How can I measure the ROI of HR technology investments?
+      - What are the common pitfalls in HR technology adoption?
+      - How can I stay updated on the latest HR technology trends?
+
+  - intent: hrm_strategic_planning
+    examples: |
+      - What is strategic planning in HRM?
+      - How can I align HR strategies with business goals?
+      - What are the best practices for HR strategic planning?
+      - How do I develop a long-term HR strategy?
+      - What tools can I use for HR strategic planning?
+      - How can I ensure that HR initiatives support business objectives?
+      - What are the key factors to consider when planning HR strategies?
+      - How can I measure the success of HR strategic planning efforts?
+      - What are the common pitfalls in HR strategic planning?
+      - How can I handle changes in business strategy?
+
+  - intent: hrm_diversity_inclusion
+    examples: |
+      - What is diversity and inclusion in HRM?
+      - How can I promote diversity and inclusion in the workplace?
+      - What are the best practices for fostering an inclusive work environment?
+      - How do I measure the impact of diversity and inclusion initiatives?
+      - What tools can I use to support diversity and inclusion?
+      - How can I ensure that diversity and inclusion efforts are effective?
+      - What are the key factors to consider when promoting diversity and inclusion?
+      - How can I measure the success of diversity and inclusion programs?
+      - What are the common pitfalls in diversity and inclusion initiatives?
+      - How can I handle resistance to diversity and inclusion efforts?
+
+  - intent: hrm_product_overview
+    examples: |
+      - What is the TechGenzi HRM product?
+      - Can you give me an overview of the TechGenzi HRM solution?
+      - What does the TechGenzi HRM product offer?
+      - How does the TechGenzi HRM product help businesses?
+      - What are the main components of the TechGenzi HRM product?
+
+  - intent: hrm_product_features
+    examples: |
+      - What are the key features of the TechGenzi HRM product?
+      - How does the TechGenzi HRM product manage timesheets?
+      - What kind of leave management does the TechGenzi HRM product offer?
+      - How does the TechGenzi HRM product handle payroll processing?
+      - What skills and performance management tools are included in the TechGenzi HRM product?
+      - How does the TechGenzi HRM product support access control?
+      - What planning and control features does the TechGenzi HRM product have?
+      - How does the TechGenzi HRM product integrate with biometric cards?
+      - What reporting tools are available in the TechGenzi HRM product?
+      - How does the TechGenzi HRM product ensure data accuracy?
+
+  - intent: hrm_product_integration
+    examples: |
+      - How can I integrate the TechGenzi HRM product with my existing systems?
+      - What third-party integrations does the TechGenzi HRM product support?
+      - Can the TechGenzi HRM product integrate with my current payroll system?
+      - How does the TechGenzi HRM product integrate with biometric attendance systems?
+      - What APIs are available for integrating the TechGenzi HRM product?
+      - How can I ensure seamless integration of the TechGenzi HRM product with my ERP system?
+      - What are the steps to integrate the TechGenzi HRM product with my HRIS?
+      - How does the TechGenzi HRM product handle data migration during integration?
+      - What support is available for integrating the TechGenzi HRM product?
+      - How long does it typically take to integrate the TechGenzi HRM product?
+
+  - intent: hrm_product_security
+    examples: |
+      - How does the TechGenzi HRM product ensure data security?
+      - What security measures are in place for the TechGenzi HRM product?
+      - How does the TechGenzi HRM product protect against data breaches?
+      - What kind of encryption does the TechGenzi HRM product use?
+      - How does the TechGenzi HRM product handle user authentication?
+      - What compliance standards does the TechGenzi HRM product meet?
+      - How does the TechGenzi HRM product ensure data privacy?
+      - What are the security features of the TechGenzi HRM product's database?
+      - How does the TechGenzi HRM product manage access control for security?
+      - What kind of security audits are performed on the TechGenzi HRM product?
+
+  - intent: hrm_product_support
+    examples: |
+      - What kind of support does TechGenzi offer for the HRM product?
+      - How can I get help if I encounter issues with the TechGenzi HRM product?
+      - What are the support channels available for the TechGenzi HRM product?
+      - How does TechGenzi provide training for the HRM product?
+      - What resources are available for learning how to use the TechGenzi HRM product?
+      - How does TechGenzi handle customer feedback for the HRM product?
+      - What is the response time for support requests for the TechGenzi HRM product?
+      - How does TechGenzi ensure continuous improvement of the HRM product?
+      - What kind of technical support is available for the TechGenzi HRM product?
+      - How can I request new features for the TechGenzi HRM product?
+
+  - intent: hrm_product_customization
+    examples: |
+      - Can the TechGenzi HRM product be customized to fit our specific needs?
+      - How flexible is the TechGenzi HRM product in terms of customization?
+      - What kind of customizations can we expect with the TechGenzi HRM product?
+      - Is it possible to tailor the TechGenzi HRM product to our unique workflows?
+      - How does the TechGenzi HRM product support customization?
+
+  - intent: hrm_product_user_experience
+    examples: |
+      - What is the user experience like with the TechGenzi HRM product?
+      - How intuitive is the TechGenzi HRM product to use?
+      - What kind of training is available for the TechGenzi HRM product?
+      - How does the TechGenzi HRM product ensure a smooth user experience?
+      - What support is available for users of the TechGenzi HRM product?
+
+  - intent: hrm_product_maintenance
+    examples: |
+      - How does TechGenzi handle maintenance for the HRM product?
+      - What kind of maintenance services are included with the TechGenzi HRM product?
+      - How often is maintenance required for the TechGenzi HRM product?
+      - What is the process for scheduling maintenance for the TechGenzi HRM product?
+      - How does TechGenzi ensure minimal disruption during maintenance?
+
+  - intent: hrm_product_cost
+    examples: |
+      - How much does the TechGenzi HRM product cost?
+      - What is the pricing structure for the TechGenzi HRM product?
+      - Are there any hidden costs associated with the TechGenzi HRM product?
+      - How does the pricing of the TechGenzi HRM product compare to other solutions?
+      - What is the return on investment (ROI) for the TechGenzi HRM product?
+
+  - intent: hrm_product_updates
+    examples: |
+      - How often are updates released for the TechGenzi HRM product?
+      - What kind of updates can we expect for the TechGenzi HRM product?
+      - How does TechGenzi communicate updates to users?
+      - What is the process for installing updates to the TechGenzi HRM product?
+      - How does TechGenzi ensure that updates do not disrupt our operations?
+
+  - intent: crm_solution
+    examples: |
+      - What is TechGenzi's Customer Relationship Management Solution?
+      - How can TechGenzi's CRM solution help my business?
+      - What features does TechGenzi's CRM solution offer?
+      - How does TechGenzi's CRM solution improve customer interactions?
+      - What kind of support is available for TechGenzi's CRM solution?
+
+  - intent: productions_management
+    examples: |
+      - What is TechGenzi's Production Management System?
+      - How can TechGenzi's Production Management System optimize my operations?
+      - What features does TechGenzi's Production Management System include?
+      - How does TechGenzi's Production Management System handle quality control?
+      - What kind of reporting tools are available in TechGenzi's Production Management System?
+
+  - intent: transportation_management
+    examples: |
+      - What is TechGenzi's Transportation Management Solution?
+      - How can TechGenzi's Transportation Management Solution improve fleet efficiency?
+      - What features does TechGenzi's Transportation Management Solution offer?
+      - How does TechGenzi's Transportation Management Solution track shipments?
+      - What kind of analytics are available in TechGenzi's Transportation Management Solution?
+
+  - intent: compliances_management
+    examples: |
+      - What is TechGenzi's Compliance Management Solution?
+      - How can TechGenzi's Compliance Management Solution ensure regulatory adherence?
+      - What features does TechGenzi's Compliance Management Solution include?
+      - How does TechGenzi's Compliance Management Solution handle audits?
+      - What kind of reporting is available in TechGenzi's Compliance Management Solution?
+
+  - intent: hrm_solution
+    examples: |
+      - What is TechGenzi's Human Resource Management Solution (PeopleChamp)?
+      - How can TechGenzi's HRM solution (PeopleChamp) help manage my workforce?
+      - What features does TechGenzi's HRM solution (PeopleChamp) offer?
+      - How does TechGenzi's HRM solution (PeopleChamp) handle employee performance?
+      - What kind of support is available for TechGenzi's HRM solution (PeopleChamp)?
+
+  - intent: transport_management_smarter_fleets
+    examples: |
+      - What is TechGenzi's Transport Management - Smarter Fleets solution?
+      - How can TechGenzi's Smarter Fleets solution optimize my fleet operations?
+      - What features does TechGenzi's Smarter Fleets solution offer?
+      - How does TechGenzi's Smarter Fleets solution improve fuel efficiency?
+      - What kind of analytics are available in TechGenzi's Smarter Fleets solution?
+      
+  - intent: video_crm_solution
+    examples: |
+      - Can you show me the video about TechGenzi's CRM solution?
+      - Where can I find the video for TechGenzi's Customer Relationship Management Solution?
+      - I want to see the video on TechGenzi's CRM system.
+      - Can you link me to the TechGenzi CRM solution video?
+      - I need the video link for TechGenzi's CRM.
+
+  - intent: video_production_management
+    examples: |
+      - Where is the video for TechGenzi's Production Management System?
+      - Can you provide the link to the TechGenzi Production Management video?
+      - I'd like to watch the video on TechGenzi's Production Management.
+      - Can you show me the video about TechGenzi's Production Management System?
+      - I need the video link for TechGenzi's Production Management.
+
+  - intent: video_transportation_management
+    examples: |
+      - Can you show me the video about TechGenzi's Transportation Management Solution?
+      - Where can I find the video for TechGenzi's Transportation Management Solution?
+      - I want to see the video on TechGenzi's Transportation Management.
+      - Can you link me to the TechGenzi Transportation Management Solution video?
+      - I need the video link for TechGenzi's Transportation Management.
+
+  - intent: video_compliance_management
+    examples: |
+      - Where is the video for TechGenzi's Compliance Management Solution?
+      - Can you provide the link to the TechGenzi Compliance Management video?
+      - I'd like to watch the video on TechGenzi's Compliance Management.
+      - Can you show me the video about TechGenzi's Compliance Management Solution?
+      - I need the video link for TechGenzi's Compliance Management.
+
+  - intent: video_hrm_solution
+    examples: |
+      - Can you show me the video about TechGenzi's HRM solution (PeopleChamp)?
+      - Where can I find the video for TechGenzi's Human Resource Management Solution (PeopleChamp)?
+      - I want to see the video on TechGenzi's HRM system.
+      - Can you link me to the TechGenzi HRM solution (PeopleChamp) video?
+      - I need the video link for TechGenzi's HRM (PeopleChamp).
+
+  - intent: video_transport_management_smarter_fleets
+    examples: |
+      - Can you show me the video about TechGenzi's Smarter Fleets solution?
+      - Where can I find the video for TechGenzi's Transport Management - Smarter Fleets?
+      - I want to see the video on TechGenzi's Smarter Fleets.
+      - Can you link me to the TechGenzi Smarter Fleets solution video?
+      - I need the video link for TechGenzi's Smarter Fleets.
+      
+  - intent: ask_ceo
+    examples: |
+      - Who is the CEO of Techgenzi?
+      - Can you tell me the CEO of Techgenzi?
+      - What is the name of the CEO of Techgenzi?
+      - Who leads Techgenzi?
+      - Who is in charge of Techgenzi?
+      - Who is the head of Techgenzi?
+      - Who is the top executive at Techgenzi?
+
+  - intent: ask_founder
+    examples: |
+      - Who are the founder of Techgenzi?
+      - Can you tell me who founded Techgenzi?
+      - What are the names of the founders of Techgenzi?
+      - Who started Techgenzi?
+      - Who created Techgenzi?
+      - Who established Techgenzi?
+      - Who are the people behind the founding of Techgenzi?
+
+  - intent: factory_efficiency_management
+    examples: |
+      - What is Factory Efficiency Management Solutions?
+      - How can Factory Efficiency Management Solutions help my business?
+      - What features does Factory Efficiency Management Solutions offer?
+      - How does Factory Efficiency Management Solutions improve production efficiency?
+      - What kind of support is available for Factory Efficiency Management Solutions?
+
+  - intent: transport_management_solutions
+    examples: |
+      - What is Transport Management Solutions?
+      - How can Transport Management Solutions improve fleet efficiency?
+      - What features does Transport Management Solutions offer?
+      - How does Transport Management Solutions track shipments?
+      - What kind of analytics are available in Transport Management Solutions?
+
+  - intent: compliance_management_solutions
+    examples: |
+      - What is Compliance Management Solutions?
+      - How can Compliance Management Solutions ensure regulatory adherence?
+      - What features does Compliance Management Solutions include?
+      - How does Compliance Management Solutions handle audits?
+      - What kind of reporting is available in Compliance Management Solutions?
+
+  - intent: campus_management_solutions
+    examples: |
+      - What is Campus Management Solutions?
+      - How can Campus Management Solutions help manage academic institutions?
+      - What features does Campus Management Solutions offer?
+      - How does Campus Management Solutions handle staff and student management?
+      - What kind of support is available for Campus Management Solutions?
+
+  - intent: general_services
+    examples: |
+      - What services does TechGenzi offer?
+      - How can TechGenzi's services help my business?
+      - What industries does TechGenzi serve?
+      - How can TechGenzi's solutions help me manage my business better?
+      - What kind of IT services does TechGenzi provide?
+
+  - intent: about_team
+    examples: |
+      - Who are the key members of TechGenzi's team?
+      - What is the background of TechGenzi's team members?
+      - Who are the product managers at TechGenzi?
+      - What is the role of the product architect at TechGenzi?
+      - Who are the managers at TechGenzi?
+
+  - intent: product_functionality
+    examples: |
+      - How does TechGenzi's Factory Efficiency Management Solutions work?
+      - What is the functionality of TechGenzi's Transport Management Solutions?
+      - How does TechGenzi's Compliance Management Solutions function?
+      - What does TechGenzi's Campus Management Solutions do?
+      - How does TechGenzi's HRM solution work?
+
+  - intent: product_features
+    examples: |
+      - What are the key features of TechGenzi's Factory Efficiency Management Solutions?
+      - What features does TechGenzi's Transport Management Solutions offer?
+      - What are the main features of TechGenzi's Compliance Management Solutions?
+      - What features does TechGenzi's Campus Management Solutions include?
+      - What are the features of TechGenzi's HRM solution?
+
+  - intent: product_benefits
+    examples: |
+      - What are the benefits of using TechGenzi's Factory Efficiency Management Solutions?
+      - How can TechGenzi's Transport Management Solutions benefit my business?
+      - What benefits does TechGenzi's Compliance Management Solutions offer?
+      - How can TechGenzi's Campus Management Solutions help my institution?
+      - What are the benefits of TechGenzi's HRM solution?
+
+  - intent: product_integration
+    examples: |
+      - How can I integrate TechGenzi's Factory Efficiency Management Solutions with my existing systems?
+      - Can TechGenzi's Transport Management Solutions integrate with other software?
+      - How does TechGenzi's Compliance Management Solutions integrate with my current processes?
+      - Can TechGenzi's Campus Management Solutions integrate with my school's existing systems?
+      - How can I integrate TechGenzi's HRM solution with my current HR processes?
+
+  - intent: product_support
+    examples: |
+      - What kind of support does TechGenzi offer for its products?
+      - How can I get help if I encounter issues with TechGenzi's Factory Efficiency Management Solutions?
+      - What support channels are available for TechGenzi's Transport Management Solutions?
+      - How does TechGenzi provide support for its Compliance Management Solutions?
+      - What kind of technical support is available for TechGenzi's Campus Management Solutions?
+      - How can I get support for TechGenzi's HRM solution?

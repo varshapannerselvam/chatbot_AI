@@ -1,0 +1,1076 @@
+version: "3.1"
+
+rules:
+  - rule: respond to greet intent
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: respond to goodbye intent
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: respond to thank_you intent
+    steps:
+      - intent: thank_you
+      - action: utter_thank_you
+
+  - rule: respond to ask_company_info intent
+    steps:
+      - intent: ask_company_info
+      - action: utter_ask_company_info
+
+  - rule: respond to ask_location intent
+    steps:
+      - intent: ask_location
+      - action: utter_ask_location
+
+  - rule: respond to ask_services intent
+    steps:
+      - intent: ask_services
+      - action: utter_ask_services
+
+  - rule: respond to ask_business_duration intent
+    steps:
+      - intent: ask_business_duration
+      - action: utter_ask_business_duration
+
+  - rule: respond to ask_industries intent
+    steps:
+      - intent: ask_industries
+      - action: utter_ask_industries
+
+  - rule: respond to ask_vision intent
+    steps:
+      - intent: ask_vision
+      - action: utter_ask_vision
+
+  - rule: respond to ask_mission intent
+    steps:
+      - intent: ask_mission
+      - action: utter_ask_mission
+
+  - rule: respond to ask_core_values intent
+    steps:
+      - intent: ask_core_values
+      - action: utter_ask_core_values
+
+  - rule: respond to ask_founders intent
+    steps:
+      - intent: ask_founders
+      - action: utter_ask_founders
+
+  - rule: respond to ask_services_offered intent
+    steps:
+      - intent: ask_services_offered
+      - action: utter_ask_services_offered
+
+  - rule: respond to ask_cloud_services intent
+    steps:
+      - intent: ask_cloud_services
+      - action: utter_ask_cloud_services
+
+  - rule: respond to ask_mobile_app_development intent
+    steps:
+      - intent: ask_mobile_app_development
+      - action: utter_ask_mobile_app_development
+
+  - rule: respond to ask_digital_marketing intent
+    steps:
+      - intent: ask_digital_marketing
+      - action: utter_ask_digital_marketing
+
+  - rule: respond to ask_start_project intent
+    steps:
+      - intent: ask_start_project
+      - action: utter_ask_start_project
+
+  - rule: respond to ask_full_stack_web_development intent
+    steps:
+      - intent: ask_full_stack_web_development
+      - action: utter_ask_full_stack_web_development
+
+  - rule: respond to ask_technologies_used intent
+    steps:
+      - intent: ask_technologies_used
+      - action: utter_ask_technologies_used
+
+  - rule: respond to ask_mobile_app_development_approach intent
+    steps:
+      - intent: ask_mobile_app_development_approach
+      - action: utter_ask_mobile_app_development_approach
+
+  - rule: respond to ask_ui_ux_design intent
+    steps:
+      - intent: ask_ui_ux_design
+      - action: utter_ask_ui_ux_design
+
+  - rule: respond to ask_custom_solutions intent
+    steps:
+      - intent: ask_custom_solutions
+      - action: utter_ask_custom_solutions
+  - rule: respond to web development question
+    steps:
+      - intent: ask_web_development
+      - action: utter_web_development
+
+  - rule: respond to data security question
+    steps:
+      - intent: ask_data_security
+      - action: utter_data_security
+
+  - rule: respond to custom app process question
+    steps:
+      - intent: ask_custom_app_process
+      - action: utter_custom_app_process
+
+  - rule: respond to project timelines question
+    steps:
+      - intent: ask_project_timelines
+      - action: utter_project_timelines
+
+  - rule: respond to third party integration question
+    steps:
+      - intent: ask_third_party_integration
+      - action: utter_third_party_integration
+
+  - rule: respond to quality assurance question
+    steps:
+      - intent: ask_quality_assurance
+      - action: utter_quality_assurance
+
+  - rule: respond to post launch support question
+    steps:
+      - intent: ask_post_launch_support
+      - action: utter_post_launch_support
+
+  - rule: respond to feedback and revisions question
+    steps:
+      - intent: ask_feedback_revisions
+      - action: utter_feedback_revisions
+
+  - rule: respond to SEO question
+    steps:
+      - intent: ask_seo
+      - action: utter_seo
+
+  - rule: respond to technology trends question
+    steps:
+      - intent: ask_tech_trends
+      - action: utter_tech_trends
+  - rule: respond to startup work question
+    steps:
+      - intent: ask_startup_work
+      - action: utter_startup_work
+
+  - rule: respond to startup services question
+    steps:
+      - intent: ask_startup_services
+      - action: utter_startup_services
+
+  - rule: respond to mvp question
+    steps:
+      - intent: ask_mvp
+      - action: utter_mvp
+
+  - rule: respond to startup growth support question
+    steps:
+      - intent: ask_startup_growth_support
+      - action: utter_startup_growth_support
+
+  - rule: respond to startup funding question
+    steps:
+      - intent: ask_startup_funding
+      - action: utter_startup_funding
+
+  - rule: respond to startup marketing question
+    steps:
+      - intent: ask_startup_marketing
+      - action: utter_startup_marketing
+
+  - rule: respond to scalability question
+    steps:
+      - intent: ask_scalability
+      - action: utter_scalability
+
+  - rule: respond to technology stack question
+    steps:
+      - intent: ask_technology_stack
+      - action: utter_technology_stack
+
+  - rule: respond to startup validation question
+    steps:
+      - intent: ask_startup_validation
+      - action: utter_startup_validation
+
+  - rule: respond to startup pivoting question
+    steps:
+      - intent: ask_startup_pivoting
+      - action: utter_startup_pivoting
+
+  - rule: respond to enterprise service question
+    steps:
+      - intent: ask_enterprise_service
+      - action: utter_enterprise_service
+
+  - rule: respond to enterprise help question
+    steps:
+      - intent: ask_enterprise_help
+      - action: utter_enterprise_help
+
+  - rule: respond to enterprise solutions question
+    steps:
+      - intent: ask_enterprise_solutions
+      - action: utter_enterprise_solutions
+
+  - rule: respond to enterprise security question
+    steps:
+      - intent: ask_enterprise_security
+      - action: utter_enterprise_security
+
+  - rule: respond to enterprise integration question
+    steps:
+      - intent: ask_enterprise_integration
+      - action: utter_enterprise_integration
+
+  - rule: respond to large scale projects question
+    steps:
+      - intent: ask_large_scale_projects
+      - action: utter_large_scale_projects
+
+  - rule: respond to enterprise support question
+    steps:
+      - intent: ask_enterprise_support
+      - action: utter_enterprise_support
+
+  - rule: respond to enterprise scalability question
+    steps:
+      - intent: ask_enterprise_scalability
+      - action: utter_enterprise_scalability
+
+  - rule: respond to enterprise technology stack question
+    steps:
+      - intent: ask_enterprise_technology
+
+  - rule: respond to project timeline question
+    steps:
+      - intent: ask_project_timeline
+      - action: utter_project_timeline
+
+  - rule: respond to track progress question
+    steps:
+      - intent: ask_track_progress
+      - action: utter_track_progress
+
+  - rule: respond to project management methodologies question
+    steps:
+      - intent: ask_project_management_methodologies
+      - action: utter_project_management_methodologies
+
+  - rule: respond to handle scope changes question
+    steps:
+      - intent: ask_handle_scope_changes
+      - action: utter_handle_scope_changes
+
+  - rule: respond to detailed project timeline question
+    steps:
+      - intent: ask_detailed_project_timeline
+      - action: utter_detailed_project_timeline
+
+  - rule: respond to ensure timely delivery question
+    steps:
+      - intent: ask_ensure_timely_delivery
+      - action: utter_ensure_timely_delivery
+
+  - rule: respond to project delay question
+    steps:
+      - intent: ask_project_delay
+      - action: utter_project_delay
+
+  - rule: respond to project budgeting question
+    steps:
+      - intent: ask_project_budgeting
+      - action: utter_project_budgeting
+
+  - rule: respond to fixed price quote question
+    steps:
+      - intent: ask_fixed_price_quote
+      - action: utter_fixed_price_quote
+
+  - rule: respond to ensure project quality question
+    steps:
+      - intent: ask_ensure_project_quality
+      - action: utter_ensure_project_quality
+
+  - rule: respond to development cost question
+    steps:
+      - intent: ask_development_cost
+      - action: utter_development_cost
+
+  - rule: respond to payment plans question
+    steps:
+      - intent: ask_payment_plans
+      - action: utter_payment_plans
+
+  - rule: respond to payment methods question
+    steps:
+      - intent: ask_payment_methods
+      - action: utter_payment_methods
+
+  - rule: respond to budget overruns question
+    steps:
+      - intent: ask_budget_overruns
+      - action: utter_budget_overruns
+
+  - rule: respond to cost breakdown question
+    steps:
+      - intent: ask_cost_breakdown
+      - action: utter_cost_breakdown
+
+  - rule: respond to cost effectiveness question
+    steps:
+      - intent: ask_cost_effectiveness
+      - action: utter_cost_effectiveness
+
+  - rule: respond to pricing model question
+    steps:
+      - intent: ask_pricing_model
+      - action: utter_pricing_model
+
+  - rule: respond to project deposits question
+    steps:
+      - intent: ask_project_deposits
+      - action: utter_project_deposits
+
+  - rule: respond to refund policy question
+    steps:
+      - intent: ask_refund_policy
+      - action: utter_refund_policy
+
+  - rule: respond to project invoicing question
+    steps:
+      - intent: ask_project_invoicing
+      - action: utter_project_invoicing
+
+  - rule: Respond to ask_what_can_i_get intent
+    steps:
+      - intent: ask_what_can_i_get
+      - action: utter_ask_what_can_i_get
+
+  - rule: Respond to ask_products_sold intent
+    steps:
+      - intent: ask_products_sold
+      - action: utter_ask_products_sold
+
+  - rule: Respond to ask_solutions_provided intent
+    steps:
+      - intent: ask_solutions_provided
+      - action: utter_ask_solutions_provided
+
+
+  - rule: Respond to ask_trial_versions_or_demos intent
+    steps:
+      - intent: ask_trial_versions_or_demos
+      - action: utter_ask_trial_versions_or_demos
+
+  - rule: Respond to ask_services_specialized_in intent
+    steps:
+      - intent: ask_services_specialized_in
+      - action: utter_ask_services_specialized_in
+
+  - rule: Respond to ask_digital_or_physical_products intent
+    steps:
+      - intent: ask_digital_or_physical_products
+      - action: utter_ask_digital_or_physical_products
+
+  - rule: Respond to ask_industries_catered intent
+    steps:
+      - intent: ask_industries_catered
+      - action: utter_ask_industries_catered
+
+  - rule: Respond to ask_software_or_hardware_focus intent
+    steps:
+      - intent: ask_software_or_hardware_focus
+      - action: utter_ask_software_or_hardware_focus
+
+  - rule: Respond to ask_packages_or_plans intent
+    steps:
+      - intent: ask_packages_or_plans
+      - action: utter_ask_packages_or_plans
+
+  - rule: Respond to ask_company_offer intent
+    steps:
+          - intent: ask_company_offer
+          - action: utter_ask_company_offer
+
+  - rule: respond to compare to competitors
+    steps:
+      - intent: ask_compare_to_competitors
+      - action: utter_compare_to_competitors
+
+  - rule: respond to worth the price
+    steps:
+      - intent: ask_worth_the_price
+      - action: utter_worth_the_price
+
+  - rule: respond to unique offerings
+    steps:
+      - intent: ask_unique_offerings
+      - action: utter_unique_offerings
+
+  - rule: respond to reliability of services
+    steps:
+      - intent: ask_reliability_of_services
+      - action: utter_reliability_of_services
+
+  - rule: respond to suitability for startups
+    steps:
+      - intent: ask_suitability_for_startups
+      - action: utter_suitability_for_startups
+
+  - rule: respond to help with business needs
+    steps:
+      - intent: ask_help_with_business_needs
+      - action: utter_help_with_business_needs
+
+  - rule: respond to problems solved
+    steps:
+      - intent: ask_problems_solved
+      - action: utter_problems_solved
+
+  - rule: respond to benefits of services
+    steps:
+      - intent: ask_benefits_of_services
+      - action: utter_benefits_of_services
+
+  - rule: respond to right fit for company
+    steps:
+      - intent: ask_right_fit_for_company
+      - action: utter_right_fit_for_company
+
+  - rule: respond to technical support
+    steps:
+      - intent: ask_technical_support
+      - action: utter_technical_support
+
+  - rule: respond to case studies
+    steps:
+      - intent: ask_case_studies
+      - action: utter_case_studies
+
+  - rule: respond to access services
+    steps:
+      - intent: ask_access_services
+      - action: utter_access_services
+
+  - rule: respond to get started process
+    steps:
+      - intent: ask_get_started_process
+      - action: utter_get_started_process
+
+  - rule: respond to ongoing website support
+    steps:
+      - intent: ask_ongoing_website_support
+      - action: utter_ongoing_website_support
+
+  - rule: respond to maintenance services
+    steps:
+      - intent: ask_maintenance_services
+      - action: utter_maintenance_services
+
+  - rule: respond to who will work on my project
+    steps:
+      - intent: ask_who_will_work
+      - action: utter_who_will_work
+
+  - rule: respond to meet the team
+    steps:
+      - intent: ask_meet_team
+      - action: utter_meet_team
+
+  - rule: respond to team qualifications
+    steps:
+      - intent: ask_team_qualifications
+      - action: utter_team_qualifications
+
+  - rule: respond to team collaboration
+    steps:
+      - intent: ask_team_collaboration
+      - action: utter_team_collaboration
+
+  - rule: respond to communicate with developers
+    steps:
+      - intent: ask_communicate_developers
+      - action: utter_communicate_developers
+
+  - rule: respond to team training
+    steps:
+      - intent: ask_team_training
+      - action: utter_team_training
+
+  - rule: respond to team size
+    steps:
+      - intent: ask_team_size
+      - action: utter_team_size
+
+  - rule: respond to team accountability
+    steps:
+      - intent: ask_team_accountability
+      - action: utter_team_accountability
+
+  - rule: respond to request team members
+    steps:
+      - intent: ask_request_team_members
+      - action: utter_request_team_members
+
+  - rule: respond to team turnover
+    steps:
+      - intent: ask_team_turnover
+      - action: utter_team_turnover
+
+  - rule: respond to contact for help
+    steps:
+      - intent: ask_contact_for_help
+      - action: utter_contact_for_help
+
+  - rule: respond to support hours
+    steps:
+      - intent: ask_support_hours
+      - action: utter_support_hours
+
+  - rule: respond to support ticket handling
+    steps:
+      - intent: ask_support_ticket_handling
+      - action: utter_support_ticket_handling
+
+  - rule: respond to training for products
+    steps:
+      - intent: ask_training_for_products
+      - action: utter_training_for_products
+
+  - rule: respond to support for technical issues
+    steps:
+      - intent: ask_support_for_technical_issues
+      - action: utter_support_for_technical_issues
+
+  - rule: respond to ensure customer satisfaction
+    steps:
+      - intent: ask_ensure_customer_satisfaction
+      - action: utter_ensure_customer_satisfaction
+
+  - rule: respond to provide documentation
+    steps:
+      - intent: ask_provide_documentation
+      - action: utter_provide_documentation
+
+  - rule: respond to support for third-party integrations
+    steps:
+      - intent: ask_support_for_third_party_integrations
+      - action: utter_support_for_third_party_integrations
+
+  - rule: respond to support for future updates
+    steps:
+      - intent: ask_support_for_future_updates
+      - action: utter_support_for_future_updates
+
+  - rule: respond to kind of training
+    steps:
+      - intent: ask_kind_of_training
+      - action: utter_kind_of_training
+
+  - rule: respond to access training materials
+    steps:
+      - intent: ask_access_training_materials
+      - action: utter_access_training_materials
+
+  - rule: respond to ongoing training
+    steps:
+      - intent: ask_ongoing_training
+      - action: utter_ongoing_training
+
+  - rule: respond to knowledge base contents
+    steps:
+      - intent: ask_knowledge_base_contents
+      - action: utter_knowledge_base_contents
+
+  - rule: respond to access knowledge base
+    steps:
+      - intent: ask_access_knowledge_base
+      - action: utter_access_knowledge_base
+
+  - rule: respond to custom training programs
+    steps:
+      - intent: ask_custom_training_programs
+      - action: utter_custom_training_programs
+
+  - rule: respond to training effectiveness
+    steps:
+      - intent: ask_training_effectiveness
+      - action: utter_training_effectiveness
+
+  - rule: respond to training for non-technical users
+    steps:
+      - intent: ask_training_for_non_technical_users
+      - action: utter_training_for_non_technical_users
+
+  - rule: respond to training for remote teams
+    steps:
+      - intent: ask_training_for_remote_teams
+      - action: utter_training_for_remote_teams
+
+  - rule: respond to client success stories
+    steps:
+      - intent: ask_client_success_stories
+      - action: utter_ask_client_success_stories
+
+  - rule: respond to references
+    steps:
+      - intent: ask_references
+      - action: utter_ask_references
+
+  - rule: respond to client feedback
+    steps:
+      - intent: ask_client_feedback
+      - action: utter_ask_client_feedback
+
+  - rule: respond to client satisfaction
+    steps:
+      - intent: ask_client_satisfaction
+      - action: utter_ask_client_satisfaction
+
+  - rule: respond to kind of testimonials
+    steps:
+      - intent: ask_kind_of_testimonials
+      - action: utter_ask_kind_of_testimonials
+
+  - rule: respond to ensure transparency
+    steps:
+      - intent: ask_ensure_transparency
+      - action: utter_ask_ensure_transparency
+
+  - rule: respond to examples of work
+    steps:
+      - intent: ask_examples_of_work
+      - action: utter_ask_examples_of_work
+
+  - rule: respond to build long-term relationships
+    steps:
+      - intent: ask_build_long_term_relationships
+      - action: utter_ask_build_long_term_relationships
+
+  - rule: respond to build e-commerce website
+    steps:
+      - intent: ask_build_ecommerce_website
+      - action: utter_ask_build_ecommerce_website
+
+  - rule: respond to work with non-profit
+    steps:
+      - intent: ask_work_with_non_profit
+      - action: utter_ask_work_with_non_profit
+
+  - rule: respond to custom CRM system
+    steps:
+      - intent: ask_custom_crm_system
+      - action: utter_ask_custom_crm_system
+  - rule: respond to handle data migration
+    steps:
+      - intent: ask_handle_data_migration
+      - action: utter_ask_handle_data_migration
+
+  - rule: respond to integrate social media
+    steps:
+      - intent: ask_integrate_social_media
+      - action: utter_ask_integrate_social_media
+
+  - rule: respond to ensure mobile responsiveness
+    steps:
+      - intent: ask_ensure_mobile_responsiveness
+      - action: utter_ask_ensure_mobile_responsiveness
+
+  - rule: respond to custom ERP system
+    steps:
+      - intent: ask_custom_erp_system
+      - action: utter_ask_custom_erp_system
+
+  - rule: respond to handle project documentation
+    steps:
+      - intent: ask_handle_project_documentation
+      - action: utter_ask_handle_project_documentation
+
+  - rule: respond to custom CMS system
+    steps:
+      - intent: ask_custom_cms_system
+      - action: utter_ask_custom_cms_system
+
+  - rule: respond to ensure SEO optimization
+    steps:
+      - intent: ask_ensure_seo_optimization
+      - action: utter_ask_ensure_seo_optimization
+  - rule: respond to schedule demo
+    steps:
+      - intent: ask_schedule_demo
+      - action: utter_ask_schedule_demo
+
+  - rule: respond to speak to representative
+    steps:
+      - intent: ask_speak_to_representative
+      - action: utter_ask_speak_to_representative
+
+  - rule: respond to contact details
+    steps:
+      - intent: ask_contact_details
+      - action: utter_ask_contact_details
+
+  - rule: respond to get in touch with sales
+    steps:
+      - intent: ask_get_in_touch_with_sales
+      - action: utter_ask_get_in_touch_with_sales
+
+  - rule: respond to address
+    steps:
+      - intent: ask_address
+      - action: utter_ask_address
+
+  - rule: "Respond to 'How do I schedule a demo?'"
+    steps:
+      - intent: ask_demo_schedule
+      - action: utter_ask_demo_schedule
+
+  - rule: "Respond to 'What's included in the demo?'"
+    steps:
+      - intent: ask_demo_inclusion
+      - action: utter_ask_demo_inclusion
+
+  - rule: "Respond to 'Can I try a free demo?'"
+    steps:
+      - intent: ask_free_demo
+      - action: utter_ask_free_demo
+
+  - rule: "Respond to 'What's included in the basic plan?'"
+    steps:
+      - intent: ask_basic_plan
+      - action: utter_ask_basic_plan
+
+  - rule: "Respond to 'Do you offer discounts?'"
+    steps:
+      - intent: ask_discounts
+      - action: utter_ask_discounts
+
+  - rule: "Respond to 'Is there a free trial available?'"
+    steps:
+      - intent: ask_free_trial
+      - action: utter_ask_free_trial
+
+  - rule: "Respond to 'Can you explain that in more detail?'"
+    steps:
+      - intent: ask_more_detail
+      - action: utter_ask_more_detail
+
+  - rule: "Respond to 'What are the benefits of that?'"
+    steps:
+      - intent: ask_benefits
+      - action: utter_ask_benefits
+
+  - rule: "Respond to 'How does that compare to other options?'"
+    steps:
+      - intent: ask_comparison
+      - action: utter_ask_comparison
+
+  - rule: "Respond to 'Can you tell me about your features?'"
+    steps:
+      - intent: ask_features
+      - action: utter_ask_features
+
+  - rule: "Respond to 'How does pricing work?'"
+    steps:
+      - intent: ask_price
+      - action: utter_ask_price
+
+  - rule: "Respond to 'How does this work?'"
+    steps:
+      - intent: ask_how_it_works
+      - action: utter_ask_how_it_works
+
+  - rule: "Respond to 'Thank you'"
+    steps:
+      - intent: ask_thanks
+      - action: utter_ask_thanks
+  - rule: respond_to_leave_management
+    steps:
+      - intent: leave_management
+      - action: utter_leave_management
+
+  - rule: respond_to_payroll_inquiry
+    steps:
+      - intent: payroll_inquiry
+      - action: utter_payroll_inquiry
+
+  - rule: respond_to_timesheet_management
+    steps:
+      - intent: timesheet_management
+      - action: utter_timesheet_management
+
+  - rule: respond_to_access_control
+    steps:
+      - intent: access_control
+      - action: utter_access_control
+
+  - rule: respond_to_skills_performance
+    steps:
+      - intent: skills_performance
+      - action: utter_skills_performance
+
+  - rule: respond_to_planning_control
+    steps:
+      - intent: planning_control
+      - action: utter_planning_control
+
+  - rule: respond_to_hrm_overview
+    steps:
+      - intent: hrm_overview
+      - action: utter_hrm_overview
+
+  - rule: respond_to_hrm_software
+    steps:
+      - intent: hrm_software
+      - action: utter_hrm_software
+
+  - rule: respond_to_hrm_benefits
+    steps:
+      - intent: hrm_benefits
+      - action: utter_hrm_benefits
+
+  - rule: respond_to_hrm_challenges
+    steps:
+      - intent: hrm_challenges
+      - action: utter_hrm_challenges
+
+  - rule: respond_to_hrm_best_practices
+    steps:
+      - intent: hrm_best_practices
+      - action: utter_hrm_best_practices
+
+  - rule: respond_to_hrm_recruitment
+    steps:
+      - intent: hrm_recruitment
+      - action: utter_hrm_recruitment
+
+  - rule: respond_to_hrm_training_development
+    steps:
+      - intent: hrm_training_development
+      - action: utter_hrm_training_development
+
+  - rule: respond_to_hrm_employee_relations
+    steps:
+      - intent: hrm_employee_relations
+      - action: utter_hrm_employee_relations
+
+  - rule: respond_to_hrm_compliance
+    steps:
+      - intent: hrm_compliance
+      - action: utter_hrm_compliance
+
+  - rule: respond_to_hrm_talent_management
+    steps:
+      - intent: hrm_talent_management
+      - action: utter_hrm_talent_management
+
+  - rule: respond_to_hrm_performance_management
+    steps:
+      - intent: hrm_performance_management
+      - action: utter_hrm_performance_management
+
+  - rule: respond_to_hrm_culture
+    steps:
+      - intent: hrm_culture
+      - action: utter_hrm_culture
+
+  - rule: respond_to_hrm_technology
+    steps:
+      - intent: hrm_technology
+      - action: utter_hrm_technology
+
+  - rule: respond_to_hrm_strategic_planning
+    steps:
+      - intent: hrm_strategic_planning
+      - action: utter_hrm_strategic_planning
+
+  - rule: respond_to_hrm_diversity_inclusion
+    steps:
+      - intent: hrm_diversity_inclusion
+      - action: utter_hrm_diversity_inclusion
+
+  - rule: respond_to_hrm_product_overview
+    steps:
+      - intent: hrm_product_overview
+      - action: utter_hrm_product_overview
+
+  - rule: respond_to_hrm_product_features
+    steps:
+      - intent: hrm_product_features
+      - action: utter_hrm_product_features
+
+  - rule: respond_to_hrm_product_integration
+    steps:
+      - intent: hrm_product_integration
+      - action: utter_hrm_product_integration
+
+  - rule: respond_to_hrm_product_security
+    steps:
+      - intent: hrm_product_security
+      - action: utter_hrm_product_security
+
+  - rule: respond_to_hrm_product_support
+    steps:
+      - intent: hrm_product_support
+      - action: utter_hrm_product_support
+
+  - rule: respond_to_hrm_product_customization
+    steps:
+      - intent: hrm_product_customization
+      - action: utter_hrm_product_customization
+
+  - rule: respond_to_hrm_product_user_experience
+    steps:
+      - intent: hrm_product_user_experience
+      - action: utter_hrm_product_user_experience
+
+  - rule: respond_to_hrm_product_maintenance
+    steps:
+      - intent: hrm_product_maintenance
+      - action: utter_hrm_product_maintenance
+
+  - rule: respond_to_hrm_product_cost
+    steps:
+      - intent: hrm_product_cost
+      - action: utter_hrm_product_cost
+
+  - rule: respond_to_hrm_product_updates
+    steps:
+      - intent: hrm_product_updates
+      - action: utter_hrm_product_updates
+
+  - rule: respond_to_crm_solution
+    steps:
+      - intent: crm_solution
+      - action: utter_crm_solution
+
+  - rule: respond_to_production_management
+    steps:
+      - intent: productions_management
+      - action: utter_productions_management
+
+  - rule: respond_to_transportation_management
+    steps:
+      - intent: transportation_management
+      - action: utter_transportation_management
+
+  - rule: respond_to_compliance_management
+    steps:
+      - intent: compliances_management
+      - action: utter_compliances_management
+
+  - rule: respond_to_hrm_solution
+    steps:
+      - intent: hrm_solution
+      - action: utter_hrm_solution
+
+  - rule: respond_to_transport_management_smarter_fleets
+    steps:
+      - intent: transport_management_smarter_fleets
+      - action: utter_transport_management_smarter_fleets
+  - rule: respond_to_video_crm_solution
+    steps:
+      - intent: video_crm_solution
+      - action: utter_video_crm_solution
+
+  - rule: respond_to_video_production_management
+    steps:
+      - intent: video_production_management
+      - action: utter_video_production_management
+
+  - rule: respond_to_video_transportation_management
+    steps:
+      - intent: video_transportation_management
+      - action: utter_video_transportation_management
+
+  - rule: respond_to_video_compliance_management
+    steps:
+      - intent: video_compliance_management
+      - action: utter_video_compliance_management
+
+  - rule: respond_to_video_hrm_solution
+    steps:
+      - intent: video_hrm_solution
+      - action: utter_video_hrm_solution
+
+  - rule: respond_to_video_transport_management_smarter_fleets
+    steps:
+      - intent: video_transport_management_smarter_fleets
+      - action: utter_video_transport_management_smarter_fleets
+
+  - rule: respond to CEO query
+    steps:
+      - intent: ask_ceo
+      - action: utter_ceo_info
+
+  - rule: respond to founder query
+    steps:
+      - intent: ask_founder
+      - action: utter_founder_info
+
+  - rule: respond_to_factory_efficiency_management
+    steps:
+      - intent: factory_efficiency_management
+      - action: utter_factory_efficiency_management
+
+  - rule: respond_to_transport_management_solutions
+    steps:
+      - intent: transport_management_solutions
+      - action: utter_transport_management_solutions
+
+  - rule: respond_to_compliance_management_solutions
+    steps:
+      - intent: compliance_management_solutions
+      - action: utter_compliance_management_solutions
+
+  - rule: respond_to_campus_management_solutions
+    steps:
+      - intent: campus_management_solutions
+      - action: utter_campus_management_solutions
+
+  - rule: respond_to_general_services
+    steps:
+      - intent: general_services
+      - action: utter_general_services
+
+  - rule: respond_to_about_team
+    steps:
+      - intent: about_team
+      - action: utter_about_team
+
+  - rule: respond_to_product_functionality
+    steps:
+      - intent: product_functionality
+      - action: utter_product_functionality
+
+  - rule: respond_to_product_features
+    steps:
+      - intent: product_features
+      - action: utter_product_features
+
+  - rule: respond_to_product_benefits
+    steps:
+      - intent: product_benefits
+      - action: utter_product_benefits
+
+  - rule: respond_to_product_integration
+    steps:
+      - intent: product_integration
+      - action: utter_product_integration
+
+  - rule: respond_to_product_support
+    steps:
+      - intent: product_support
+      - action: utter_product_support

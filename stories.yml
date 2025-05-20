@@ -1,0 +1,1295 @@
+version: "3.1"
+
+stories:
+  - story: user asks about company info
+    steps:
+      - intent: ask_company_info
+      - action: utter_ask_company_info
+
+  - story: user asks about location
+    steps:
+      - intent: ask_location
+      - action: utter_ask_location
+
+  - story: user asks about services
+    steps:
+      - intent: ask_services
+      - action: utter_ask_services
+
+  - story: user asks about business duration
+    steps:
+      - intent: ask_business_duration
+      - action: utter_ask_business_duration
+
+  - story: user asks about benefits
+    steps:
+      - intent: ask_benefits
+      - action: utter_ask_benefits
+
+  - story: user asks about industries
+    steps:
+      - intent: ask_industries
+      - action: utter_ask_industries
+
+  - story: user asks about vision
+    steps:
+      - intent: ask_vision
+      - action: utter_ask_vision
+
+  - story: user asks about mission
+    steps:
+      - intent: ask_mission
+      - action: utter_ask_mission
+
+  - story: user asks about core values
+    steps:
+      - intent: ask_core_values
+      - action: utter_ask_core_values
+
+  - story: user asks about founders
+    steps:
+      - intent: ask_founders
+      - action: utter_ask_founders
+
+  - story: user asks about services offered
+    steps:
+      - intent: ask_services_offered
+      - action: utter_ask_services_offered
+
+  - story: user asks about cloud services
+    steps:
+      - intent: ask_cloud_services
+      - action: utter_ask_cloud_services
+
+  - story: user asks about mobile app development
+    steps:
+      - intent: ask_mobile_app_development
+      - action: utter_ask_mobile_app_development
+
+  - story: user asks about digital marketing
+    steps:
+      - intent: ask_digital_marketing
+      - action: utter_ask_digital_marketing
+
+  - story: user asks how to start a project
+    steps:
+      - intent: ask_start_project
+      - action: utter_ask_start_project
+
+  - story: user asks about full-stack web development
+    steps:
+      - intent: ask_full_stack_web_development
+      - action: utter_ask_full_stack_web_development
+
+  - story: user asks about technologies used
+    steps:
+      - intent: ask_technologies_used
+      - action: utter_ask_technologies_used
+
+  - story: user asks about mobile app development approach
+    steps:
+      - intent: ask_mobile_app_development_approach
+      - action: utter_ask_mobile_app_development_approach
+
+  - story: user asks about UI/UX design
+    steps:
+      - intent: ask_ui_ux_design
+      - action: utter_ask_ui_ux_design
+
+  - story: user asks about custom solutions
+    steps:
+      - intent: ask_custom_solutions
+      - action: utter_ask_custom_solutions
+
+  - story: user greets
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: user thanks
+    steps:
+      - intent: thank_you
+      - action: utter_thank_you
+
+  - story: web development
+    steps:
+      - intent: ask_web_development
+      - action: utter_web_development
+
+  - story: data security
+    steps:
+      - intent: ask_data_security
+      - action: utter_data_security
+
+  - story: custom app process
+    steps:
+      - intent: ask_custom_app_process
+      - action: utter_custom_app_process
+
+  - story: project timelines
+    steps:
+      - intent: ask_project_timelines
+      - action: utter_project_timelines
+
+  - story: third party integration
+    steps:
+      - intent: ask_third_party_integration
+      - action: utter_third_party_integration
+
+  - story: quality assurance
+    steps:
+      - intent: ask_quality_assurance
+      - action: utter_quality_assurance
+
+  - story: post launch support
+    steps:
+      - intent: ask_post_launch_support
+      - action: utter_post_launch_support
+
+  - story: feedback and revisions
+    steps:
+      - intent: ask_feedback_revisions
+      - action: utter_feedback_revisions
+
+  - story: SEO
+    steps:
+      - intent: ask_seo
+      - action: utter_seo
+
+  - story: technology trends
+    steps:
+      - intent: ask_tech_trends
+      - action: utter_tech_trends
+  - story: startup work
+    steps:
+      - intent: ask_startup_work
+      - action: utter_startup_work
+
+  - story: startup services
+    steps:
+      - intent: ask_startup_services
+      - action: utter_startup_services
+
+  - story: mvp
+    steps:
+      - intent: ask_mvp
+      - action: utter_mvp
+
+  - story: startup growth support
+    steps:
+      - intent: ask_startup_growth_support
+      - action: utter_startup_growth_support
+
+  - story: startup funding
+    steps:
+      - intent: ask_startup_funding
+      - action: utter_startup_funding
+
+  - story: startup marketing
+    steps:
+      - intent: ask_startup_marketing
+      - action: utter_startup_marketing
+
+  - story: scalability
+    steps:
+      - intent: ask_scalability
+      - action: utter_scalability
+
+  - story: technology stack
+    steps:
+      - intent: ask_technology_stack
+      - action: utter_technology_stack
+
+  - story: startup validation
+    steps:
+      - intent: ask_startup_validation
+      - action: utter_startup_validation
+
+  - story: startup pivoting
+    steps:
+      - intent: ask_startup_pivoting
+      - action: utter_startup_pivoting
+
+  - story: enterprise service
+    steps:
+      - intent: ask_enterprise_service
+      - action: utter_enterprise_service
+
+  - story: enterprise help
+    steps:
+      - intent: ask_enterprise_help
+      - action: utter_enterprise_help
+
+  - story: enterprise solutions
+    steps:
+      - intent: ask_enterprise_solutions
+      - action: utter_enterprise_solutions
+
+  - story: enterprise security
+    steps:
+      - intent: ask_enterprise_security
+      - action: utter_enterprise_security
+
+  - story: enterprise integration
+    steps:
+      - intent: ask_enterprise_integration
+      - action: utter_enterprise_integration
+
+  - story: large scale projects
+    steps:
+      - intent: ask_large_scale_projects
+      - action: utter_large_scale_projects
+
+  - story: enterprise support
+    steps:
+      - intent: ask_enterprise_support
+      - action: utter_enterprise_support
+
+  - story: enterprise scalability
+    steps:
+      - intent: ask_enterprise_scalability
+      - action: utter_enterprise_scalability
+
+  - story: enterprise technology stack
+    steps:
+      - intent: ask_enterprise_technology_stack
+      - action: utter_enterprise_technology_stack
+
+  - story: enterprise digital transformation
+    steps:
+      - intent: ask_enterprise_digital_transformation
+      - action: utter_enterprise_digital_transformation
+
+  - story: project timeline
+    steps:
+      - intent: ask_project_timeline
+      - action: utter_project_timeline
+
+  - story: track progress
+    steps:
+      - intent: ask_track_progress
+      - action: utter_track_progress
+
+  - story: project management methodologies
+    steps:
+      - intent: ask_project_management_methodologies
+      - action: utter_project_management_methodologies
+
+  - story: handle scope changes
+    steps:
+      - intent: ask_handle_scope_changes
+      - action: utter_handle_scope_changes
+
+  - story: detailed project timeline
+    steps:
+      - intent: ask_detailed_project_timeline
+      - action: utter_detailed_project_timeline
+
+  - story: ensure timely delivery
+    steps:
+      - intent: ask_ensure_timely_delivery
+      - action: utter_ensure_timely_delivery
+
+  - story: project delay
+    steps:
+      - intent: ask_project_delay
+      - action: utter_project_delay
+
+  - story: project budgeting
+    steps:
+      - intent: ask_project_budgeting
+      - action: utter_project_budgeting
+
+  - story: fixed price quote
+    steps:
+      - intent: ask_fixed_price_quote
+      - action: utter_fixed_price_quote
+
+  - story: ensure project quality
+    steps:
+      - intent: ask_ensure_project_quality
+      - action: utter_ensure_project_quality
+  - story: development cost
+    steps:
+      - intent: ask_development_cost
+      - action: utter_development_cost
+
+  - story: payment plans
+    steps:
+      - intent: ask_payment_plans
+      - action: utter_payment_plans
+
+  - story: payment methods
+    steps:
+      - intent: ask_payment_methods
+      - action: utter_payment_methods
+
+  - story: budget overruns
+    steps:
+      - intent: ask_budget_overruns
+      - action: utter_budget_overruns
+
+  - story: cost breakdown
+    steps:
+      - intent: ask_cost_breakdown
+      - action: utter_cost_breakdown
+
+  - story: cost effectiveness
+    steps:
+      - intent: ask_cost_effectiveness
+      - action: utter_cost_effectiveness
+
+  - story: pricing model
+    steps:
+      - intent: ask_pricing_model
+      - action: utter_pricing_model
+
+  - story: project deposits
+    steps:
+      - intent: ask_project_deposits
+      - action: utter_project_deposits
+
+  - story: refund policy
+    steps:
+      - intent: ask_refund_policy
+      - action: utter_refund_policy
+
+  - story: project invoicing
+    steps:
+      - intent: ask_project_invoicing
+      - action: utter_project_invoicing
+  - story: user asks what they can get
+    steps:
+      - intent: ask_what_can_i_get
+      - action: utter_ask_what_can_i_get
+
+  - story: user asks about products sold
+    steps:
+      - intent: ask_products_sold
+      - action: utter_ask_products_sold
+
+  - story: user asks about solutions provided
+    steps:
+      - intent: ask_solutions_provided
+      - action: utter_ask_solutions_provided
+
+  - story: user asks about trial versions or demos
+    steps:
+      - intent: ask_trial_versions_or_demos
+      - action: utter_ask_trial_versions_or_demos
+
+  - story: user asks about services specialized in
+    steps:
+      - intent: ask_services_specialized_in
+      - action: utter_ask_services_specialized_in
+
+  - story: user asks about digital or physical products
+    steps:
+      - intent: ask_digital_or_physical_products
+      - action: utter_ask_digital_or_physical_products
+
+  - story: user asks about industries catered
+    steps:
+      - intent: ask_industries_catered
+      - action: utter_ask_industries_catered
+
+  - story: user asks about software or hardware focus
+    steps:
+      - intent: ask_software_or_hardware_focus
+      - action: utter_ask_software_or_hardware_focus
+
+  - story: user asks about packages or plans
+    steps:
+      - intent: ask_packages_or_plans
+      - action: utter_ask_packages_or_plans
+
+  - story: user asks about company offer
+    steps:
+      - intent: ask_company_offer
+      - action: utter_ask_company_offer
+
+  - story: compare to competitors
+    steps:
+      - intent: ask_compare_to_competitors
+      - action: utter_compare_to_competitors
+
+  - story: worth the price
+    steps:
+      - intent: ask_worth_the_price
+      - action: utter_worth_the_price
+
+  - story: unique offerings
+    steps:
+      - intent: ask_unique_offerings
+      - action: utter_unique_offerings
+
+  - story: reliability of services
+    steps:
+      - intent: ask_reliability_of_services
+      - action: utter_reliability_of_services
+
+  - story: suitability for startups
+    steps:
+      - intent: ask_suitability_for_startups
+      - action: utter_suitability_for_startups
+
+  - story: help with business needs
+    steps:
+      - intent: ask_help_with_business_needs
+      - action: utter_help_with_business_needs
+
+  - story: problems solved
+    steps:
+      - intent: ask_problems_solved
+      - action: utter_problems_solved
+
+  - story: benefits of services
+    steps:
+      - intent: ask_benefits_of_services
+      - action: utter_benefits_of_services
+
+  - story: right fit for company
+    steps:
+      - intent: ask_right_fit_for_company
+      - action: utter_right_fit_for_company
+
+  - story: technical support
+    steps:
+      - intent: ask_technical_support
+      - action: utter_technical_support
+
+  - story: case studies
+    steps:
+      - intent: ask_case_studies
+      - action: utter_case_studies
+
+  - story: access services
+    steps:
+      - intent: ask_access_services
+      - action: utter_access_services
+
+  - story: get started process
+    steps:
+      - intent: ask_get_started_process
+      - action: utter_get_started_process
+
+  - story: ongoing website support
+    steps:
+      - intent: ask_ongoing_website_support
+      - action: utter_ongoing_website_support
+
+  - story: maintenance services
+    steps:
+      - intent: ask_maintenance_services
+      - action: utter_maintenance_services
+
+  - story: who will work on my project
+    steps:
+      - intent: ask_who_will_work
+      - action: utter_who_will_work
+
+  - story: meet the team
+    steps:
+      - intent: ask_meet_team
+      - action: utter_meet_team
+
+  - story: team qualifications
+    steps:
+      - intent: ask_team_qualifications
+      - action: utter_team_qualifications
+
+  - story: team collaboration
+    steps:
+      - intent: ask_team_collaboration
+      - action: utter_team_collaboration
+
+  - story: communicate with developers
+    steps:
+      - intent: ask_communicate_developers
+      - action: utter_communicate_developers
+
+  - story: team training
+    steps:
+      - intent: ask_team_training
+      - action: utter_team_training
+
+  - story: team size
+    steps:
+      - intent: ask_team_size
+      - action: utter_team_size
+
+  - story: team accountability
+    steps:
+      - intent: ask_team_accountability
+      - action: utter_team_accountability
+
+  - story: request team members
+    steps:
+      - intent: ask_request_team_members
+      - action: utter_request_team_members
+
+  - story: team turnover
+    steps:
+      - intent: ask_team_turnover
+      - action: utter_team_turnover
+  - story: contact for help
+    steps:
+      - intent: ask_contact_for_help
+      - action: utter_contact_for_help
+
+  - story: support hours
+    steps:
+      - intent: ask_support_hours
+      - action: utter_support_hours
+
+  - story: support ticket handling
+    steps:
+      - intent: ask_support_ticket_handling
+      - action: utter_support_ticket_handling
+
+  - story: training for products
+    steps:
+      - intent: ask_training_for_products
+      - action: utter_training_for_products
+
+  - story: support for technical issues
+    steps:
+      - intent: ask_support_for_technical_issues
+      - action: utter_support_for_technical_issues
+
+  - story: ensure customer satisfaction
+    steps:
+      - intent: ask_ensure_customer_satisfaction
+      - action: utter_ensure_customer_satisfaction
+
+  - story: provide documentation
+    steps:
+      - intent: ask_provide_documentation
+      - action: utter_provide_documentation
+
+  - story: support for third-party integrations
+    steps:
+      - intent: ask_support_for_third_party_integrations
+      - action: utter_support_for_third_party_integrations
+
+  - story: support for future updates
+    steps:
+      - intent: ask_support_for_future_updates
+      - action: utter_support_for_future_updates
+
+  - story: kind of training
+    steps:
+      - intent: ask_kind_of_training
+      - action: utter_kind_of_training
+
+  - story: access training materials
+    steps:
+      - intent: ask_access_training_materials
+      - action: utter_access_training_materials
+
+  - story: ongoing training
+    steps:
+      - intent: ask_ongoing_training
+      - action: utter_ongoing_training
+
+  - story: knowledge base contents
+    steps:
+      - intent: ask_knowledge_base_contents
+      - action: utter_knowledge_base_contents
+  - story: access knowledge base
+    steps:
+      - intent: ask_access_knowledge_base
+      - action: utter_access_knowledge_base
+
+  - story: custom training programs
+    steps:
+      - intent: ask_custom_training_programs
+      - action: utter_custom_training_programs
+
+  - story: training effectiveness
+    steps:
+      - intent: ask_training_effectiveness
+      - action: utter_training_effectiveness
+
+  - story: training for non-technical users
+    steps:
+      - intent: ask_training_for_non_technical_users
+      - action: utter_training_for_non_technical_users
+
+  - story: training for remote teams
+    steps:
+      - intent: ask_training_for_remote_teams
+      - action: utter_training_for_remote_teams
+
+  - story: client success stories
+    steps:
+      - intent: ask_client_success_stories
+      - action: utter_ask_client_success_stories
+
+  - story: references
+    steps:
+      - intent: ask_references
+      - action: utter_ask_references
+
+  - story: client feedback
+    steps:
+      - intent: ask_client_feedback
+      - action: utter_ask_client_feedback
+
+  - story: client satisfaction
+    steps:
+      - intent: ask_client_satisfaction
+      - action: utter_ask_client_satisfaction
+
+  - story: kind of testimonials
+    steps:
+      - intent: ask_kind_of_testimonials
+      - action: utter_ask_kind_of_testimonials
+
+  - story: ensure transparency
+    steps:
+      - intent: ask_ensure_transparency
+      - action: utter_ask_ensure_transparency
+
+  - story: examples of work
+    steps:
+      - intent: ask_examples_of_work
+      - action: utter_ask_examples_of_work
+
+  - story: build long-term relationships
+    steps:
+      - intent: ask_build_long_term_relationships
+      - action: utter_ask_build_long_term_relationships
+
+  - story: build e-commerce website
+    steps:
+      - intent: ask_build_ecommerce_website
+      - action: utter_ask_build_ecommerce_website
+
+  - story: work with non-profit
+    steps:
+      - intent: ask_work_with_non_profit
+      - action: utter_ask_work_with_non_profit
+
+  - story: custom CRM system
+    steps:
+      - intent: ask_custom_crm_system
+      - action: utter_ask_custom_crm_system
+
+  - story: handle data migration
+    steps:
+      - intent: ask_handle_data_migration
+      - action: utter_ask_handle_data_migration
+
+  - story: integrate social media
+    steps:
+      - intent: ask_integrate_social_media
+      - action: utter_ask_integrate_social_media
+
+  - story: ensure mobile responsiveness
+    steps:
+      - intent: ask_ensure_mobile_responsiveness
+      - action: utter_ask_ensure_mobile_responsiveness
+
+  - story: custom ERP system
+    steps:
+      - intent: ask_custom_erp_system
+      - action: utter_ask_custom_erp_system
+
+  - story: handle project documentation
+    steps:
+      - intent: ask_handle_project_documentation
+      - action: utter_ask_handle_project_documentation
+
+  - story: custom CMS system
+    steps:
+      - intent: ask_custom_cms_system
+      - action: utter_ask_custom_cms_system
+
+  - story: ensure SEO optimization
+    steps:
+      - intent: ask_ensure_seo_optimization
+      - action: utter_ask_ensure_seo_optimization
+
+  - story: schedule demo
+    steps:
+      - intent: ask_schedule_demo
+      - action: utter_ask_schedule_demo
+
+  - story: speak to representative
+    steps:
+      - intent: ask_speak_to_representative
+      - action: utter_ask_speak_to_representative
+
+  - story: contact details
+    steps:
+      - intent: ask_contact_details
+      - action: utter_ask_contact_details
+
+  - story: get in touch with sales
+    steps:
+      - intent: ask_get_in_touch_with_sales
+      - action: utter_ask_get_in_touch_with_sales
+
+  - story: address
+    steps:
+      - intent: ask_address
+      - action: utter_ask_address
+
+  - story: User asks about demo
+    steps:
+      - intent: ask_demo
+      - action: utter_ask_demo
+
+  - story: User asks about pricing
+    steps:
+      - intent: ask_price
+      - action: utter_ask_price
+
+  - story: User asks about features
+    steps:
+      - intent: ask_features
+      - action: utter_ask_features
+
+  - story: User asks how it works
+    steps:
+      - intent: ask_how_it_works
+      - action: utter_ask_how_it_works
+
+  - story: User thanks the bot
+    steps:
+      - intent: ask_thanks
+      - action: utter_ask_thanks
+
+  - story: User asks for more detail
+    steps:
+      - intent: ask_more_detail
+      - action: utter_ask_more_detail
+
+  - story: User asks for comparison
+    steps:
+      - intent: ask_comparison
+      - action: utter_ask_comparison
+
+  - story: User asks about the basic plan
+    steps:
+      - intent: ask_basic_plan
+      - action: utter_ask_basic_plan
+
+  - story: User asks about discounts
+    steps:
+      - intent: ask_discounts
+      - action: utter_ask_discounts
+
+  - story: User asks about a free trial
+    steps:
+      - intent: ask_free_trial
+      - action: utter_ask_free_trial
+
+  - story: User asks about a free demo
+    steps:
+      - intent: ask_free_demo
+      - action: utter_ask_free_demo
+
+  - story: User asks how to schedule a demo
+    steps:
+      - intent: ask_demo_schedule
+      - action: utter_ask_demo_schedule
+
+  - story: User asks what's included in the demo
+    steps:
+      - intent: ask_demo_inclusion
+      - action: utter_ask_demo_inclusion
+
+  - story: User greets and asks about demo scheduling
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_demo_schedule
+      - action: utter_ask_demo_schedule
+
+  - story: User greets and asks about features
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_features
+      - action: utter_ask_features
+
+  - story: User greets and asks about pricing
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_price
+      - action: utter_ask_price
+
+  - story: User greets and asks how it works
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_how_it_works
+      - action: utter_ask_how_it_works
+
+  - story: User greets and thanks the bot
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_thanks
+      - action: utter_ask_thanks
+
+  - story: User greets and asks for more detail
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_more_detail
+      - action: utter_ask_more_detail
+
+  - story: User greets and asks about benefits
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_benefits
+      - action: utter_ask_benefits
+
+  - story: User greets and asks for comparison
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_comparison
+      - action: utter_ask_comparison
+
+  - story: User greets and asks about the basic plan
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_basic_plan
+      - action: utter_ask_basic_plan
+
+  - story: User greets and asks about discounts
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_discounts
+      - action: utter_ask_discounts
+
+  - story: User greets and asks about a free trial
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_free_trial
+      - action: utter_ask_free_trial
+
+  - story: User greets and asks about a free demo
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_free_demo
+      - action: utter_ask_free_demo
+
+  - story: user asks about HRM solutions
+    steps:
+      - intent: ask_hrm_solutions
+      - action: utter_hrm_solutions
+
+  - story: user asks about payroll processing
+    steps:
+      - intent: ask_payroll_processing
+      - action: utter_payroll_processing
+
+  - story: user asks about attendance tracking
+    steps:
+      - intent: ask_attendance_tracking
+      - action: utter_attendance_tracking
+
+  - story: user asks about performance management
+    steps:
+      - intent: ask_performance_management
+      - action: utter_performance_management
+
+  - story: user asks about recruitment support
+    steps:
+      - intent: ask_recruitment_support
+      - action: utter_recruitment_support
+
+  - story: user asks about benefits management
+    steps:
+      - intent: ask_benefits_management
+      - action: utter_benefits_management
+
+  - story: user asks about training and development
+    steps:
+      - intent: ask_training_development
+      - action: utter_training_development
+
+  - story: user asks about employee onboarding
+    steps:
+      - intent: ask_employee_onboarding
+      - action: utter_employee_onboarding
+
+  - story: user asks about reporting and analytics
+    steps:
+      - intent: ask_reporting_analytics
+      - action: utter_reporting_analytics
+
+  - story: user asks about employee self-service
+    steps:
+      - intent: ask_employee_self_service
+      - action: utter_employee_self_service
+
+  - story: user asks about training
+    steps:
+      - intent: ask_training_provided
+      - action: utter_training_provided
+
+  - story: user asks about solutions for manufacturing
+    steps:
+      - intent: ask_solutions_for_manufacturing
+      - action: utter_solutions_for_manufacturing
+
+  - story: user asks about compliance management
+    steps:
+      - intent: ask_compliance_management
+      - action: utter_compliance_management
+
+  - story: user asks about IT services
+    steps:
+      - intent: ask_it_services
+      - action: utter_it_services
+
+  - story: user asks about discounts for startups
+    steps:
+      - intent: ask_discounts_for_startups
+      - action: utter_discounts_for_startups
+
+  - story: user asks about IPSS
+    steps:
+      - intent: ask_ipss
+      - action: utter_ipss
+
+  - story: user asks about Transport Management
+    steps:
+      - intent: ask_transport_management
+      - action: utter_transport_management
+
+  - story: user asks about Learning Management
+    steps:
+      - intent: ask_learning_management
+      - action: utter_learning_management
+
+  - story: user asks about Human Resource Management
+    steps:
+      - intent: ask_human_resource_management
+      - action: utter_human_resource_management
+
+  - story: user asks about Production Management
+    steps:
+      - intent: ask_production_management
+      - action: utter_production_management
+
+  - story: user asks about Customer Relationship Management
+    steps:
+      - intent: ask_customer_relationship_management
+      - action: utter_customer_relationship_management
+
+  - story: user asks about Asset Management
+    steps:
+      - intent: ask_asset_management
+      - action: utter_asset_management
+
+  - story: user asks about Talent Management
+    steps:
+      - intent: ask_talent_management
+      - action: utter_talent_management
+
+  - story: user asks about IoT Solutions
+    steps:
+      - intent: ask_iot_solutions
+      - action: utter_iot_solutions
+
+  - story: user asks about Enterprise Mobile App
+    steps:
+      - intent: ask_enterprise_mobile_app
+      - action: utter_enterprise_mobile_app
+  - story: leave_management_flow
+    steps:
+      - intent: leave_management
+      - action: utter_leave_management
+
+  - story: payroll_inquiry_flow
+    steps:
+      - intent: payroll_inquiry
+      - action: utter_payroll_inquiry
+
+  - story: timesheet_management_flow
+    steps:
+      - intent: timesheet_management
+      - action: utter_timesheet_management
+
+  - story: access_control_flow
+    steps:
+      - intent: access_control
+      - action: utter_access_control
+
+  - story: skills_performance_flow
+    steps:
+      - intent: skills_performance
+      - action: utter_skills_performance
+
+  - story: planning_control_flow
+    steps:
+      - intent: planning_control
+      - action: utter_planning_control
+
+  - story: hrm_overview_flow
+    steps:
+      - intent: hrm_overview
+      - action: utter_hrm_overview
+
+  - story: hrm_software_flow
+    steps:
+      - intent: hrm_software
+      - action: utter_hrm_software
+
+  - story: hrm_benefits_flow
+    steps:
+      - intent: hrm_benefits
+      - action: utter_hrm_benefits
+
+  - story: hrm_challenges_flow
+    steps:
+      - intent: hrm_challenges
+      - action: utter_hrm_challenges
+
+  - story: hrm_best_practices_flow
+    steps:
+      - intent: hrm_best_practices
+      - action: utter_hrm_best_practices
+
+  - story: hrm_recruitment_flow
+    steps:
+      - intent: hrm_recruitment
+      - action: utter_hrm_recruitment
+
+  - story: hrm_training_development_flow
+    steps:
+      - intent: hrm_training_development
+      - action: utter_hrm_training_development
+
+  - story: hrm_employee_relations_flow
+    steps:
+      - intent: hrm_employee_relations
+      - action: utter_hrm_employee_relations
+
+  - story: hrm_compliance_flow
+    steps:
+      - intent: hrm_compliance
+      - action: utter_hrm_compliance
+
+  - story: hrm_talent_management_flow
+    steps:
+      - intent: hrm_talent_management
+      - action: utter_hrm_talent_management
+
+  - story: hrm_performance_management_flow
+    steps:
+      - intent: hrm_performance_management
+      - action: utter_hrm_performance_management
+
+  - story: hrm_culture_flow
+    steps:
+      - intent: hrm_culture
+      - action: utter_hrm_culture
+
+  - story: hrm_technology_flow
+    steps:
+      - intent: hrm_technology
+      - action: utter_hrm_technology
+
+  - story: hrm_strategic_planning_flow
+    steps:
+      - intent: hrm_strategic_planning
+      - action: utter_hrm_strategic_planning
+
+  - story: hrm_diversity_inclusion_flow
+    steps:
+      - intent: hrm_diversity_inclusion
+      - action: utter_hrm_diversity_inclusion
+
+  - story: hrm_product_overview_flow
+    steps:
+      - intent: hrm_product_overview
+      - action: utter_hrm_product_overview
+
+  - story: hrm_product_features_flow
+    steps:
+      - intent: hrm_product_features
+      - action: utter_hrm_product_features
+
+  - story: hrm_product_integration_flow
+    steps:
+      - intent: hrm_product_integration
+      - action: utter_hrm_product_integration
+
+  - story: hrm_product_security_flow
+    steps:
+      - intent: hrm_product_security
+      - action: utter_hrm_product_security
+
+  - story: hrm_product_support_flow
+    steps:
+      - intent: hrm_product_support
+      - action: utter_hrm_product_support
+
+  - story: hrm_product_customization_flow
+    steps:
+      - intent: hrm_product_customization
+      - action: utter_hrm_product_customization
+
+  - story: hrm_product_user_experience_flow
+    steps:
+      - intent: hrm_product_user_experience
+      - action: utter_hrm_product_user_experience
+
+  - story: hrm_product_maintenance_flow
+    steps:
+      - intent: hrm_product_maintenance
+      - action: utter_hrm_product_maintenance
+
+  - story: hrm_product_cost_flow
+    steps:
+      - intent: hrm_product_cost
+      - action: utter_hrm_product_cost
+
+  - story: hrm_product_updates_flow
+    steps:
+      - intent: hrm_product_updates
+      - action: utter_hrm_product_updates
+
+  - story: crm_solution_flow
+    steps:
+      - intent: crm_solution
+      - action: utter_crm_solution
+
+  - story: production_management_flow
+    steps:
+      - intent: productions_management
+      - action: utter_productions_management
+
+  - story: transportation_management_flow
+    steps:
+      - intent: transportation_management
+      - action: utter_transportation_management
+
+  - story: compliance_management_flow
+    steps:
+      - intent: compliances_management
+      - action: utter_compliances_management
+
+  - story: hrm_solution_flow
+    steps:
+      - intent: hrm_solution
+      - action: utter_hrm_solution
+
+  - story: transport_management_smarter_fleets_flow
+    steps:
+      - intent: transport_management_smarter_fleets
+      - action: utter_transport_management_smarter_fleets
+
+  - story: video_crm_solution_flow
+    steps:
+      - intent: video_crm_solution
+      - action: utter_video_crm_solution
+
+  - story: video_production_management_flow
+    steps:
+      - intent: video_production_management
+      - action: utter_video_production_management
+
+  - story: video_transportation_management_flow
+    steps:
+      - intent: video_transportation_management
+      - action: utter_video_transportation_management
+
+  - story: video_compliance_management_flow
+    steps:
+      - intent: video_compliance_management
+      - action: utter_video_compliance_management
+
+  - story: video_hrm_solution_flow
+    steps:
+      - intent: video_hrm_solution
+      - action: utter_video_hrm_solution
+
+  - story: video_transport_management_smarter_fleets_flow
+    steps:
+      - intent: video_transport_management_smarter_fleets
+      - action: utter_video_transport_management_smarter_fleets
+
+  - story: ask CEO
+    steps:
+      - intent: ask_ceo
+      - action: utter_ceo_info
+
+  - story: ask founder
+    steps:
+      - intent: ask_founder
+      - action: utter_founder_info
+
+  - story: factory_efficiency_management_flow
+    steps:
+      - intent: factory_efficiency_management
+      - action: utter_factory_efficiency_management
+
+  - story: transport_management_solutions_flow
+    steps:
+      - intent: transport_management_solutions
+      - action: utter_transport_management_solutions
+
+  - story: compliance_management_solutions_flow
+    steps:
+      - intent: compliance_management_solutions
+      - action: utter_compliance_management_solutions
+
+  - story: campus_management_solutions_flow
+    steps:
+      - intent: campus_management_solutions
+      - action: utter_campus_management_solutions
+
+  - story: general_services_flow
+    steps:
+      - intent: general_services
+      - action: utter_general_services
+
+  - story: about_team_flow
+    steps:
+      - intent: about_team
+      - action: utter_about_team
+
+  - story: product_functionality_flow
+    steps:
+      - intent: product_functionality
+      - action: utter_product_functionality
+
+  - story: product_features_flow
+    steps:
+      - intent: product_features
+      - action: utter_product_features
+
+  - story: product_benefits_flow
+    steps:
+      - intent: product_benefits
+      - action: utter_product_benefits
+
+  - story: product_integration_flow
+    steps:
+      - intent: product_integration
+      - action: utter_product_integration
+
+  - story: product_support_flow
+    steps:
+      - intent: product_support
+      - action: utter_product_support
